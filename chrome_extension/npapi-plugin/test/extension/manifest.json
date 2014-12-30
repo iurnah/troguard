@@ -1,0 +1,7 @@
+{
+  "name": "drive-by download test extension",
+  "version": "0.0",
+  "description": "Test extension for drive-by download project",
+  "background_page": "background.html",
+  "plugins": [{"path": "drive-by-download-plugin-64.so", "public": true}]
+}

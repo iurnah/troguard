@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/70/trunk/test/extension
+END
+npapi-file-io-32.so
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/69/trunk/test/extension/npapi-file-io-32.so
+END
+manifest.json
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/59/trunk/test/extension/manifest.json
+END
+npapi-file-io-64.so
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/69/trunk/test/extension/npapi-file-io-64.so
+END
+background.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/trunk/test/extension/background.html
+END
+npapi-file-io-32.dll
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/70/trunk/test/extension/npapi-file-io-32.dll
+END

@@ -1,0 +1,8 @@
+<html>
+  <head>
+    <title>NPAPI File IO</title>
+  </head>
+  <body>
+    <p><embed type="application/x-npapi-file-io" /></p>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+Try to modify the npapi-file-io application to a simple only one function plugin
+which is to open fire fox.
+
+created new file for the extensions:
+
+drive-by-download-plugin.cpp
+drive-by-download-plugin.h
+
+drive-by-download.cpp
+drive-by-download.h
+
+common.js
+template.html 
+

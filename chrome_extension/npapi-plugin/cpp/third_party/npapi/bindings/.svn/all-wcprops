@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/third_party/npapi/bindings
+END
+npruntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/third_party/npapi/bindings/npruntime.h
+END
+nphostapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/third_party/npapi/bindings/nphostapi.h
+END
+npapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/third_party/npapi/bindings/npapi.h
+END

@@ -1,0 +1,7 @@
+{
+  "name": "npapi-file-io-test",
+  "version": "0.0.0",
+  "description": "Test extension for npapi-file-io project",
+  "background_page": "background.html",
+  "plugins": [{"path": "npapi-file-io-32.dll", "public": true},{"path": "npapi-file-io-32.so", "public": true},{"path": "npapi-file-io-64.so", "public": true}]
+}
