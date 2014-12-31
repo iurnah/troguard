@@ -1,0 +1,812 @@
+exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.562960754] (+0.000003027) sys_getdents: { cpu_id = 0 }, { fd = 35, dirent = 0x3F30AB8, count = 32768 }
+[11:21:02.562964062] (+0.000003308) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.562969065] (+0.000005003) sys_close: { cpu_id = 0 }, { fd = 35 }
+[11:21:02.562973501] (+0.000004436) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.562982683] (+0.000009182) sys_open: { cpu_id = 0 }, { filename = "/dev/null", flags = 0, mode = 35977080 }
+[11:21:02.562988548] (+0.000005865) exit_syscall: { cpu_id = 0 }, { ret = 35 }
+[11:21:02.562995929] (+0.000007381) sys_dup2: { cpu_id = 0 }, { oldfd = 35, newfd = 0 }
+[11:21:02.562996570] (+0.000000641) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.562996910] (+0.000000340) sys_close: { cpu_id = 0 }, { fd = 35 }
+[11:21:02.562997041] (+0.000000131) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.563026678] (+0.000029637) sys_execve: { cpu_id = 0 }, { filename = "/usr/lib/lightdm/lightdm/firefox", argv = 0x2CA53F0, envp = 0x28E5D20 }
+[11:21:02.563033182] (+0.000006504) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.563034634] (+0.000001452) sys_execve: { cpu_id = 0 }, { filename = "/usr/local/sbin/firefox", argv = 0x2CA53F0, envp = 0x28E5D20 }
+[11:21:02.563037355] (+0.000002721) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.563037834] (+0.000000479) sys_execve: { cpu_id = 0 }, { filename = "/usr/local/bin/firefox", argv = 0x2CA53F0, envp = 0x28E5D20 }
+[11:21:02.563039490] (+0.000001656) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.563039904] (+0.000000414) sys_execve: { cpu_id = 0 }, { filename = "/usr/sbin/firefox", argv = 0x2CA53F0, envp = 0x28E5D20 }
+[11:21:02.563042023] (+0.000002119) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.563042364] (+0.000000341) sys_execve: { cpu_id = 0 }, { filename = "/usr/bin/firefox", argv = 0x2CA53F0, envp = 0x28E5D20 }
+[11:21:02.563079737] (+0.000037373) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25172, runtime = 630904, vruntime = 1287956348277 }
+[11:21:02.563083299] (+0.000003562) sched_switch: { cpu_id = 0 }, { prev_comm = "unity-2d-shell", prev_tid = 25172, prev_prio = 20, prev_state = 130, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.563086978] (+0.000003679) sched_stat_sleep: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 125163216 }
+[11:21:02.563087420] (+0.000000442) sched_wakeup: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.563088620] (+0.000001200) sched_stat_wait: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 0 }
+[11:21:02.563089002] (+0.000000382) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "ksoftirqd/0", next_tid = 3, next_prio = 20 }
+[11:21:02.563091564] (+0.000002562) sched_stat_runtime: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, runtime = 78390, vruntime = 3035593021657 }
+[11:21:02.563092530] (+0.000000966) sched_switch: { cpu_id = 0 }, { prev_comm = "ksoftirqd/0", prev_tid = 3, prev_prio = 20, prev_state = 1, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.563093438] (+0.000000908) sched_stat_sleep: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 1846 }
+[11:21:02.563093588] (+0.000000150) sched_wakeup: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.563094020] (+0.000000432) sched_stat_wait: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 0 }
+[11:21:02.563094218] (+0.000000198) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "ksoftirqd/0", next_tid = 3, next_prio = 20 }
+[11:21:02.563095924] (+0.000001706) sched_process_free: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25171, prio = 20 }
+[11:21:02.563100171] (+0.000004247) sched_stat_runtime: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, runtime = 6748, vruntime = 3035593028405 }
+[11:21:02.563100908] (+0.000000737) sched_switch: { cpu_id = 0 }, { prev_comm = "ksoftirqd/0", prev_tid = 3, prev_prio = 20, prev_state = 1, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.563101856] (+0.000000948) sched_stat_sleep: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 1658 }
+[11:21:02.563102040] (+0.000000184) sched_wakeup: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.563102436] (+0.000000396) sched_stat_wait: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 0 }
+[11:21:02.563102628] (+0.000000192) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "ksoftirqd/0", next_tid = 3, next_prio = 20 }
+[11:21:02.563103394] (+0.000000766) sched_stat_runtime: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, runtime = 1586, vruntime = 3035593029991 }
+[11:21:02.563104013] (+0.000000619) sched_switch: { cpu_id = 0 }, { prev_comm = "ksoftirqd/0", prev_tid = 3, prev_prio = 20, prev_state = 1, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.563104935] (+0.000000922) sched_stat_sleep: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 1536 }
+[11:21:02.563105092] (+0.000000157) sched_wakeup: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.563105497] (+0.000000405) sched_stat_wait: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 0 }
+[11:21:02.563105665] (+0.000000168) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "ksoftirqd/0", next_tid = 3, next_prio = 20 }
+[11:21:02.563106951] (+0.000001286) sched_stat_runtime: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, runtime = 2004, vruntime = 3035593031995 }
+[11:21:02.563107573] (+0.000000622) sched_switch: { cpu_id = 0 }, { prev_comm = "ksoftirqd/0", prev_tid = 3, prev_prio = 20, prev_state = 1, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.565325232] (+0.002217659) sched_stat_sleep: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, delay = 7005137 }
+[11:21:02.565344263] (+0.000019031) sched_wakeup: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.565364039] (+0.000019776) sched_stat_wait: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, delay = 0 }
+[11:21:02.565379806] (+0.000015767) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "kworker/0:1", next_tid = 25099, next_prio = 20 }
+[11:21:02.565484818] (+0.000105012) sched_stat_runtime: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, runtime = 168025, vruntime = 3035593111292 }
+[11:21:02.565531864] (+0.000047046) sched_switch: { cpu_id = 0 }, { prev_comm = "kworker/0:1", prev_tid = 25099, prev_prio = 20, prev_state = 1, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.565559986] (+0.000028122) sched_stat_sleep: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 2372408 }
+[11:21:02.565565719] (+0.000005733) sched_wakeup: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.565588419] (+0.000022700) sched_stat_wait: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, delay = 0 }
+[11:21:02.565592753] (+0.000004334) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "ksoftirqd/0", next_tid = 3, next_prio = 20 }
+[11:21:02.565602383] (+0.000009630) sched_stat_runtime: { cpu_id = 0 }, { comm = "ksoftirqd/0", tid = 3, runtime = 115074, vruntime = 3035593147069 }
+[11:21:02.565620265] (+0.000017882) sched_switch: { cpu_id = 0 }, { prev_comm = "ksoftirqd/0", prev_tid = 3, prev_prio = 20, prev_state = 1, next_comm = "swapper/0", next_tid = 0, next_prio = 20 }
+[11:21:02.571739353] (+0.006119088) sched_stat_iowait: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25172, delay = 8732308 }
+[11:21:02.571740043] (+0.000000690) sched_wakeup: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25172, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.571744442] (+0.000004399) sched_stat_sleep: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, delay = 6345351 }
+[11:21:02.571744771] (+0.000000329) sched_wakeup: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.571748077] (+0.000003306) sched_stat_wait: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, delay = 0 }
+[11:21:02.571748449] (+0.000000372) sched_switch: { cpu_id = 0 }, { prev_comm = "swapper/0", prev_tid = 0, prev_prio = 20, prev_state = 0, next_comm = "kworker/0:1", next_tid = 25099, next_prio = 20 }
+[11:21:02.571749562] (+0.000001113) sched_stat_runtime: { cpu_id = 0 }, { comm = "kworker/0:1", tid = 25099, runtime = 5056, vruntime = 3035593116348 }
+[11:21:02.571750109] (+0.000000547) sched_stat_wait: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25172, delay = 10950 }
+[11:21:02.571750307] (+0.000000198) sched_switch: { cpu_id = 0 }, { prev_comm = "kworker/0:1", prev_tid = 25099, prev_prio = 20, prev_state = 1, next_comm = "unity-2d-shell", next_tid = 25172, next_prio = 20 }
+[11:21:02.572697753] (+0.000947446) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25172, runtime = 788747, vruntime = 1287957137024 }
+[11:21:02.573610665] (+0.000912912) sched_stat_runtime: { cpu_id = 0 }, { comm = "firefox", tid = 25172, runtime = 974327, vruntime = 1287958111351 }
+[11:21:02.573617709] (+0.000007044) sched_stat_sleep: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, delay = 11137236 }
+[11:21:02.573618290] (+0.000000581) sched_wakeup: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.573621522] (+0.000003232) sched_stat_wait: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, delay = 0 }
+[11:21:02.573621813] (+0.000000291) sched_switch: { cpu_id = 0 }, { prev_comm = "firefox", prev_tid = 25172, prev_prio = 20, prev_state = 0, next_comm = "unity-2d-shell", next_tid = 1609, next_prio = 20 }
+[11:21:02.573623691] (+0.000001878) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.573625613] (+0.000001922) sys_read: { cpu_id = 0 }, { fd = 37, buf = 0x7FFF444705C0, count = 4 }
+[11:21:02.573627731] (+0.000002118) exit_syscall: { cpu_id = 0 }, { ret = 4 }
+[11:21:02.573628012] (+0.000000281) sys_read: { cpu_id = 0 }, { fd = 37, buf = 0x7FFF444705C4, count = 0 }
+[11:21:02.573628239] (+0.000000227) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.573628803] (+0.000000564) sys_close: { cpu_id = 0 }, { fd = 35 }
+[11:21:02.573632299] (+0.000003496) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.573632611] (+0.000000312) sys_close: { cpu_id = 0 }, { fd = 37 }
+[11:21:02.573633115] (+0.000000504) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.573961537] (+0.000328422) sys_write: { cpu_id = 0 }, { fd = 6, buf = 0x7FFF444705B8, count = 8 }
+[11:21:02.573964601] (+0.000003064) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, runtime = 355518, vruntime = 1287955466869 }
+[11:21:02.573965188] (+0.000000587) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 37388200192489 }
+[11:21:02.573965712] (+0.000000524) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.573966486] (+0.000000774) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574000921] (+0.000034435) sys_clone: { cpu_id = 0 }, { clone_flags = 0x3D0F00, newsp = 0x7F83DACDE930, parent_tid = 0x7F83DACDF9D0, child_tid = 0x7F83DACDF9D0 }
+[11:21:02.574006692] (+0.000005771) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, runtime = 42109, vruntime = 1287955508978 }
+[11:21:02.574007452] (+0.000000760) sched_migrate_task: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, prio = 20, orig_cpu = 0, dest_cpu = 0 }
+[11:21:02.574011367] (+0.000003915) sched_process_fork: { cpu_id = 0 }, { parent_comm = "unity-2d-shell", parent_tid = 1609, child_comm = "unity-2d-shell", child_tid = 25173 }
+[11:21:02.574011862] (+0.000000495) sched_migrate_task: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25173, prio = 20, orig_cpu = 0, dest_cpu = 0 }
+[11:21:02.574012255] (+0.000000393) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, runtime = 5547, vruntime = 1287955514525 }
+[11:21:02.574012910] (+0.000000655) sched_wakeup_new: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25173, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.574013408] (+0.000000498) exit_syscall: { cpu_id = 0 }, { ret = 25173 }
+[11:21:02.574409212] (+0.000395804) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFF44472390, nfds = 1, timeout_msecs = -1 }
+[11:21:02.574411002] (+0.000001790) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574411783] (+0.000000781) sys_recvfrom: { cpu_id = 0 }, { fd = 12, ubuf = 0x13E1294, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.574416823] (+0.000005040) exit_syscall: { cpu_id = 0 }, { ret = 416 }
+[11:21:02.574424798] (+0.000007975) sys_writev: { cpu_id = 0 }, { fd = 12, vec = 0x7FFF44472450, vlen = 3 }
+[11:21:02.574430293] (+0.000005495) sched_stat_sleep: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 14965115 }
+[11:21:02.574431016] (+0.000000723) sched_wakeup: { cpu_id = 0 }, { comm = "Xorg", tid = 888, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.574432172] (+0.000001156) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, runtime = 416036, vruntime = 1287955930561 }
+[11:21:02.574432976] (+0.000000804) sched_stat_wait: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 0 }
+[11:21:02.574433305] (+0.000000329) sched_switch: { cpu_id = 0 }, { prev_comm = "unity-2d-shell", prev_tid = 1609, prev_prio = 20, prev_state = 0, next_comm = "Xorg", next_tid = 888, next_prio = 20 }
+[11:21:02.574451845] (+0.000018540) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574460991] (+0.000009146) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.574462743] (+0.000001752) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.574464658] (+0.000001915) sys_read: { cpu_id = 0 }, { fd = 34, buf = 0x7F775FF05B30, count = 4096 }
+[11:21:02.574466738] (+0.000002080) exit_syscall: { cpu_id = 0 }, { ret = 16 }
+[11:21:02.574472061] (+0.000005323) sys_read: { cpu_id = 0 }, { fd = 34, buf = 0x7F775FF05B30, count = 4096 }
+[11:21:02.574472505] (+0.000000444) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.574473520] (+0.000001015) sys_writev: { cpu_id = 0 }, { fd = 34, vec = 0x7FFF1786D120, vlen = 1 }
+[11:21:02.574474568] (+0.000001048) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.574474976] (+0.000000408) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.574475345] (+0.000000369) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.574477024] (+0.000001679) sys_select: { cpu_id = 0 }, { n = 256, inp = 0x7F775EAA5500, outp = 0x0, exp = 0x0, tvp = 0x7F775EA9BF30 }
+[11:21:02.574484116] (+0.000007092) sched_stat_runtime: { cpu_id = 0 }, { comm = "Xorg", tid = 888, runtime = 54058, vruntime = 229287021338 }
+[11:21:02.574485029] (+0.000000913) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 517750 }
+[11:21:02.574485318] (+0.000000289) sched_switch: { cpu_id = 0 }, { prev_comm = "Xorg", prev_tid = 888, prev_prio = 20, prev_state = 1, next_comm = "gdbus", next_tid = 1616, next_prio = 20 }
+[11:21:02.574487741] (+0.000002423) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574492033] (+0.000004292) sys_read: { cpu_id = 0 }, { fd = 6, buf = 0x7F83F343A740, count = 16 }
+[11:21:02.574492849] (+0.000000816) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574516885] (+0.000024036) sys_sendmsg: { cpu_id = 0 }, { fd = 5, msg = 0x7F83F343A590, flags = 16384 }
+[11:21:02.574521038] (+0.000004153) sched_stat_sleep: { cpu_id = 0 }, { comm = "dbus-daemon", tid = 1564, delay = 136871688 }
+[11:21:02.574521523] (+0.000000485) sched_wakeup: { cpu_id = 0 }, { comm = "dbus-daemon", tid = 1564, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.574522307] (+0.000000784) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, runtime = 36451, vruntime = 1287955147802 }
+[11:21:02.574522790] (+0.000000483) sched_stat_wait: { cpu_id = 0 }, { comm = "dbus-daemon", tid = 1564, delay = 0 }
+[11:21:02.574523079] (+0.000000289) sched_switch: { cpu_id = 0 }, { prev_comm = "gdbus", prev_tid = 1616, prev_prio = 20, prev_state = 0, next_comm = "dbus-daemon", next_tid = 1564, next_prio = 20 }
+[11:21:02.574574697] (+0.000051618) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574617626] (+0.000042929) sys_recvmsg: { cpu_id = 0 }, { fd = 26, msg = 0x7FFF489FDEA0, flags = 1073741824 }
+[11:21:02.574620579] (+0.000002953) exit_syscall: { cpu_id = 0 }, { ret = 376 }
+[11:21:02.574635795] (+0.000015216) sys_recvmsg: { cpu_id = 0 }, { fd = 26, msg = 0x7FFF489FDEA0, flags = 1073741824 }
+[11:21:02.574636464] (+0.000000669) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.574663831] (+0.000027367) sys_sendmsg: { cpu_id = 0 }, { fd = 110, msg = 0x7FFF489FDCD0, flags = 16384 }
+[11:21:02.574666826] (+0.000002995) sched_stat_runtime: { cpu_id = 0 }, { comm = "dbus-daemon", tid = 1564, runtime = 145482, vruntime = 337788264449 }
+[11:21:02.574667530] (+0.000000704) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, delay = 37351873127277 }
+[11:21:02.574667992] (+0.000000462) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.574668498] (+0.000000506) exit_syscall: { cpu_id = 0 }, { ret = 392 }
+[11:21:02.574670429] (+0.000001931) sys_sendmsg: { cpu_id = 0 }, { fd = 35, msg = 0x7FFF489FDCD0, flags = 16384 }
+[11:21:02.574672461] (+0.000002032) sched_stat_runtime: { cpu_id = 0 }, { comm = "dbus-daemon", tid = 1564, runtime = 5812, vruntime = 337788270261 }
+[11:21:02.574672824] (+0.000000363) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 1630, delay = 716087063 }
+[11:21:02.574673122] (+0.000000298) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 1630, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.574673561] (+0.000000439) exit_syscall: { cpu_id = 0 }, { ret = 392 }
+[11:21:02.574690616] (+0.000017055) sys_poll: { cpu_id = 0 }, { ufds = 0x7F5841F92000, nfds = 132, timeout_msecs = -1 }
+[11:21:02.574710439] (+0.000019823) sched_stat_runtime: { cpu_id = 0 }, { comm = "dbus-daemon", tid = 1564, runtime = 37756, vruntime = 337788308017 }
+[11:21:02.574711503] (+0.000001064) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, delay = 43568 }
+[11:21:02.574711864] (+0.000000361) sched_switch: { cpu_id = 0 }, { prev_comm = "dbus-daemon", prev_tid = 1564, prev_prio = 20, prev_state = 1, next_comm = "gdbus", next_tid = 2076, next_prio = 20 }
+[11:21:02.574715208] (+0.000003344) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574717845] (+0.000002637) sys_read: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02BC0, count = 16 }
+[11:21:02.574718763] (+0.000000918) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.574722055] (+0.000003292) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02B68, count = 8 }
+[11:21:02.574722595] (+0.000000540) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574722917] (+0.000000322) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02B68, count = 8 }
+[11:21:02.574723165] (+0.000000248) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574724174] (+0.000001009) sys_recvmsg: { cpu_id = 0 }, { fd = 4, msg = 0x7F9EE5E02A00, flags = 1073741824 }
+[11:21:02.574725194] (+0.000001020) exit_syscall: { cpu_id = 0 }, { ret = 16 }
+[11:21:02.574734194] (+0.000009000) sys_poll: { cpu_id = 0 }, { ufds = 0x7F9EE5E029C0, nfds = 1, timeout_msecs = 0 }
+[11:21:02.574734978] (+0.000000784) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574735353] (+0.000000375) sys_recvmsg: { cpu_id = 0 }, { fd = 4, msg = 0x7F9EE5E02870, flags = 1073741824 }
+[11:21:02.574736498] (+0.000001145) exit_syscall: { cpu_id = 0 }, { ret = 376 }
+[11:21:02.574739783] (+0.000003285) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02B68, count = 8 }
+[11:21:02.574740325] (+0.000000542) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574740846] (+0.000000521) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02B68, count = 8 }
+[11:21:02.574741102] (+0.000000256) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574743649] (+0.000002547) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02B58, count = 8 }
+[11:21:02.574744061] (+0.000000412) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574744322] (+0.000000261) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02B58, count = 8 }
+[11:21:02.574744565] (+0.000000243) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574745437] (+0.000000872) sys_close: { cpu_id = 0 }, { fd = 7 }
+[11:21:02.574748497] (+0.000003060) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.574750226] (+0.000001729) sys_poll: { cpu_id = 0 }, { ufds = 0x7F9ED00010C0, nfds = 1, timeout_msecs = 0 }
+[11:21:02.574750626] (+0.000000400) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574750914] (+0.000000288) sys_read: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02BC0, count = 16 }
+[11:21:02.574751317] (+0.000000403) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574941123] (+0.000189806) sys_write: { cpu_id = 0 }, { fd = 3, buf = 0x7F9EE5E02988, count = 8 }
+[11:21:02.574943991] (+0.000002868) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, runtime = 232609, vruntime = 337787951521 }
+[11:21:02.574944603] (+0.000000612) sched_stat_sleep: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, delay = 2501144406 }
+[11:21:02.574945093] (+0.000000490) sched_wakeup: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.574945852] (+0.000000759) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574948303] (+0.000002451) sys_poll: { cpu_id = 0 }, { ufds = 0x7F9EE5E02A20, nfds = 1, timeout_msecs = 0 }
+[11:21:02.574949107] (+0.000000804) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.574950964] (+0.000001857) sys_eventfd2: { cpu_id = 0 }, { count = 0, flags = 526336 }
+[11:21:02.574953831] (+0.000002867) exit_syscall: { cpu_id = 0 }, { ret = 7 }
+[11:21:02.574954626] (+0.000000795) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E029E8, count = 8 }
+[11:21:02.574955185] (+0.000000559) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574955514] (+0.000000329) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E029E8, count = 8 }
+[11:21:02.574955774] (+0.000000260) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574958611] (+0.000002837) sys_poll: { cpu_id = 0 }, { ufds = 0x7F9ED00010C0, nfds = 3, timeout_msecs = -1 }
+[11:21:02.574959330] (+0.000000719) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574959632] (+0.000000302) sys_read: { cpu_id = 0 }, { fd = 5, buf = 0x7F9EE5E02BC0, count = 16 }
+[11:21:02.574960117] (+0.000000485) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574960731] (+0.000000614) sys_poll: { cpu_id = 0 }, { ufds = 0x7F9ED00010C0, nfds = 3, timeout_msecs = -1 }
+[11:21:02.574961633] (+0.000000902) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, runtime = 17718, vruntime = 337787969239 }
+[11:21:02.574962639] (+0.000001006) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 1630, delay = 288083 }
+[11:21:02.574962968] (+0.000000329) sched_switch: { cpu_id = 0 }, { prev_comm = "gdbus", prev_tid = 2076, prev_prio = 20, prev_state = 1, next_comm = "gdbus", next_tid = 1630, next_prio = 20 }
+[11:21:02.574965923] (+0.000002955) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574967913] (+0.000001990) sys_read: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CBC0, count = 16 }
+[11:21:02.574968479] (+0.000000566) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.574971894] (+0.000003415) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CB68, count = 8 }
+[11:21:02.574972311] (+0.000000417) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574972644] (+0.000000333) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CB68, count = 8 }
+[11:21:02.574972922] (+0.000000278) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574974088] (+0.000001166) sys_recvmsg: { cpu_id = 0 }, { fd = 7, msg = 0x7F582DA9CA00, flags = 1073741824 }
+[11:21:02.574975229] (+0.000001141) exit_syscall: { cpu_id = 0 }, { ret = 16 }
+[11:21:02.574981646] (+0.000006417) sys_poll: { cpu_id = 0 }, { ufds = 0x7F582DA9C9C0, nfds = 1, timeout_msecs = 0 }
+[11:21:02.574982222] (+0.000000576) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574982595] (+0.000000373) sys_recvmsg: { cpu_id = 0 }, { fd = 7, msg = 0x7F582DA9C870, flags = 1073741824 }
+[11:21:02.574983900] (+0.000001305) exit_syscall: { cpu_id = 0 }, { ret = 376 }
+[11:21:02.574986693] (+0.000002793) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CB68, count = 8 }
+[11:21:02.574987215] (+0.000000522) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574987554] (+0.000000339) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CB68, count = 8 }
+[11:21:02.574987794] (+0.000000240) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574990925] (+0.000003131) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CB58, count = 8 }
+[11:21:02.574991229] (+0.000000304) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574991531] (+0.000000302) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CB58, count = 8 }
+[11:21:02.574991820] (+0.000000289) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.574992510] (+0.000000690) sys_close: { cpu_id = 0 }, { fd = 9 }
+[11:21:02.574994697] (+0.000002187) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.574996105] (+0.000001408) sys_poll: { cpu_id = 0 }, { ufds = 0x7F58200010C0, nfds = 1, timeout_msecs = 0 }
+[11:21:02.574996510] (+0.000000405) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.574996792] (+0.000000282) sys_read: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CBC0, count = 16 }
+[11:21:02.574997129] (+0.000000337) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.575233808] (+0.000236679) sys_write: { cpu_id = 0 }, { fd = 3, buf = 0x7F582DA9C988, count = 8 }
+[11:21:02.575236799] (+0.000002991) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 1630, runtime = 273999, vruntime = 337787992911 }
+[11:21:02.575237529] (+0.000000730) sched_stat_sleep: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, delay = 24211623 }
+[11:21:02.575238070] (+0.000000541) sched_wakeup: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.575238802] (+0.000000732) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.575241175] (+0.000002373) sys_poll: { cpu_id = 0 }, { ufds = 0x7F582DA9CA20, nfds = 1, timeout_msecs = 0 }
+[11:21:02.575241972] (+0.000000797) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575243421] (+0.000001449) sys_eventfd2: { cpu_id = 0 }, { count = 0, flags = 526336 }
+[11:21:02.575245677] (+0.000002256) exit_syscall: { cpu_id = 0 }, { ret = 9 }
+[11:21:02.575246497] (+0.000000820) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9C9E8, count = 8 }
+[11:21:02.575247026] (+0.000000529) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.575247396] (+0.000000370) sys_write: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9C9E8, count = 8 }
+[11:21:02.575247722] (+0.000000326) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.575250975] (+0.000003253) sys_poll: { cpu_id = 0 }, { ufds = 0x7F58200010C0, nfds = 3, timeout_msecs = -1 }
+[11:21:02.575251723] (+0.000000748) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.575252058] (+0.000000335) sys_read: { cpu_id = 0 }, { fd = 8, buf = 0x7F582DA9CBC0, count = 16 }
+[11:21:02.575252512] (+0.000000454) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.575253291] (+0.000000779) sys_poll: { cpu_id = 0 }, { ufds = 0x7F58200010C0, nfds = 3, timeout_msecs = -1 }
+[11:21:02.575254321] (+0.000001030) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 1630, runtime = 17614, vruntime = 337788010525 }
+[11:21:02.575255310] (+0.000000989) sched_stat_wait: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, delay = 309331 }
+[11:21:02.575255667] (+0.000000357) sched_switch: { cpu_id = 0 }, { prev_comm = "gdbus", prev_tid = 1630, prev_prio = 20, prev_state = 1, next_comm = "zeitgeist-datah", next_tid = 2070, next_prio = 20 }
+[11:21:02.575258660] (+0.000002993) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.575260165] (+0.000001505) sys_read: { cpu_id = 0 }, { fd = 3, buf = 0x7FFFB71BCA50, count = 16 }
+[11:21:02.575260649] (+0.000000484) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.575307776] (+0.000047127) sys_open: { cpu_id = 0 }, { filename = "/usr/share/applications/firefox.desktop", flags = 0, mode = 0 }
+[11:21:02.575315742] (+0.000007966) exit_syscall: { cpu_id = 0 }, { ret = 9 }
+[11:21:02.575316532] (+0.000000790) sys_newfstat: { cpu_id = 0 }, { fd = 9, statbuf = 0x7FFFB71BB750 }
+[11:21:02.575317717] (+0.000001185) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575320444] (+0.000002727) sys_read: { cpu_id = 0 }, { fd = 9, buf = 0x7FFFB71BB7F0, count = 4096 }
+[11:21:02.575322911] (+0.000002467) exit_syscall: { cpu_id = 0 }, { ret = 4096 }
+[11:21:02.575385735] (+0.000062824) sys_read: { cpu_id = 0 }, { fd = 9, buf = 0x7FFFB71BB7F0, count = 4096 }
+[11:21:02.575388020] (+0.000002285) exit_syscall: { cpu_id = 0 }, { ret = 3829 }
+[11:21:02.575426202] (+0.000038182) sys_read: { cpu_id = 0 }, { fd = 9, buf = 0x7FFFB71BB7F0, count = 4096 }
+[11:21:02.575427010] (+0.000000808) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575435577] (+0.000008567) sys_close: { cpu_id = 0 }, { fd = 9 }
+[11:21:02.575437356] (+0.000001779) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575524426] (+0.000087070) sys_open: { cpu_id = 0 }, { filename = "/home/rui/.local/share/applications/unity-2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575531013] (+0.000006587) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575553139] (+0.000022126) sys_open: { cpu_id = 0 }, { filename = "/home/rui/.local/share/applications/unity/2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575556549] (+0.000003410) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575566623] (+0.000010074) sys_open: { cpu_id = 0 }, { filename = "/home/rui/.local/share/applications/unity-2d/shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575569398] (+0.000002775) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575579170] (+0.000009772) sys_open: { cpu_id = 0 }, { filename = "/usr/share/ubuntu-2d/applications/unity-2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575581971] (+0.000002801) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575601845] (+0.000019874) sys_open: { cpu_id = 0 }, { filename = "/usr/share/ubuntu-2d/applications/unity/2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575605068] (+0.000003223) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575615747] (+0.000010679) sys_open: { cpu_id = 0 }, { filename = "/usr/share/ubuntu-2d/applications/unity-2d/shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575617919] (+0.000002172) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575627076] (+0.000009157) sys_open: { cpu_id = 0 }, { filename = "/usr/share/gnome/applications/unity-2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575630762] (+0.000003686) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575640127] (+0.000009365) sys_open: { cpu_id = 0 }, { filename = "/usr/share/gnome/applications/unity/2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575642430] (+0.000002303) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575651232] (+0.000008802) sys_open: { cpu_id = 0 }, { filename = "/usr/share/gnome/applications/unity-2d/shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575653840] (+0.000002608) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575662676] (+0.000008836) sys_open: { cpu_id = 0 }, { filename = "/usr/local/share/applications/unity-2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575665478] (+0.000002802) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575674172] (+0.000008694) sys_open: { cpu_id = 0 }, { filename = "/usr/local/share/applications/unity/2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575676899] (+0.000002727) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575685545] (+0.000008646) sys_open: { cpu_id = 0 }, { filename = "/usr/local/share/applications/unity-2d/shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575687568] (+0.000002023) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.575696414] (+0.000008846) sys_open: { cpu_id = 0 }, { filename = "/usr/share/applications/unity-2d-shell.desktop", flags = 0, mode = 0 }
+[11:21:02.575700438] (+0.000004024) exit_syscall: { cpu_id = 0 }, { ret = 9 }
+[11:21:02.575700932] (+0.000000494) sys_newfstat: { cpu_id = 0 }, { fd = 9, statbuf = 0x7FFFB71BB750 }
+[11:21:02.575701520] (+0.000000588) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575703377] (+0.000001857) sys_read: { cpu_id = 0 }, { fd = 9, buf = 0x7FFFB71BB7F0, count = 4096 }
+[11:21:02.575704943] (+0.000001566) exit_syscall: { cpu_id = 0 }, { ret = 329 }
+[11:21:02.575713631] (+0.000008688) sys_read: { cpu_id = 0 }, { fd = 9, buf = 0x7FFFB71BB7F0, count = 4096 }
+[11:21:02.575714296] (+0.000000665) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575717635] (+0.000003339) sys_close: { cpu_id = 0 }, { fd = 9 }
+[11:21:02.575719020] (+0.000001385) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575806014] (+0.000086994) sys_poll: { cpu_id = 0 }, { ufds = 0xDC9270, nfds = 3, timeout_msecs = 0 }
+[11:21:02.575807740] (+0.000001726) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.575808221] (+0.000000481) sys_read: { cpu_id = 0 }, { fd = 3, buf = 0x7FFFB71BCA50, count = 16 }
+[11:21:02.575808859] (+0.000000638) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.577024748] (+0.001215889) sched_stat_runtime: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, runtime = 1626018, vruntime = 337789344930 }
+[11:21:02.577753401] (+0.000728653) sched_stat_runtime: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, runtime = 798884, vruntime = 337790143814 }
+[11:21:02.577782676] (+0.000029275) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 3155892 }
+[11:21:02.577808927] (+0.000026251) sched_switch: { cpu_id = 0 }, { prev_comm = "zeitgeist-datah", prev_tid = 2070, prev_prio = 20, prev_state = 0, next_comm = "gdbus", next_tid = 1616, next_prio = 20 }
+[11:21:02.577856166] (+0.000047239) exit_syscall: { cpu_id = 0 }, { ret = 376 }
+[11:21:02.578030940] (+0.000174774) sys_poll: { cpu_id = 0 }, { ufds = 0x7F83E40010C0, nfds = 3, timeout_msecs = -1 }
+[11:21:02.578065440] (+0.000034500) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, runtime = 326887, vruntime = 1287955474689 }
+[11:21:02.578080757] (+0.000015317) sched_stat_wait: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, delay = 3573288 }
+[11:21:02.578110102] (+0.000029345) sched_switch: { cpu_id = 0 }, { prev_comm = "gdbus", prev_tid = 1616, prev_prio = 20, prev_state = 1, next_comm = "unity-2d-shell", next_tid = 1609, next_prio = 20 }
+[11:21:02.578132405] (+0.000022303) exit_syscall: { cpu_id = 0 }, { ret = 16 }
+[11:21:02.578145591] (+0.000013186) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFF444723C0, nfds = 1, timeout_msecs = -1 }
+[11:21:02.578155352] (+0.000009761) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.578164336] (+0.000008984) sys_recvfrom: { cpu_id = 0 }, { fd = 12, ubuf = 0x13E1294, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.578175563] (+0.000011227) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.578200230] (+0.000024667) sys_recvfrom: { cpu_id = 0 }, { fd = 12, ubuf = 0x13E1294, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.578207930] (+0.000007700) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578477333] (+0.000269403) sys_poll: { cpu_id = 0 }, { ufds = 0x27CF070, nfds = 13, timeout_msecs = 0 }
+[11:21:02.578485336] (+0.000008003) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.578489455] (+0.000004119) sys_read: { cpu_id = 0 }, { fd = 3, buf = 0x7FFF444743C0, count = 16 }
+[11:21:02.578493431] (+0.000003976) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578553176] (+0.000059745) sys_recvfrom: { cpu_id = 0 }, { fd = 8, ubuf = 0x12D82A4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.578557523] (+0.000004347) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578888911] (+0.000331388) sys_recvfrom: { cpu_id = 0 }, { fd = 12, ubuf = 0x13E1294, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.578890717] (+0.000001806) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578893999] (+0.000003282) sys_recvfrom: { cpu_id = 0 }, { fd = 8, ubuf = 0x12D82A4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.578894627] (+0.000000628) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578897079] (+0.000002452) sys_recvfrom: { cpu_id = 0 }, { fd = 12, ubuf = 0x13E1294, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.578897531] (+0.000000452) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578899928] (+0.000002397) sys_poll: { cpu_id = 0 }, { ufds = 0x27CF070, nfds = 13, timeout_msecs = 15 }
+[11:21:02.578906472] (+0.000006544) sched_stat_runtime: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 1609, runtime = 852896, vruntime = 1287956783457 }
+[11:21:02.578908005] (+0.000001533) sched_stat_wait: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, delay = 3622299 }
+[11:21:02.578908436] (+0.000000431) sched_switch: { cpu_id = 0 }, { prev_comm = "unity-2d-shell", prev_tid = 1609, prev_prio = 20, prev_state = 1, next_comm = "bamfdaemon", next_tid = 1628, next_prio = 20 }
+[11:21:02.578911435] (+0.000002999) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.578912872] (+0.000001437) sys_read: { cpu_id = 0 }, { fd = 3, buf = 0x7FFFB3D62090, count = 16 }
+[11:21:02.578913757] (+0.000000885) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.578949945] (+0.000036188) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61CF0, nfds = 1, timeout_msecs = -1 }
+[11:21:02.578951334] (+0.000001389) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.578951898] (+0.000000564) sys_writev: { cpu_id = 0 }, { fd = 6, vec = 0x7FFFB3D61DB0, vlen = 3 }
+[11:21:02.578955762] (+0.000003864) sched_stat_sleep: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 4421034 }
+[11:21:02.578956565] (+0.000000803) sched_wakeup: { cpu_id = 0 }, { comm = "Xorg", tid = 888, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.578957849] (+0.000001284) sched_stat_runtime: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, runtime = 48908, vruntime = 337788423670 }
+[11:21:02.578958439] (+0.000000590) sched_stat_wait: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 0 }
+[11:21:02.578958781] (+0.000000342) sched_switch: { cpu_id = 0 }, { prev_comm = "bamfdaemon", prev_tid = 1628, prev_prio = 20, prev_state = 0, next_comm = "Xorg", next_tid = 888, next_prio = 20 }
+[11:21:02.578968425] (+0.000009644) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.578972551] (+0.000004126) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.578973635] (+0.000001084) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.578974761] (+0.000001126) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.578976853] (+0.000002092) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.578981930] (+0.000005077) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.578982419] (+0.000000489) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.578983131] (+0.000000712) sys_writev: { cpu_id = 0 }, { fd = 35, vec = 0x7FFF1786D120, vlen = 1 }
+[11:21:02.578984241] (+0.000001110) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.578984675] (+0.000000434) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.578985081] (+0.000000406) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.578986122] (+0.000001041) sys_select: { cpu_id = 0 }, { n = 256, inp = 0x7F775EAA5500, outp = 0x0, exp = 0x0, tvp = 0x7F775EA9BF30 }
+[11:21:02.578993489] (+0.000007367) sched_stat_runtime: { cpu_id = 0 }, { comm = "Xorg", tid = 888, runtime = 38028, vruntime = 229287059366 }
+[11:21:02.578994451] (+0.000000962) sched_stat_wait: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, delay = 38028 }
+[11:21:02.578994721] (+0.000000270) sched_switch: { cpu_id = 0 }, { prev_comm = "Xorg", prev_tid = 888, prev_prio = 20, prev_state = 1, next_comm = "bamfdaemon", next_tid = 1628, next_prio = 20 }
+[11:21:02.578995604] (+0.000000883) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.578997776] (+0.000002172) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61D20, nfds = 1, timeout_msecs = -1 }
+[11:21:02.578998354] (+0.000000578) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.578998873] (+0.000000519) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579000296] (+0.000001423) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.579001693] (+0.000001397) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579002057] (+0.000000364) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579002842] (+0.000000785) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579003164] (+0.000000322) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579009293] (+0.000006129) sys_open: { cpu_id = 0 }, { filename = "/proc/1617/status", flags = 0, mode = -1277826175 }
+[11:21:02.579018054] (+0.000008761) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579018652] (+0.000000598) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579035599] (+0.000016947) exit_syscall: { cpu_id = 0 }, { ret = 812 }
+[11:21:02.579035941] (+0.000000342) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF9C, count = 7379 }
+[11:21:02.579036247] (+0.000000306) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579036660] (+0.000000413) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579038223] (+0.000001563) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579042154] (+0.000003931) sys_open: { cpu_id = 0 }, { filename = "/proc/1617/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579044979] (+0.000002825) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579045329] (+0.000000350) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579054588] (+0.000009259) exit_syscall: { cpu_id = 0 }, { ret = 240 }
+[11:21:02.579054891] (+0.000000303) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD60, count = 7951 }
+[11:21:02.579055145] (+0.000000254) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579055434] (+0.000000289) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579056181] (+0.000000747) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579058458] (+0.000002277) sys_open: { cpu_id = 0 }, { filename = "/proc/1494/status", flags = 0, mode = -1277826175 }
+[11:21:02.579062096] (+0.000003638) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579062432] (+0.000000336) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579073292] (+0.000010860) exit_syscall: { cpu_id = 0 }, { ret = 816 }
+[11:21:02.579073600] (+0.000000308) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FFA0, count = 7375 }
+[11:21:02.579073901] (+0.000000301) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579074170] (+0.000000269) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579074877] (+0.000000707) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579076373] (+0.000001496) sys_open: { cpu_id = 0 }, { filename = "/proc/1494/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579078903] (+0.000002530) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579079260] (+0.000000357) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579086047] (+0.000006787) exit_syscall: { cpu_id = 0 }, { ret = 247 }
+[11:21:02.579086353] (+0.000000306) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD67, count = 7944 }
+[11:21:02.579086615] (+0.000000262) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579086908] (+0.000000293) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579087648] (+0.000000740) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579089175] (+0.000001527) sys_open: { cpu_id = 0 }, { filename = "/proc/1310/status", flags = 0, mode = -1277826175 }
+[11:21:02.579093070] (+0.000003895) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579093407] (+0.000000337) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579104084] (+0.000010677) exit_syscall: { cpu_id = 0 }, { ret = 782 }
+[11:21:02.579104376] (+0.000000292) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF7E, count = 7409 }
+[11:21:02.579104638] (+0.000000262) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579104917] (+0.000000279) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579105608] (+0.000000691) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579107128] (+0.000001520) sys_open: { cpu_id = 0 }, { filename = "/proc/1310/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579110038] (+0.000002910) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579110397] (+0.000000359) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579116218] (+0.000005821) exit_syscall: { cpu_id = 0 }, { ret = 177 }
+[11:21:02.579116530] (+0.000000312) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD21, count = 8014 }
+[11:21:02.579116760] (+0.000000230) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579117289] (+0.000000529) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579117965] (+0.000000676) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579119434] (+0.000001469) sys_open: { cpu_id = 0 }, { filename = "/proc/867/status", flags = 0, mode = -1277826176 }
+[11:21:02.579122861] (+0.000003427) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579123212] (+0.000000351) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579132891] (+0.000009679) exit_syscall: { cpu_id = 0 }, { ret = 752 }
+[11:21:02.579133186] (+0.000000295) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF60, count = 7439 }
+[11:21:02.579133443] (+0.000000257) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579133725] (+0.000000282) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579134438] (+0.000000713) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579135868] (+0.000001430) sys_open: { cpu_id = 0 }, { filename = "/proc/867/stat", flags = 0, mode = -1277826178 }
+[11:21:02.579138954] (+0.000003086) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579139264] (+0.000000310) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579144579] (+0.000005315) exit_syscall: { cpu_id = 0 }, { ret = 175 }
+[11:21:02.579144875] (+0.000000296) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD1F, count = 8016 }
+[11:21:02.579145119] (+0.000000244) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579145393] (+0.000000274) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579146125] (+0.000000732) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579150139] (+0.000004014) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61CF0, nfds = 1, timeout_msecs = -1 }
+[11:21:02.579150978] (+0.000000839) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579151391] (+0.000000413) sys_writev: { cpu_id = 0 }, { fd = 6, vec = 0x7FFFB3D61DB0, vlen = 3 }
+[11:21:02.579153920] (+0.000002529) sched_stat_sleep: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 159535 }
+[11:21:02.579154607] (+0.000000687) sched_wakeup: { cpu_id = 0 }, { comm = "Xorg", tid = 888, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.579155626] (+0.000001019) sched_stat_runtime: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, runtime = 159535, vruntime = 337788583205 }
+[11:21:02.579156173] (+0.000000547) sched_stat_wait: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 0 }
+[11:21:02.579156563] (+0.000000390) sched_switch: { cpu_id = 0 }, { prev_comm = "bamfdaemon", prev_tid = 1628, prev_prio = 20, prev_state = 0, next_comm = "Xorg", next_tid = 888, next_prio = 20 }
+[11:21:02.579164032] (+0.000007469) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579167398] (+0.000003366) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.579168211] (+0.000000813) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579175659] (+0.000007448) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.579178047] (+0.000002388) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.579181918] (+0.000003871) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.579182409] (+0.000000491) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579183158] (+0.000000749) sys_writev: { cpu_id = 0 }, { fd = 35, vec = 0x7FFF1786D120, vlen = 1 }
+[11:21:02.579184358] (+0.000001200) exit_syscall: { cpu_id = 0 }, { ret = 80 }
+[11:21:02.579184752] (+0.000000394) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.579185268] (+0.000000516) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579186529] (+0.000001261) sys_select: { cpu_id = 0 }, { n = 256, inp = 0x7F775EAA5500, outp = 0x0, exp = 0x0, tvp = 0x7F775EA9BF30 }
+[11:21:02.579196039] (+0.000009510) sched_stat_runtime: { cpu_id = 0 }, { comm = "Xorg", tid = 888, runtime = 42216, vruntime = 229287101582 }
+[11:21:02.579196991] (+0.000000952) sched_stat_wait: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, delay = 42216 }
+[11:21:02.579197247] (+0.000000256) sched_switch: { cpu_id = 0 }, { prev_comm = "Xorg", prev_tid = 888, prev_prio = 20, prev_state = 1, next_comm = "bamfdaemon", next_tid = 1628, next_prio = 20 }
+[11:21:02.579203655] (+0.000006408) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.579206370] (+0.000002715) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61D20, nfds = 1, timeout_msecs = -1 }
+[11:21:02.579207783] (+0.000001413) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579208512] (+0.000000729) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579211420] (+0.000002908) exit_syscall: { cpu_id = 0 }, { ret = 80 }
+[11:21:02.579213202] (+0.000001782) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579213884] (+0.000000682) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579215182] (+0.000001298) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579215690] (+0.000000508) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579220958] (+0.000005268) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61CF0, nfds = 1, timeout_msecs = -1 }
+[11:21:02.579221759] (+0.000000801) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579222152] (+0.000000393) sys_writev: { cpu_id = 0 }, { fd = 6, vec = 0x7FFFB3D61DB0, vlen = 3 }
+[11:21:02.579224956] (+0.000002804) sched_stat_sleep: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 28589 }
+[11:21:02.579225615] (+0.000000659) sched_wakeup: { cpu_id = 0 }, { comm = "Xorg", tid = 888, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.579226655] (+0.000001040) sched_stat_runtime: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, runtime = 28589, vruntime = 337788611794 }
+[11:21:02.579227212] (+0.000000557) sched_stat_wait: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 0 }
+[11:21:02.579227592] (+0.000000380) sched_switch: { cpu_id = 0 }, { prev_comm = "bamfdaemon", prev_tid = 1628, prev_prio = 20, prev_state = 0, next_comm = "Xorg", next_tid = 888, next_prio = 20 }
+[11:21:02.579235955] (+0.000008363) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579239113] (+0.000003158) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.579240022] (+0.000000909) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579240811] (+0.000000789) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.579242311] (+0.000001500) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.579245464] (+0.000003153) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.579245879] (+0.000000415) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579246499] (+0.000000620) sys_writev: { cpu_id = 0 }, { fd = 35, vec = 0x7FFF1786D120, vlen = 1 }
+[11:21:02.579247490] (+0.000000991) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.579247834] (+0.000000344) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.579248175] (+0.000000341) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579248988] (+0.000000813) sys_select: { cpu_id = 0 }, { n = 256, inp = 0x7F775EAA5500, outp = 0x0, exp = 0x0, tvp = 0x7F775EA9BF30 }
+[11:21:02.579255918] (+0.000006930) sched_stat_runtime: { cpu_id = 0 }, { comm = "Xorg", tid = 888, runtime = 31165, vruntime = 229287132747 }
+[11:21:02.579256699] (+0.000000781) sched_stat_wait: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, delay = 31165 }
+[11:21:02.579256993] (+0.000000294) sched_switch: { cpu_id = 0 }, { prev_comm = "Xorg", prev_tid = 888, prev_prio = 20, prev_state = 1, next_comm = "bamfdaemon", next_tid = 1628, next_prio = 20 }
+[11:21:02.579257818] (+0.000000825) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.579259419] (+0.000001601) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61D20, nfds = 1, timeout_msecs = -1 }
+[11:21:02.579259969] (+0.000000550) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579260394] (+0.000000425) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579261552] (+0.000001158) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.579262513] (+0.000000961) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579262863] (+0.000000350) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579263527] (+0.000000664) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579263876] (+0.000000349) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579267344] (+0.000003468) sys_open: { cpu_id = 0 }, { filename = "/proc/1608/status", flags = 0, mode = -1277826175 }
+[11:21:02.579273161] (+0.000005817) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579273583] (+0.000000422) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579285201] (+0.000011618) exit_syscall: { cpu_id = 0 }, { ret = 822 }
+[11:21:02.579285521] (+0.000000320) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FFA6, count = 7369 }
+[11:21:02.579285808] (+0.000000287) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579286156] (+0.000000348) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579287337] (+0.000001181) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579289458] (+0.000002121) sys_open: { cpu_id = 0 }, { filename = "/proc/1608/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579291848] (+0.000002390) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579292221] (+0.000000373) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579298620] (+0.000006399) exit_syscall: { cpu_id = 0 }, { ret = 248 }
+[11:21:02.579298920] (+0.000000300) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD68, count = 7943 }
+[11:21:02.579299161] (+0.000000241) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579299430] (+0.000000269) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579300214] (+0.000000784) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579301731] (+0.000001517) sys_open: { cpu_id = 0 }, { filename = "/proc/1494/status", flags = 0, mode = -1277826175 }
+[11:21:02.579304174] (+0.000002443) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579304493] (+0.000000319) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579313597] (+0.000009104) exit_syscall: { cpu_id = 0 }, { ret = 816 }
+[11:21:02.579313885] (+0.000000288) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FFA0, count = 7375 }
+[11:21:02.579314163] (+0.000000278) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579314427] (+0.000000264) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579315120] (+0.000000693) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579316428] (+0.000001308) sys_open: { cpu_id = 0 }, { filename = "/proc/1494/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579318771] (+0.000002343) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579319116] (+0.000000345) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579323927] (+0.000004811) exit_syscall: { cpu_id = 0 }, { ret = 247 }
+[11:21:02.579324241] (+0.000000314) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD67, count = 7944 }
+[11:21:02.579324468] (+0.000000227) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579324733] (+0.000000265) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579325455] (+0.000000722) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579326842] (+0.000001387) sys_open: { cpu_id = 0 }, { filename = "/proc/1310/status", flags = 0, mode = -1277826175 }
+[11:21:02.579329659] (+0.000002817) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579329987] (+0.000000328) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579339054] (+0.000009067) exit_syscall: { cpu_id = 0 }, { ret = 782 }
+[11:21:02.579339346] (+0.000000292) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF7E, count = 7409 }
+[11:21:02.579339573] (+0.000000227) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579339844] (+0.000000271) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579340543] (+0.000000699) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579341965] (+0.000001422) sys_open: { cpu_id = 0 }, { filename = "/proc/1310/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579344276] (+0.000002311) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579344603] (+0.000000327) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579348911] (+0.000004308) exit_syscall: { cpu_id = 0 }, { ret = 177 }
+[11:21:02.579349197] (+0.000000286) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD21, count = 8014 }
+[11:21:02.579349429] (+0.000000232) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579349702] (+0.000000273) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579350389] (+0.000000687) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579351723] (+0.000001334) sys_open: { cpu_id = 0 }, { filename = "/proc/867/status", flags = 0, mode = -1277826176 }
+[11:21:02.579354087] (+0.000002364) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579354434] (+0.000000347) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579362861] (+0.000008427) exit_syscall: { cpu_id = 0 }, { ret = 752 }
+[11:21:02.579363200] (+0.000000339) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF60, count = 7439 }
+[11:21:02.579363457] (+0.000000257) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579363727] (+0.000000270) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579364381] (+0.000000654) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579365741] (+0.000001360) sys_open: { cpu_id = 0 }, { filename = "/proc/867/stat", flags = 0, mode = -1277826178 }
+[11:21:02.579367957] (+0.000002216) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579368315] (+0.000000358) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579372704] (+0.000004389) exit_syscall: { cpu_id = 0 }, { ret = 175 }
+[11:21:02.579372990] (+0.000000286) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD1F, count = 8016 }
+[11:21:02.579373235] (+0.000000245) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579373505] (+0.000000270) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579374272] (+0.000000767) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579377955] (+0.000003683) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61CF0, nfds = 1, timeout_msecs = -1 }
+[11:21:02.579378661] (+0.000000706) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579379062] (+0.000000401) sys_writev: { cpu_id = 0 }, { fd = 6, vec = 0x7FFFB3D61DB0, vlen = 3 }
+[11:21:02.579381412] (+0.000002350) sched_stat_sleep: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 124783 }
+[11:21:02.579381951] (+0.000000539) sched_wakeup: { cpu_id = 0 }, { comm = "Xorg", tid = 888, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.579382863] (+0.000000912) sched_stat_runtime: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, runtime = 124783, vruntime = 337788736577 }
+[11:21:02.579383413] (+0.000000550) sched_stat_wait: { cpu_id = 0 }, { comm = "Xorg", tid = 888, delay = 0 }
+[11:21:02.579383744] (+0.000000331) sched_switch: { cpu_id = 0 }, { prev_comm = "bamfdaemon", prev_tid = 1628, prev_prio = 20, prev_state = 0, next_comm = "Xorg", next_tid = 888, next_prio = 20 }
+[11:21:02.579391028] (+0.000007284) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579394194] (+0.000003166) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.579394981] (+0.000000787) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579395801] (+0.000000820) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.579397251] (+0.000001450) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.579400461] (+0.000003210) sys_read: { cpu_id = 0 }, { fd = 35, buf = 0x7F775FF0F760, count = 4096 }
+[11:21:02.579400891] (+0.000000430) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579401561] (+0.000000670) sys_writev: { cpu_id = 0 }, { fd = 35, vec = 0x7FFF1786D120, vlen = 1 }
+[11:21:02.579402503] (+0.000000942) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.579402871] (+0.000000368) sys_setitimer: { cpu_id = 0 }, { which = 0, value = 0x7FFF1786CF40, ovalue = 0x0 }
+[11:21:02.579403223] (+0.000000352) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579404069] (+0.000000846) sys_select: { cpu_id = 0 }, { n = 256, inp = 0x7F775EAA5500, outp = 0x0, exp = 0x0, tvp = 0x7F775EA9BF30 }
+[11:21:02.579410784] (+0.000006715) sched_stat_runtime: { cpu_id = 0 }, { comm = "Xorg", tid = 888, runtime = 29531, vruntime = 229287162278 }
+[11:21:02.579411512] (+0.000000728) sched_stat_wait: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, delay = 29531 }
+[11:21:02.579411737] (+0.000000225) sched_switch: { cpu_id = 0 }, { prev_comm = "Xorg", prev_tid = 888, prev_prio = 20, prev_state = 1, next_comm = "bamfdaemon", next_tid = 1628, next_prio = 20 }
+[11:21:02.579412555] (+0.000000818) exit_syscall: { cpu_id = 0 }, { ret = 24 }
+[11:21:02.579414236] (+0.000001681) sys_poll: { cpu_id = 0 }, { ufds = 0x7FFFB3D61D20, nfds = 1, timeout_msecs = -1 }
+[11:21:02.579414799] (+0.000000563) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.579420829] (+0.000006030) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579423407] (+0.000002578) exit_syscall: { cpu_id = 0 }, { ret = 32 }
+[11:21:02.579424686] (+0.000001279) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579425120] (+0.000000434) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579425866] (+0.000000746) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579426227] (+0.000000361) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579433546] (+0.000007319) sys_open: { cpu_id = 0 }, { filename = "/proc/1609/status", flags = 0, mode = -1277826175 }
+[11:21:02.579595453] (+0.000161907) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579596883] (+0.000001430) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579609076] (+0.000012193) exit_syscall: { cpu_id = 0 }, { ret = 821 }
+[11:21:02.579609491] (+0.000000415) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FFA5, count = 7370 }
+[11:21:02.579609875] (+0.000000384) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579610175] (+0.000000300) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579611635] (+0.000001460) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579618384] (+0.000006749) sys_open: { cpu_id = 0 }, { filename = "/proc/1609/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579623194] (+0.000004810) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579623597] (+0.000000403) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579631189] (+0.000007592) exit_syscall: { cpu_id = 0 }, { ret = 252 }
+[11:21:02.579631499] (+0.000000310) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD6C, count = 7939 }
+[11:21:02.579631762] (+0.000000263) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579632026] (+0.000000264) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579632980] (+0.000000954) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579635078] (+0.000002098) sys_open: { cpu_id = 0 }, { filename = "/proc/1494/status", flags = 0, mode = -1277826175 }
+[11:21:02.579637620] (+0.000002542) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579637947] (+0.000000327) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579647084] (+0.000009137) exit_syscall: { cpu_id = 0 }, { ret = 816 }
+[11:21:02.579647390] (+0.000000306) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FFA0, count = 7375 }
+[11:21:02.579647645] (+0.000000255) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579647919] (+0.000000274) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579648623] (+0.000000704) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579649937] (+0.000001314) sys_open: { cpu_id = 0 }, { filename = "/proc/1494/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579652032] (+0.000002095) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579652372] (+0.000000340) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579657034] (+0.000004662) exit_syscall: { cpu_id = 0 }, { ret = 247 }
+[11:21:02.579657346] (+0.000000312) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD67, count = 7944 }
+[11:21:02.579657646] (+0.000000300) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579657912] (+0.000000266) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579658625] (+0.000000713) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579659955] (+0.000001330) sys_open: { cpu_id = 0 }, { filename = "/proc/1310/status", flags = 0, mode = -1277826175 }
+[11:21:02.579662330] (+0.000002375) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579662645] (+0.000000315) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579671778] (+0.000009133) exit_syscall: { cpu_id = 0 }, { ret = 782 }
+[11:21:02.579672056] (+0.000000278) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF7E, count = 7409 }
+[11:21:02.579672299] (+0.000000243) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579672571] (+0.000000272) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579673240] (+0.000000669) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579674582] (+0.000001342) sys_open: { cpu_id = 0 }, { filename = "/proc/1310/stat", flags = 0, mode = -1277826177 }
+[11:21:02.579676759] (+0.000002177) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579677108] (+0.000000349) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579681434] (+0.000004326) exit_syscall: { cpu_id = 0 }, { ret = 177 }
+[11:21:02.579681735] (+0.000000301) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD21, count = 8014 }
+[11:21:02.579681996] (+0.000000261) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579682265] (+0.000000269) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579682971] (+0.000000706) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579684303] (+0.000001332) sys_open: { cpu_id = 0 }, { filename = "/proc/867/status", flags = 0, mode = -1277826176 }
+[11:21:02.579686813] (+0.000002510) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579687159] (+0.000000346) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579695781] (+0.000008622) exit_syscall: { cpu_id = 0 }, { ret = 752 }
+[11:21:02.579696068] (+0.000000287) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FF60, count = 7439 }
+[11:21:02.579696346] (+0.000000278) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579696626] (+0.000000280) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579697345] (+0.000000719) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579698654] (+0.000001309) sys_open: { cpu_id = 0 }, { filename = "/proc/867/stat", flags = 0, mode = -1277826178 }
+[11:21:02.579700874] (+0.000002220) exit_syscall: { cpu_id = 0 }, { ret = 12 }
+[11:21:02.579701201] (+0.000000327) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FC70, count = 8191 }
+[11:21:02.579705513] (+0.000004312) exit_syscall: { cpu_id = 0 }, { ret = 175 }
+[11:21:02.579705793] (+0.000000280) sys_read: { cpu_id = 0 }, { fd = 12, buf = 0x7FFFB3D5FD1F, count = 8016 }
+[11:21:02.579706079] (+0.000000286) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579706341] (+0.000000262) sys_close: { cpu_id = 0 }, { fd = 12 }
+[11:21:02.579707070] (+0.000000729) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.579724316] (+0.000017246) sys_recvfrom: { cpu_id = 0 }, { fd = 6, ubuf = 0x11464E4, size = 4096, flags = 0, addr = 0x0, addr_len = 0x0 }
+[11:21:02.579725438] (+0.000001122) exit_syscall: { cpu_id = 0 }, { ret = -11 }
+[11:21:02.579728756] (+0.000003318) sys_poll: { cpu_id = 0 }, { ufds = 0x1231700, nfds = 4, timeout_msecs = -1 }
+[11:21:02.579730817] (+0.000002061) sched_stat_runtime: { cpu_id = 0 }, { comm = "bamfdaemon", tid = 1628, runtime = 318707, vruntime = 337789055284 }
+[11:21:02.579732077] (+0.000001260) sched_stat_wait: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, delay = 2001245 }
+[11:21:02.579732455] (+0.000000378) sched_switch: { cpu_id = 0 }, { prev_comm = "bamfdaemon", prev_tid = 1628, prev_prio = 20, prev_state = 1, next_comm = "zeitgeist-datah", next_tid = 2070, next_prio = 20 }
+[11:21:02.580878288] (+0.001145833) sched_stat_runtime: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, runtime = 1115090, vruntime = 337791258904 }
+[11:21:02.581495306] (+0.000617018) sys_write: { cpu_id = 0 }, { fd = 5, buf = 0x7FFFB71BC6B8, count = 8 }
+[11:21:02.581542267] (+0.000046961) sched_stat_runtime: { cpu_id = 0 }, { comm = "zeitgeist-datah", tid = 2070, runtime = 718538, vruntime = 337791977442 }
+[11:21:02.581562359] (+0.000020092) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, delay = 6551388 }
+[11:21:02.581580573] (+0.000018214) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 2076, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.581599126] (+0.000018553) sched_stat_wait: { cpu_id = 0 }, { comm = "firefox", tid = 25172, delay = 7900484 }
+[11:21:02.581614616] (+0.000015490) sched_switch: { cpu_id = 0 }, { prev_comm = "zeitgeist-datah", prev_tid = 2070, prev_prio = 20, prev_state = 0, next_comm = "firefox", next_tid = 25172, next_prio = 20 }
+[11:21:02.581756207] (+0.000141591) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.581840778] (+0.000084571) sys_brk: { cpu_id = 0 }, { brk = 0 }
+[11:21:02.581845163] (+0.000004385) exit_syscall: { cpu_id = 0 }, { ret = 31260672 }
+[11:21:02.581863500] (+0.000018337) sys_access: { cpu_id = 0 }, { filename = "/etc/ld.so.nohwcap", mode = 0 }
+[11:21:02.581872571] (+0.000009071) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.581879465] (+0.000006894) sys_mmap: { cpu_id = 0 }, { addr = 0x0, len = 8192, prot = 3, flags = 34, fd = -1, offset = 0 }
+[11:21:02.581885045] (+0.000005580) exit_syscall: { cpu_id = 0 }, { ret = 140077025878016 }
+[11:21:02.581907738] (+0.000022693) sys_access: { cpu_id = 0 }, { filename = "/etc/ld.so.preload", mode = 4 }
+[11:21:02.581913369] (+0.000005631) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.581925109] (+0.000011740) sys_open: { cpu_id = 0 }, { filename = "/etc/ld.so.cache", flags = 524288, mode = 1 }
+[11:21:02.581932739] (+0.000007630) exit_syscall: { cpu_id = 0 }, { ret = 3 }
+[11:21:02.581936311] (+0.000003572) sys_newfstat: { cpu_id = 0 }, { fd = 3, statbuf = 0x7FFF63F96100 }
+[11:21:02.581940103] (+0.000003792) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.581943483] (+0.000003380) sys_mmap: { cpu_id = 0 }, { addr = 0x0, len = 74462, prot = 1, flags = 2, fd = 3, offset = 0 }
+[11:21:02.581948357] (+0.000004874) exit_syscall: { cpu_id = 0 }, { ret = 140077025800192 }
+[11:21:02.581951781] (+0.000003424) sys_close: { cpu_id = 0 }, { fd = 3 }
+[11:21:02.581955168] (+0.000003387) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.581961874] (+0.000006706) sys_access: { cpu_id = 0 }, { filename = "/etc/ld.so.nohwcap", mode = 0 }
+[11:21:02.581966869] (+0.000004995) exit_syscall: { cpu_id = 0 }, { ret = -2 }
+[11:21:02.581977575] (+0.000010706) sys_open: { cpu_id = 0 }, { filename = "/lib/x86_64-linux-gnu/libc.so.6", flags = 524288, mode = 0 }
+[11:21:02.581985438] (+0.000007863) exit_syscall: { cpu_id = 0 }, { ret = 3 }
+[11:21:02.581988955] (+0.000003517) sys_read: { cpu_id = 0 }, { fd = 3, buf = 0x7FFF63F96298, count = 832 }
+[11:21:02.581993471] (+0.000004516) exit_syscall: { cpu_id = 0 }, { ret = 832 }
+[11:21:02.582001189] (+0.000007718) sys_newfstat: { cpu_id = 0 }, { fd = 3, statbuf = 0x7FFF63F96160 }
+[11:21:02.582004838] (+0.000003649) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582012064] (+0.000007226) sys_mmap: { cpu_id = 0 }, { addr = 0x0, len = 3917016, prot = 5, flags = 2050, fd = 3, offset = 0 }
+[11:21:02.582017152] (+0.000005088) exit_syscall: { cpu_id = 0 }, { ret = 140077019729920 }
+[11:21:02.582020799] (+0.000003647) sys_mprotect: { cpu_id = 0 }, { start = 140077021511680, len = 2093056, prot = 0 }
+[11:21:02.582033708] (+0.000012909) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582034559] (+0.000000851) sys_mmap: { cpu_id = 0 }, { addr = 0x7F66393BB000, len = 24576, prot = 3, flags = 2066, fd = 3, offset = 1777664 }
+[11:21:02.582039331] (+0.000004772) exit_syscall: { cpu_id = 0 }, { ret = 140077023604736 }
+[11:21:02.582042635] (+0.000003304) sys_mmap: { cpu_id = 0 }, { addr = 0x7F66393C1000, len = 17624, prot = 3, flags = 50, fd = -1, offset = 0 }
+[11:21:02.582044516] (+0.000001881) exit_syscall: { cpu_id = 0 }, { ret = 140077023629312 }
+[11:21:02.582049057] (+0.000004541) sys_close: { cpu_id = 0 }, { fd = 3 }
+[11:21:02.582049526] (+0.000000469) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582063269] (+0.000013743) sys_mmap: { cpu_id = 0 }, { addr = 0x0, len = 4096, prot = 3, flags = 34, fd = -1, offset = 0 }
+[11:21:02.582065003] (+0.000001734) exit_syscall: { cpu_id = 0 }, { ret = 140077025796096 }
+[11:21:02.582067606] (+0.000002603) sys_mmap: { cpu_id = 0 }, { addr = 0x0, len = 4096, prot = 3, flags = 34, fd = -1, offset = 0 }
+[11:21:02.582068562] (+0.000000956) exit_syscall: { cpu_id = 0 }, { ret = 140077025792000 }
+[11:21:02.582070143] (+0.000001581) sys_mmap: { cpu_id = 0 }, { addr = 0x0, len = 4096, prot = 3, flags = 34, fd = -1, offset = 0 }
+[11:21:02.582070713] (+0.000000570) exit_syscall: { cpu_id = 0 }, { ret = 140077025787904 }
+[11:21:02.582072505] (+0.000001792) sys_unknown: { cpu_id = 0 }, { id = 158, args = [ [0] = 4098, [1] = 140077025793792, [2] = 140077025787904, [3] = 34, [4] = 4294967295, [5] = 0 ] }
+[11:21:02.582072953] (+0.000000448) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582137621] (+0.000064668) sys_mprotect: { cpu_id = 0 }, { start = 140077023604736, len = 16384, prot = 1 }
+[11:21:02.582140059] (+0.000002438) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582143152] (+0.000003093) sys_mprotect: { cpu_id = 0 }, { start = 6393856, len = 4096, prot = 1 }
+[11:21:02.582144401] (+0.000001249) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582146680] (+0.000002279) sys_mprotect: { cpu_id = 0 }, { start = 140077025886208, len = 4096, prot = 1 }
+[11:21:02.582148062] (+0.000001382) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582148733] (+0.000000671) sys_munmap: { cpu_id = 0 }, { addr = 0x7F66395D3000, len = 74462 }
+[11:21:02.582153641] (+0.000004908) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582244930] (+0.000091289) sys_getpid: { cpu_id = 0 }, { }
+[11:21:02.582245333] (+0.000000403) exit_syscall: { cpu_id = 0 }, { ret = 25172 }
+[11:21:02.582250862] (+0.000005529) sys_rt_sigaction: { cpu_id = 0 }, { sig = 17, act = 0x7FFF63F965D8, oact = 0x0, sigsetsize = 8 }
+[11:21:02.582251506] (+0.000000644) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582253734] (+0.000002228) sys_geteuid: { cpu_id = 0 }, { }
+[11:21:02.582253862] (+0.000000128) exit_syscall: { cpu_id = 0 }, { ret = 1000 }
+[11:21:02.582291451] (+0.000037589) sys_brk: { cpu_id = 0 }, { brk = 0 }
+[11:21:02.582291907] (+0.000000456) exit_syscall: { cpu_id = 0 }, { ret = 31260672 }
+[11:21:02.582294421] (+0.000002514) sys_brk: { cpu_id = 0 }, { brk = 31395840 }
+[11:21:02.582295799] (+0.000001378) exit_syscall: { cpu_id = 0 }, { ret = 31395840 }
+[11:21:02.582309771] (+0.000013972) sys_getppid: { cpu_id = 0 }, { }
+[11:21:02.582310212] (+0.000000441) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.582321228] (+0.000011016) sys_newstat: { cpu_id = 0 }, { filename = "/home/rui", statbuf = 0x7FFF63F967E0 }
+[11:21:02.582324128] (+0.000002900) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582324552] (+0.000000424) sys_newstat: { cpu_id = 0 }, { filename = ".", statbuf = 0x7FFF63F96870 }
+[11:21:02.582325141] (+0.000000589) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582336483] (+0.000011342) sys_open: { cpu_id = 0 }, { filename = "/usr/bin/firefox", flags = 0, mode = 47 }
+[11:21:02.582342253] (+0.000005770) exit_syscall: { cpu_id = 0 }, { ret = 3 }
+[11:21:02.582344908] (+0.000002655) sys_fcntl: { cpu_id = 0 }, { fd = 3, cmd = 0, arg = 10 }
+[11:21:02.582345654] (+0.000000746) exit_syscall: { cpu_id = 0 }, { ret = 10 }
+[11:21:02.582346329] (+0.000000675) sys_close: { cpu_id = 0 }, { fd = 3 }
+[11:21:02.582346609] (+0.000000280) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582346880] (+0.000000271) sys_fcntl: { cpu_id = 0 }, { fd = 10, cmd = 2, arg = 1 }
+[11:21:02.582347212] (+0.000000332) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582347880] (+0.000000668) sys_rt_sigaction: { cpu_id = 0 }, { sig = 2, act = 0x0, oact = 0x7FFF63F96768, sigsetsize = 8 }
+[11:21:02.582348243] (+0.000000363) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582348624] (+0.000000381) sys_rt_sigaction: { cpu_id = 0 }, { sig = 2, act = 0x7FFF63F966C8, oact = 0x0, sigsetsize = 8 }
+[11:21:02.582348880] (+0.000000256) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582349152] (+0.000000272) sys_rt_sigaction: { cpu_id = 0 }, { sig = 3, act = 0x0, oact = 0x7FFF63F96768, sigsetsize = 8 }
+[11:21:02.582349372] (+0.000000220) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582349636] (+0.000000264) sys_rt_sigaction: { cpu_id = 0 }, { sig = 3, act = 0x7FFF63F966C8, oact = 0x0, sigsetsize = 8 }
+[11:21:02.582349882] (+0.000000246) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582350124] (+0.000000242) sys_rt_sigaction: { cpu_id = 0 }, { sig = 15, act = 0x0, oact = 0x7FFF63F96778, sigsetsize = 8 }
+[11:21:02.582350412] (+0.000000288) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582350668] (+0.000000256) sys_rt_sigaction: { cpu_id = 0 }, { sig = 15, act = 0x7FFF63F966D8, oact = 0x0, sigsetsize = 8 }
+[11:21:02.582350906] (+0.000000238) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582353450] (+0.000002544) sys_read: { cpu_id = 0 }, { fd = 10, buf = 0x61AD60, count = 8192 }
+[11:21:02.582356970] (+0.000003520) exit_syscall: { cpu_id = 0 }, { ret = 2722 }
+[11:21:02.582384069] (+0.000027099) sys_pipe: { cpu_id = 0 }, { fildes = 0x7FFF63F96650 }
+[11:21:02.582387183] (+0.000003114) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582388831] (+0.000001648) sys_clone: { cpu_id = 0 }, { clone_flags = 0x1200011, newsp = 0x0, parent_tid = 0x0, child_tid = 0x7F66395D19D0 }
+[11:21:02.582394620] (+0.000005789) sched_stat_runtime: { cpu_id = 0 }, { comm = "firefox", tid = 25172, runtime = 870270, vruntime = 1287958981621 }
+[11:21:02.582395220] (+0.000000600) sched_migrate_task: { cpu_id = 0 }, { comm = "firefox", tid = 25172, prio = 20, orig_cpu = 0, dest_cpu = 0 }
+[11:21:02.582415596] (+0.000020376) sched_process_fork: { cpu_id = 0 }, { parent_comm = "firefox", parent_tid = 25172, child_comm = "firefox", child_tid = 25174 }
+[11:21:02.582416262] (+0.000000666) sched_migrate_task: { cpu_id = 0 }, { comm = "firefox", tid = 25174, prio = 20, orig_cpu = 0, dest_cpu = 0 }
+[11:21:02.582416814] (+0.000000552) sched_stat_runtime: { cpu_id = 0 }, { comm = "firefox", tid = 25172, runtime = 22240, vruntime = 1287959003861 }
+[11:21:02.582417543] (+0.000000729) sched_wakeup_new: { cpu_id = 0 }, { comm = "firefox", tid = 25174, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.582418103] (+0.000000560) exit_syscall: { cpu_id = 0 }, { ret = 25174 }
+[11:21:02.582432082] (+0.000013979) sys_close: { cpu_id = 0 }, { fd = 4 }
+[11:21:02.582432587] (+0.000000505) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582435592] (+0.000003005) sys_read: { cpu_id = 0 }, { fd = 3, buf = 0x7FFF63F966F0, count = 128 }
+[11:21:02.582437249] (+0.000001657) sched_stat_runtime: { cpu_id = 0 }, { comm = "firefox", tid = 25172, runtime = 20286, vruntime = 1287959024147 }
+[11:21:02.582438698] (+0.000001449) sched_stat_wait: { cpu_id = 0 }, { comm = "unity-2d-shell", tid = 25173, delay = 8410106 }
+[11:21:02.582439099] (+0.000000401) sched_switch: { cpu_id = 0 }, { prev_comm = "firefox", prev_tid = 25172, prev_prio = 20, prev_state = 1, next_comm = "unity-2d-shell", next_tid = 25173, next_prio = 20 }
+[11:21:02.582440202] (+0.000001103) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582441738] (+0.000001536) sys_set_robust_list: { cpu_id = 0 }, { head = 0x7F83DACDF9E0, len = 24 }
+[11:21:02.582441989] (+0.000000251) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582443674] (+0.000001685) sys_prctl: { cpu_id = 0 }, { option = 15, arg2 = 44792464, arg3 = 0, arg4 = 0, arg5 = 0 }
+[11:21:02.582446377] (+0.000002703) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582462074] (+0.000015697) sys_write: { cpu_id = 0 }, { fd = 6, buf = 0x7F83DACDE6D8, count = 8 }
+[11:21:02.582464014] (+0.000001940) sched_stat_runtime: { cpu_id = 0 }, { comm = "pool", tid = 25173, runtime = 26727, vruntime = 1287959638078 }
+[11:21:02.582464600] (+0.000000586) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 4447509 }
+[11:21:02.582465025] (+0.000000425) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.582466404] (+0.000001379) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 0 }
+[11:21:02.582466760] (+0.000000356) sched_switch: { cpu_id = 0 }, { prev_comm = "pool", prev_tid = 25173, prev_prio = 20, prev_state = 0, next_comm = "gdbus", next_tid = 1616, next_prio = 20 }
+[11:21:02.582468412] (+0.000001652) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.582470557] (+0.000002145) sys_futex: { cpu_id = 0 }, { uaddr = 0x7F83EC0101C0, op = 128, val = 2, utime = 0x0, uaddr2 = 0x7F83EC0101C0, val3 = 1616 }
+[11:21:02.582472503] (+0.000001946) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, runtime = 8521, vruntime = 1287956646599 }
+[11:21:02.582473048] (+0.000000545) sched_stat_wait: { cpu_id = 0 }, { comm = "pool", tid = 25173, delay = 8521 }
+[11:21:02.582473280] (+0.000000232) sched_switch: { cpu_id = 0 }, { prev_comm = "gdbus", prev_tid = 1616, prev_prio = 20, prev_state = 1, next_comm = "pool", next_tid = 25173, next_prio = 20 }
+[11:21:02.582473883] (+0.000000603) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.582474269] (+0.000000386) sys_futex: { cpu_id = 0 }, { uaddr = 0x7F83EC0101C0, op = 129, val = 1, utime = 0x1, uaddr2 = 0x7F83EC0101C0, val3 = 25173 }
+[11:21:02.582475099] (+0.000000830) sched_stat_runtime: { cpu_id = 0 }, { comm = "pool", tid = 25173, runtime = 2609, vruntime = 1287959640687 }
+[11:21:02.582475365] (+0.000000266) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 2609 }
+[11:21:02.582475584] (+0.000000219) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.582476220] (+0.000000636) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 0 }
+[11:21:02.582476444] (+0.000000224) sched_switch: { cpu_id = 0 }, { prev_comm = "pool", prev_tid = 25173, prev_prio = 20, prev_state = 0, next_comm = "gdbus", next_tid = 1616, next_prio = 20 }
+[11:21:02.582477032] (+0.000000588) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582477461] (+0.000000429) sys_read: { cpu_id = 0 }, { fd = 6, buf = 0x7F83F343A740, count = 16 }
+[11:21:02.582478005] (+0.000000544) exit_syscall: { cpu_id = 0 }, { ret = 8 }
+[11:21:02.582478415] (+0.000000410) sys_futex: { cpu_id = 0 }, { uaddr = 0x7F83EC0101C0, op = 129, val = 1, utime = 0x129F3F0, uaddr2 = 0x7F83EC0101C0, val3 = 1616 }
+[11:21:02.582478769] (+0.000000354) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582480796] (+0.000002027) sys_futex: { cpu_id = 0 }, { uaddr = 0x7F83EC011D40, op = 128, val = 2, utime = 0x0, uaddr2 = 0x7F83EC011D40, val3 = 1616 }
+[11:21:02.582481443] (+0.000000647) sched_stat_runtime: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, runtime = 6353, vruntime = 1287956652952 }
+[11:21:02.582481865] (+0.000000422) sched_stat_wait: { cpu_id = 0 }, { comm = "pool", tid = 25173, delay = 6353 }
+[11:21:02.582482073] (+0.000000208) sched_switch: { cpu_id = 0 }, { prev_comm = "gdbus", prev_tid = 1616, prev_prio = 20, prev_state = 1, next_comm = "pool", next_tid = 25173, next_prio = 20 }
+[11:21:02.582482622] (+0.000000549) exit_syscall: { cpu_id = 0 }, { ret = 1 }
+[11:21:02.582483121] (+0.000000499) sys_futex: { cpu_id = 0 }, { uaddr = 0x7F83EC011D40, op = 129, val = 1, utime = 0x1, uaddr2 = 0x7F83EC0101C0, val3 = 25173 }
+[11:21:02.582483622] (+0.000000501) sched_stat_runtime: { cpu_id = 0 }, { comm = "pool", tid = 25173, runtime = 2204, vruntime = 1287959642891 }
+[11:21:02.582483886] (+0.000000264) sched_stat_sleep: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 2204 }
+[11:21:02.582484083] (+0.000000197) sched_wakeup: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, prio = 120, success = 1, target_cpu = 0 }
+[11:21:02.582484652] (+0.000000569) sched_stat_wait: { cpu_id = 0 }, { comm = "gdbus", tid = 1616, delay = 0 }
+[11:21:02.582484821] (+0.000000169) sched_switch: { cpu_id = 0 }, { prev_comm = "pool", prev_tid = 25173, prev_prio = 20, prev_state = 0, next_comm = "gdbus", next_tid = 1616, next_prio = 20 }
+[11:21:02.582485368] (+0.000000547) exit_syscall: { cpu_id = 0 }, { ret = 0 }
+[11:21:02.582486498] (+0.000001130) sys_futex: { cpu_id = 0 }, { uaddr = 0x7F83EC011D40, op = 129, val = 1, utime = 0x129F3F0, uaddr2 = 0x10, val3 = 1616 }

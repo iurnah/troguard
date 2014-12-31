@@ -1,0 +1,25 @@
+digraph G{
+
+sys_rmdir->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->content
+sys_rmdir->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->locale->enUS
+sys_rmdir->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->skin->classic
+sys_rmdir->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->defaults->preferences
+sys_rmdir->home->rui->mozilla->firefox->u1qjreeldefault->extensions->trash
+sys_statfs->home->rui->mozilla->firefox->u1qjreeldefault->cookiessqlite
+sys_statfs->home->rui->mozilla->firefox->u1qjreeldefault->placessqlite
+sys_statfs->home->rui->mozilla->firefox->u1qjreeldefault->urlclassifier3sqlite
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->Cache->1->14
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->cookiessqliteshm
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->cookiessqlitewal
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->downloadssqlitejournal
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}json
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->lock
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->permissionssqlitejournal
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->placessqliteshm
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->placessqlitewal
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->sessionstorebak
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->startupCache->startupCache8little
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->urlclassifier3sqlitejournal
+sys_unlink->home->rui->mozilla->firefox->u1qjreeldefault->webappsstoresqlitejournal
+
+}

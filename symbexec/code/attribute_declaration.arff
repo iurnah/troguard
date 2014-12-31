@@ -1,0 +1,17 @@
+@attribute File_access_class_count
+@attribute Memory_class_count
+@attribute Network_class_count
+@attribute Process_control_class_count
+@attribute R(-/..)
+@attribute R(./..)
+@attribute R(etc/..)
+@attribute R(lib/..)
+@attribute R(proc/..)
+@attribute R(usr/..)
+@attribute R(var/..)
+@attribute Total_read
+@attribute Total_recieve
+@attribute Total_sent
+@attribute Total_write
+@attribute UNIX
+@attribute W(/..)

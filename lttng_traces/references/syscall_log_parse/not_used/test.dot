@@ -1,0 +1,21 @@
+digraph G {
+	size="8,6"; ratio=fill; node[fontsize=24];
+
+	b -> f;
+	d -> e;
+	c -> g;
+	c -> e;
+	d -> h;
+	
+	subgraph cluster0 {
+		q;
+		a -> b;
+		a -> c;
+		b -> d;
+		c -> d;
+	}
+	subgraph cluster1 {
+		e -> g;
+		e -> f;
+	}
+}

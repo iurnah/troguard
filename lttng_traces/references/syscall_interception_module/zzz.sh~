@@ -1,0 +1,3 @@
+geany /var/log/syslog newcall.c  & 
+make -C /usr/src/linux-headers-`uname -r`/build SUBDIRS=$PWD modules;
+# "insmod newcall.ko"      "rmmod newcall.ko"

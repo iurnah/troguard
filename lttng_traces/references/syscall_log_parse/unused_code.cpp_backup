@@ -1,0 +1,68 @@
+
+// reachability_analysis does a taint tracking, via reachability, analysis on the graph from a INET socket to a suspicious edge!
+void reachability_analysis2(vector <node *> &graph, pair <edge *, int> detection_point, node *s_node = NULL /*source node*/){
+	
+	if (!s_node){ // initial call!
+		
+		for (int i=0; i<graph.size(); i++){
+			
+			graph[i]->reachability_status = 0;
+			graph[i]->time_last_tainted = 0;
+			
+			for (int j=0; j<graph[i]->children.size(); j++)
+				sort(graph[i]->children[j]->times.begin(), graph[i]->children[i]->times.end(), TimesSortPredicate);
+		}
+		
+		for (int i=0; i<graph.size(); i++)
+			if (graph[i]->type == SOCK_AF_INET)
+				reachability_analysis(graph, detection_point, graph[i]);
+		return; // for initial call, return value is meaningless!
+	}
+	
+	
+	s_node->reachability_status = 1;
+	int reachability_status = 3;// 0:initial 1:being_traversed 2:there_is_path 3:no_path
+	unsigned long time_last_tainted = s_node->time_last_tainted;
+	
+	
+	for (int i=0; i<s_node->children.size(); i++){
+		
+		if (s_node->type == PROCESS  &&  
+		(s_node->children[i] == detection_point.first/*writing process*/  ||  s_node == detection_point.first->dest_node/*reading process*/)
+			){ 
+			
+			s_node->reachability_status = 2;
+			s_node->time_last_tainted = detection_point.first->times[detection_point.second];
+			return;
+		}
+		
+		// if the node has its initial value, go and figure out its actual status (2 or 3?) first!
+		if (s_node->children[i]->dest_node->reachability_status == 0){ 
+
+			reachability_analysis(graph, detection_point, s_node->children[i]->dest_node);
+		}
+		
+		// if it just got figured out, this if does not count; otherwise, it may stop further analysis.
+		if (s_node->children[i]->dest_node->reachability_status == 1/*loop*/ || s_node->children[i]->dest_node->reachability_status == 3/*no_path*/){
+
+			continue;
+		}
+		
+		// if the neighbor has a path, compare and update if its time_tag is later.
+		if (s_node->children[i]->dest_node->reachability_status == 2){
+			
+			for (int j=s_node->children[i]->times.size()-1; 0 <= j; j--){
+				if (s_node->children[i]->times[j] < s_node->children[i]->dest_node->time_last_tainted){
+					reachability_status = 2;
+					if (time_last_tainted < s_node->children[i]->times[j])
+						time_last_tainted = s_node->children[i]->times[j];
+					break;
+				}
+			}			
+		}
+		
+	}
+	s_node->reachability_status = reachability_status;
+	s_node->time_last_tainted = time_last_tainted;
+	return;
+}

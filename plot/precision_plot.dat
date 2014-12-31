@@ -1,0 +1,6 @@
+attributes Browser Office IM Game IDE Media-Player Graphic-Editor Video-Editor Audio-Editor Calculator Average
+File 0.573 0.397 0.333 0.472 0.542 0.268 0.324 0.395 0.407 0.429 0.414     
+Network 0.873 0.303 0.969 0.296 0.5 0.3 0.283 0.213 0.294 0.214 0.425
+CPU-Mem 0.841 0.6 0.603 0.595 0.608 0.424 0.528 0.575 0.385 0.774 0.593    
+Interaction  0.818 0.611 0.109 0.758 0.113 0.119 0.115 0.01 0.122 0.01 0.277  
+All 0.891 0.936 0.757 0.774 0.686 0.511 0.507 0.673 0.569 0.773 0.708  

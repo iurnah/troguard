@@ -1,0 +1,1157 @@
+=== Run information ===
+
+Scheme:weka.classifiers.meta.nestedDichotomies.DataNearBalancedND -S 1 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95
+Instances:    600
+Attributes:   9
+              class
+              CPU_usage_Mean
+              CPU_usage_Stdev
+              CPU_usage_Virance
+              Memory_class_count
+              MEM_usage_Mean
+              MEM_usage_Stdev
+              MEM_usage_Virance
+              Process_control_class_count
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+DataNearBalancedND
+
+Node number: 1
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1,3,5,8,10 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1,3,5,8,10-N'
+
+@attribute class {neg_1_3_5_8_10,pos_1_3_5_8_10}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Process_control_class_count <= 8690
+|   CPU_usage_Mean <= 6.9
+|   |   MEM_usage_Mean <= 0.925
+|   |   |   Process_control_class_count <= 14: pos_1_3_5_8_10 (5.0)
+|   |   |   Process_control_class_count > 14: neg_1_3_5_8_10 (18.0)
+|   |   MEM_usage_Mean > 0.925
+|   |   |   CPU_usage_Mean <= 2.4
+|   |   |   |   Process_control_class_count <= 116: neg_1_3_5_8_10 (3.0)
+|   |   |   |   Process_control_class_count > 116: pos_1_3_5_8_10 (49.0/1.0)
+|   |   |   CPU_usage_Mean > 2.4
+|   |   |   |   MEM_usage_Mean <= 2.222: pos_1_3_5_8_10 (17.0)
+|   |   |   |   MEM_usage_Mean > 2.222
+|   |   |   |   |   MEM_usage_Mean <= 20.7394: neg_1_3_5_8_10 (9.0)
+|   |   |   |   |   MEM_usage_Mean > 20.7394: pos_1_3_5_8_10 (122.0/48.0)
+|   CPU_usage_Mean > 6.9
+|   |   MEM_usage_Mean <= 242.408: neg_1_3_5_8_10 (247.0/53.0)
+|   |   MEM_usage_Mean > 242.408
+|   |   |   MEM_usage_Mean <= 570.415
+|   |   |   |   MEM_usage_Mean <= 477.671
+|   |   |   |   |   CPU_usage_Mean <= 14: pos_1_3_5_8_10 (12.0)
+|   |   |   |   |   CPU_usage_Mean > 14
+|   |   |   |   |   |   MEM_usage_Stdev <= 0.346093: neg_1_3_5_8_10 (5.0)
+|   |   |   |   |   |   MEM_usage_Stdev > 0.346093
+|   |   |   |   |   |   |   CPU_usage_Mean <= 21.2: pos_1_3_5_8_10 (7.0)
+|   |   |   |   |   |   |   CPU_usage_Mean > 21.2
+|   |   |   |   |   |   |   |   MEM_usage_Mean <= 308.243: neg_1_3_5_8_10 (2.0)
+|   |   |   |   |   |   |   |   MEM_usage_Mean > 308.243: pos_1_3_5_8_10 (2.0)
+|   |   |   |   MEM_usage_Mean > 477.671
+|   |   |   |   |   Process_control_class_count <= 3073: neg_1_3_5_8_10 (11.0)
+|   |   |   |   |   Process_control_class_count > 3073
+|   |   |   |   |   |   CPU_usage_Mean <= 16.4: pos_1_3_5_8_10 (3.0)
+|   |   |   |   |   |   CPU_usage_Mean > 16.4: neg_1_3_5_8_10 (3.0)
+|   |   |   MEM_usage_Mean > 570.415: pos_1_3_5_8_10 (11.0)
+Process_control_class_count > 8690
+|   MEM_usage_Mean <= 165.545
+|   |   CPU_usage_Mean <= 110.6
+|   |   |   MEM_usage_Mean <= 109.861
+|   |   |   |   Memory_class_count <= 1: neg_1_3_5_8_10 (2.0)
+|   |   |   |   Memory_class_count > 1: pos_1_3_5_8_10 (4.0/1.0)
+|   |   |   MEM_usage_Mean > 109.861: pos_1_3_5_8_10 (11.0)
+|   |   CPU_usage_Mean > 110.6: neg_1_3_5_8_10 (3.0)
+|   MEM_usage_Mean > 165.545: pos_1_3_5_8_10 (54.0)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	43
+
+
+Node number: 2
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1,5,10 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,3,5,8,10-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1,5,10-N'
+
+@attribute class {neg_1_5_10,pos_1_5_10}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Process_control_class_count <= 15382
+|   MEM_usage_Mean <= 37.967
+|   |   MEM_usage_Mean <= 0.16: neg_1_5_10 (5.0)
+|   |   MEM_usage_Mean > 0.16: pos_1_5_10 (56.0/1.0)
+|   MEM_usage_Mean > 37.967
+|   |   MEM_usage_Mean <= 460.853
+|   |   |   CPU_usage_Stdev <= 11.0476: neg_1_5_10 (126.0/32.0)
+|   |   |   CPU_usage_Stdev > 11.0476
+|   |   |   |   Process_control_class_count <= 2305: neg_1_5_10 (10.0/1.0)
+|   |   |   |   Process_control_class_count > 2305
+|   |   |   |   |   MEM_usage_Mean <= 61.9092: neg_1_5_10 (3.0)
+|   |   |   |   |   MEM_usage_Mean > 61.9092: pos_1_5_10 (24.0/1.0)
+|   |   MEM_usage_Mean > 460.853
+|   |   |   CPU_usage_Mean <= 13.6
+|   |   |   |   MEM_usage_Mean <= 715.349: pos_1_5_10 (15.0/1.0)
+|   |   |   |   MEM_usage_Mean > 715.349: neg_1_5_10 (5.0)
+|   |   |   CPU_usage_Mean > 13.6: pos_1_5_10 (17.0)
+Process_control_class_count > 15382: pos_1_5_10 (39.0/1.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+
+
+Node number: 3
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1,10 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,3,5,8,10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,5,10-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1,10-N'
+
+@attribute class {neg_1_10,pos_1_10}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Process_control_class_count <= 8010
+|   MEM_usage_Mean <= 64.9627
+|   |   CPU_usage_Stdev <= 1.96214: pos_1_10 (46.0/1.0)
+|   |   CPU_usage_Stdev > 1.96214
+|   |   |   MEM_usage_Mean <= 28.0909
+|   |   |   |   MEM_usage_Mean <= 11.8835: pos_1_10 (4.0)
+|   |   |   |   MEM_usage_Mean > 11.8835: neg_1_10 (5.0)
+|   |   |   MEM_usage_Mean > 28.0909: pos_1_10 (6.0)
+|   MEM_usage_Mean > 64.9627: neg_1_10 (63.0/10.0)
+Process_control_class_count > 8010: pos_1_10 (56.0/1.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Node number: 4
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,3,5,8,10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,5,10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,10-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1-N'
+
+@attribute class {neg_browser,pos_browser}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+CPU_usage_Mean <= 7.6
+|   MEM_usage_Mean <= 104.348: neg_browser (58.0)
+|   MEM_usage_Mean > 104.348
+|   |   CPU_usage_Mean <= 3.1: neg_browser (2.0)
+|   |   CPU_usage_Mean > 3.1: pos_browser (2.0)
+CPU_usage_Mean > 7.6: pos_browser (58.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	7
+
+
+Node number: 5
+
+null
+
+Node number: 6
+
+null
+
+Node number: 7
+
+null
+
+Node number: 8
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 3 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1,3,5,8,10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3,8-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V3-N'
+
+@attribute class {neg_im,pos_im}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+MEM_usage_Mean <= 51.661: neg_im (18.0/1.0)
+MEM_usage_Mean > 51.661
+|   MEM_usage_Mean <= 92.7772
+|   |   MEM_usage_Virance <= 75.1291: pos_im (33.0)
+|   |   MEM_usage_Virance > 75.1291
+|   |   |   Memory_class_count <= 117: neg_im (2.0)
+|   |   |   Memory_class_count > 117: pos_im (4.0)
+|   MEM_usage_Mean > 92.7772
+|   |   MEM_usage_Mean <= 338.206
+|   |   |   CPU_usage_Mean <= 6.5
+|   |   |   |   CPU_usage_Stdev <= 1.9105: neg_im (9.0)
+|   |   |   |   CPU_usage_Stdev > 1.9105
+|   |   |   |   |   CPU_usage_Mean <= 4.5: pos_im (5.0)
+|   |   |   |   |   CPU_usage_Mean > 4.5: neg_im (3.0/1.0)
+|   |   |   CPU_usage_Mean > 6.5: neg_im (29.0)
+|   |   MEM_usage_Mean > 338.206: pos_im (17.0/1.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	17
+
+
+Node number: 9
+
+null
+
+Node number: 10
+
+null
+
+Node number: 11
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 2,6,9 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,4,6-7,9-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V2,6,9-N'
+
+@attribute class {neg_2_6_9,pos_2_6_9}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+MEM_usage_Mean <= 0.925: pos_2_6_9 (18.0)
+MEM_usage_Mean > 0.925
+|   CPU_usage_Stdev <= 0.87178: neg_2_6_9 (16.0/1.0)
+|   CPU_usage_Stdev > 0.87178
+|   |   MEM_usage_Mean <= 51.8202
+|   |   |   Process_control_class_count <= 5372
+|   |   |   |   CPU_usage_Mean <= 13.7: pos_2_6_9 (37.0/10.0)
+|   |   |   |   CPU_usage_Mean > 13.7: neg_2_6_9 (15.0/2.0)
+|   |   |   Process_control_class_count > 5372: neg_2_6_9 (17.0)
+|   |   MEM_usage_Mean > 51.8202
+|   |   |   MEM_usage_Mean <= 225.963
+|   |   |   |   MEM_usage_Mean <= 162.508
+|   |   |   |   |   Process_control_class_count <= 552: neg_2_6_9 (8.0/1.0)
+|   |   |   |   |   Process_control_class_count > 552
+|   |   |   |   |   |   CPU_usage_Mean <= 35.1
+|   |   |   |   |   |   |   MEM_usage_Mean <= 121.824
+|   |   |   |   |   |   |   |   CPU_usage_Mean <= 9.7
+|   |   |   |   |   |   |   |   |   MEM_usage_Virance <= 0.183425: pos_2_6_9 (12.0)
+|   |   |   |   |   |   |   |   |   MEM_usage_Virance > 0.183425
+|   |   |   |   |   |   |   |   |   |   Memory_class_count <= 250: neg_2_6_9 (4.0)
+|   |   |   |   |   |   |   |   |   |   Memory_class_count > 250: pos_2_6_9 (3.0)
+|   |   |   |   |   |   |   |   CPU_usage_Mean > 9.7: pos_2_6_9 (31.0)
+|   |   |   |   |   |   |   MEM_usage_Mean > 121.824
+|   |   |   |   |   |   |   |   Process_control_class_count <= 2738
+|   |   |   |   |   |   |   |   |   Memory_class_count <= 341
+|   |   |   |   |   |   |   |   |   |   CPU_usage_Mean <= 9.90909
+|   |   |   |   |   |   |   |   |   |   |   Memory_class_count <= 5: neg_2_6_9 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Memory_class_count > 5: pos_2_6_9 (4.0)
+|   |   |   |   |   |   |   |   |   |   CPU_usage_Mean > 9.90909: pos_2_6_9 (19.0)
+|   |   |   |   |   |   |   |   |   Memory_class_count > 341: neg_2_6_9 (2.0)
+|   |   |   |   |   |   |   |   Process_control_class_count > 2738: neg_2_6_9 (11.0/1.0)
+|   |   |   |   |   |   CPU_usage_Mean > 35.1
+|   |   |   |   |   |   |   CPU_usage_Stdev <= 51.4514
+|   |   |   |   |   |   |   |   Process_control_class_count <= 6139: neg_2_6_9 (13.0/1.0)
+|   |   |   |   |   |   |   |   Process_control_class_count > 6139: pos_2_6_9 (2.0)
+|   |   |   |   |   |   |   CPU_usage_Stdev > 51.4514: pos_2_6_9 (3.0)
+|   |   |   |   MEM_usage_Mean > 162.508
+|   |   |   |   |   Process_control_class_count <= 4683: pos_2_6_9 (38.0)
+|   |   |   |   |   Process_control_class_count > 4683
+|   |   |   |   |   |   CPU_usage_Mean <= 17.2: neg_2_6_9 (2.0)
+|   |   |   |   |   |   CPU_usage_Mean > 17.2: pos_2_6_9 (2.0)
+|   |   |   MEM_usage_Mean > 225.963
+|   |   |   |   Process_control_class_count <= 1949: neg_2_6_9 (16.0/1.0)
+|   |   |   |   Process_control_class_count > 1949
+|   |   |   |   |   MEM_usage_Mean <= 276.266
+|   |   |   |   |   |   Process_control_class_count <= 2483: pos_2_6_9 (2.0)
+|   |   |   |   |   |   Process_control_class_count > 2483: neg_2_6_9 (8.0/1.0)
+|   |   |   |   |   MEM_usage_Mean > 276.266
+|   |   |   |   |   |   CPU_usage_Mean <= 11.4: neg_2_6_9 (2.0)
+|   |   |   |   |   |   CPU_usage_Mean > 11.4: pos_2_6_9 (10.0)
+
+Number of Leaves  : 	26
+
+Size of the tree : 	51
+
+
+Node number: 12
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 2,9 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,4,6-7,9-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,6,9-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V2,9-N'
+
+@attribute class {neg_2_9,pos_2_9}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+MEM_usage_Mean <= 236.504: pos_2_9 (169.0/49.0)
+MEM_usage_Mean > 236.504: neg_2_9 (11.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Node number: 13
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 2 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,4,6-7,9-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,6,9-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,9-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V2-N'
+
+@attribute class {neg_office,pos_office}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+MEM_usage_Mean <= 45.134: pos_office (41.0/4.0)
+MEM_usage_Mean > 45.134
+|   Process_control_class_count <= 2738
+|   |   MEM_usage_Mean <= 215.38: neg_office (34.0/1.0)
+|   |   MEM_usage_Mean > 215.38
+|   |   |   MEM_usage_Mean <= 225.963: pos_office (3.0)
+|   |   |   MEM_usage_Mean > 225.963: neg_office (3.0)
+|   Process_control_class_count > 2738
+|   |   Process_control_class_count <= 4680
+|   |   |   CPU_usage_Mean <= 4.4: neg_office (2.0)
+|   |   |   CPU_usage_Mean > 4.4
+|   |   |   |   Memory_class_count <= 4
+|   |   |   |   |   MEM_usage_Mean <= 150.028: neg_office (2.0)
+|   |   |   |   |   MEM_usage_Mean > 150.028: pos_office (4.0)
+|   |   |   |   Memory_class_count > 4: pos_office (13.0)
+|   |   Process_control_class_count > 4680
+|   |   |   CPU_usage_Mean <= 9.09091
+|   |   |   |   CPU_usage_Mean <= 8.3: neg_office (2.0)
+|   |   |   |   CPU_usage_Mean > 8.3: pos_office (2.0)
+|   |   |   CPU_usage_Mean > 9.09091: neg_office (14.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Node number: 14
+
+null
+
+Node number: 15
+
+null
+
+Node number: 16
+
+null
+
+Node number: 17
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 4 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.Remove-R5-26,31-53,55-95-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L2,4,6-7,9-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L4,7-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V4-N'
+
+@attribute class {neg_game,pos_game}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Process_control_class_count numeric
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+CPU_usage_Mean <= 26.1
+|   MEM_usage_Mean <= 48.972
+|   |   CPU_usage_Stdev <= 8.27043
+|   |   |   CPU_usage_Stdev <= 3.51568: pos_game (28.0/1.0)
+|   |   |   CPU_usage_Stdev > 3.51568: neg_game (9.0)
+|   |   CPU_usage_Stdev > 8.27043: pos_game (11.0)
+|   MEM_usage_Mean > 48.972
+|   |   MEM_usage_Mean <= 506.235: neg_game (49.0)
+|   |   MEM_usage_Mean > 506.235: pos_game (6.0)
+CPU_usage_Mean > 26.1: pos_game (17.0/1.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Node number: 18
+
+null
+
+Node number: 19
+
+null
+
+Time taken to build model: 0.03 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error, probability distribution
+     1   2:office   2:office          0     *0.914  0      0      0      0.086  0      0      0      0    
+     2   2:office   2:office          0     *0.914  0      0      0      0.086  0      0      0      0    
+     3   2:office  8:veditor      +   0.005  0.214  0      0.276  0      0.02   0     *0.421  0      0.063
+     4   2:office    7:graph      +   0      0.235  0      0      0.344  0     *0.412  0.009  0      0    
+     5   2:office 10:calcula      +   0      0.04   0      0.021  0.023  0.004  0      0      0     *0.911
+     6   2:office 10:calcula      +   0      0.04   0      0.021  0.023  0.004  0      0      0     *0.911
+     7  8:veditor  8:veditor          0      0      0      0      0      0      0     *1      0      0    
+     8  8:veditor       3:im      +   0.005  0     *0.346  0      0      0.235  0.028  0.047  0.276  0.063
+     9  8:veditor    7:graph      +   0.005  0      0      0      0      0.235 *0.374  0.047  0.276  0.063
+    10  8:veditor     4:game      +   0.015  0.055  0     *0.775  0      0.005  0.096  0.012  0      0.042
+    11  8:veditor      5:ide      +   0      0.016  0.247  0     *0.344  0.219  0.02   0.154  0      0    
+    12  8:veditor    7:graph      +   0.001  0.213  0      0      0.291  0.021 *0.412  0.009  0.052  0    
+    13    7:graph       3:im      +   0.007  0.016 *0.381  0      0      0.219  0.031  0.009  0.338  0    
+    14    7:graph  8:veditor      +   0.005  0.236  0      0.268  0.004  0.022  0     *0.464  0      0    
+    15    7:graph    7:graph          0.006  0.009  0      0      0.006  0.225 *0.412  0.009  0.332  0    
+    16    7:graph    7:graph          0      0.009  0      0      0.344  0.225 *0.421  0      0      0    
+    17    7:graph   2:office      +   0.005 *0.66   0      0.268  0      0.062  0      0      0      0.004
+    18    7:graph    7:graph          0.006  0.213  0      0      0.017  0.021 *0.421  0      0.321  0    
+    19 10:calcula 10:calcula          0      0.014  0      0      0.023  0.001  0      0.028  0.021 *0.911
+    20 10:calcula 10:calcula          0      0.04   0      0      0.023  0.004  0      0      0.021 *0.911
+    21 10:calcula 10:calcula          0      0.04   0      0.021  0.023  0.004  0      0      0     *0.911
+    22 10:calcula 10:calcula          0      0.04   0      0.021  0.023  0.004  0      0      0     *0.911
+    23 10:calcula 10:calcula          0      0.014  0      0      0.024  0.001  0      0.028  0     *0.932
+    24 10:calcula 10:calcula          0      0.04   0      0      0.024  0.004  0      0      0     *0.932
+    25      5:ide     4:game      +   0.007  0.016  0     *0.338  0      0.219  0.267  0.154  0      0    
+    26      5:ide       3:im      +   0.001  0.213 *0.375  0      0.291  0.021  0.037  0.009  0.052  0    
+    27      5:ide       3:im      +   0      0.016 *0.372  0      0.344  0.219  0.03   0.019  0      0    
+    28      5:ide    7:graph      +   0.001  0.213  0      0      0.291  0.021 *0.412  0.009  0.052  0    
+    29      5:ide       3:im      +   0      0.016 *0.372  0      0.344  0.219  0.03   0.019  0      0    
+    30      5:ide  8:veditor      +   0      0.016  0.023  0      0      0.219  0.002 *0.396  0.285  0.059
+    31   6:player    7:graph      +   0.005  0.009  0      0      0.059  0.225 *0.412  0.009  0.28   0    
+    32   6:player  8:veditor      +   0.005  0.009  0      0      0.059  0.225  0.025 *0.396  0.28   0    
+    33   6:player    7:graph      +   0.005  0.009  0      0      0.059  0.225 *0.412  0.009  0.28   0    
+    34   6:player       3:im      +   0.006  0.009 *0.375  0      0      0.225  0.037  0.009  0.332  0.005
+    35   6:player    7:graph      +   0      0.236  0      0      0      0.022 *0.412  0.052  0      0.278
+    36   6:player 10:calcula      +   0      0.014  0      0      0      0.001  0      0.028  0     *0.956
+    37  9:aeditor     4:game      +   0.015  0.014  0.023 *0.767  0      0.001  0.002  0.003  0      0.174
+    38  9:aeditor  8:veditor      +   0.005  0.016  0.023  0      0      0.219  0.002 *0.396  0.28   0.059
+    39  9:aeditor    7:graph      +   0.006  0.213  0      0      0.017  0.021 *0.412  0.009  0.321  0    
+    40  9:aeditor    7:graph      +   0.006  0.235  0      0      0.006  0     *0.412  0.009  0.332  0    
+    41  9:aeditor  1:browser      +  *0.818  0.008  0      0      0.013  0.053  0.106  0.002  0      0    
+    42  9:aeditor    7:graph      +   0.006  0.009  0      0      0.006  0.225 *0.412  0.009  0.332  0    
+    43  1:browser  1:browser         *0.752  0.008  0.103  0      0.079  0.053  0      0.005  0      0    
+    44  1:browser  1:browser         *0.752  0.008  0      0      0.079  0.053  0.106  0.002  0      0    
+    45  1:browser  1:browser         *0.752  0.008  0      0      0.079  0.053  0      0.108  0      0    
+    46  1:browser  1:browser         *0.818  0.008  0.069  0      0.013  0.053  0      0.04   0      0    
+    47  1:browser    7:graph      +   0.339  0.029  0      0      0.006  0.205 *0.412  0.009  0      0    
+    48  1:browser  1:browser         *0.818  0.008  0.103  0      0.013  0.053  0      0.005  0      0    
+    49     4:game     4:game          0.016  0.002  0     *0.803  0.013  0.058  0.006  0.102  0      0    
+    50     4:game  8:veditor      +   0.007  0.016  0      0.338  0      0.219  0     *0.421  0      0    
+    51     4:game 10:calcula      +   0      0.014  0      0.021  0.023  0.001  0      0.028  0     *0.911
+    52     4:game    7:graph      +   0.005  0.236  0      0.272  0      0.022 *0.412  0.052  0      0    
+    53     4:game       3:im      +   0.007  0.016 *0.402  0.338  0      0.219  0      0.019  0      0    
+    54     4:game       3:im      +   0.007  0.016 *0.402  0.338  0      0.219  0      0.019  0      0    
+    55       3:im       3:im          0.001  0.016 *0.381  0      0      0.219  0.031  0.009  0.052  0.291
+    56       3:im       3:im          0.001  0     *0.381  0      0.007  0.235  0.031  0.009  0.052  0.284
+    57       3:im       3:im          0.339  0.029 *0.402  0      0.006  0.205  0      0.019  0      0    
+    58       3:im  8:veditor      +   0.006  0.213  0      0      0.017  0.021  0     *0.421  0.321  0    
+    59       3:im       3:im          0.007  0.016 *0.381  0      0      0.219  0.031  0.009  0.338  0    
+    60       3:im       3:im          0.001  0.016 *0.381  0      0      0.219  0.031  0.009  0.052  0.291
+     1   2:office   6:player      +   0      0.075  0      0.061  0.243 *0.327  0.23   0.004  0.061  0    
+     2   2:office   2:office          0     *0.472  0      0.405  0      0.02   0.014  0      0.089  0    
+     3   2:office   2:office          0     *0.538  0      0.462  0      0      0      0      0      0    
+     4   2:office   2:office          0     *1      0      0      0      0      0      0      0      0    
+     5   2:office   2:office          0     *0.725  0      0.144  0.035  0.005  0.074  0.008  0.009  0    
+     6   2:office  9:aeditor      +   0      0      0      0      0      0.138  0.097  0.153 *0.612  0    
+     7  8:veditor  9:aeditor      +   0      0.153  0      0      0      0.017  0.218  0     *0.612  0    
+     8  8:veditor    7:graph      +   0      0.115  0      0      0      0.037 *0.52   0.024  0.304  0    
+     9  8:veditor     4:game      +   0      0.05   0     *0.95   0      0      0      0      0      0    
+    10  8:veditor  8:veditor          0      0      0      0      0.035  0.006  0.074 *0.877  0.009  0    
+    11  8:veditor   6:player      +   0      0      0      0      0     *0.327  0.23   0.024  0.304  0.115
+    12  8:veditor   6:player      +   0      0      0.138  0      0.299 *0.322  0.226  0.015  0      0    
+    13    7:graph   6:player      +   0      0      0      0      0     *0.38   0.267  0      0.353  0    
+    14    7:graph      5:ide      +   0      0      0.138  0     *0.612  0.138  0.097  0.015  0      0    
+    15    7:graph     4:game      +   0      0      0     *1      0      0      0      0      0      0    
+    16    7:graph   6:player      +   0      0.115  0      0.023  0.243 *0.327  0.23   0.001  0.061  0    
+    17    7:graph   2:office      +   0     *0.826  0      0.174  0      0      0      0      0      0    
+    18    7:graph    7:graph          0      0      0.064  0      0.326  0     *0.597  0.013  0      0    
+    19 10:calcula 10:calcula          0      0      0      0      0      0      0      0.174  0     *0.826
+    20 10:calcula 10:calcula          0      0.032  0      0.153  0.091  0.009  0      0      0.023 *0.693
+    21 10:calcula 10:calcula          0      0      0      0.153  0      0.009  0      0      0.114 *0.725
+    22 10:calcula   2:office      +   0     *0.538  0      0.462  0      0      0      0      0      0    
+    23 10:calcula 10:calcula          0      0      0      0.174  0      0      0      0      0     *0.826
+    24 10:calcula 10:calcula          0      0      0      0      0      0      0      0      0     *1    
+    25      5:ide     4:game      +   0      0      0     *0.828  0.035  0.048  0.032  0.049  0.009  0    
+    26      5:ide      5:ide          0      0      0      0     *0.926  0      0.074  0      0      0    
+    27      5:ide   2:office      +   0     *0.826  0      0      0      0      0      0.174  0      0    
+    28      5:ide      5:ide          0      0      0      0     *0.711  0.019  0.253  0.017  0      0    
+    29      5:ide      5:ide          0      0      0      0     *0.926  0.074  0      0      0      0    
+    30      5:ide  1:browser      +  *0.593  0      0      0      0.119  0.019  0.253  0.017  0      0    
+    31   6:player   6:player          0      0.115  0      0      0.243 *0.327  0.23   0.024  0.061  0    
+    32   6:player   6:player          0      0      0      0      0     *0.322  0.226  0.153  0.299  0    
+    33   6:player    7:graph      +   0      0      0      0.145  0      0.037 *0.511  0.009  0.299  0    
+    34   6:player       3:im      +   0      0     *0.725  0.144  0.035  0.005  0.074  0.008  0.009  0    
+    35   6:player    7:graph      +   0      0      0      0.145  0.239  0.037 *0.511  0.009  0.06   0    
+    36   6:player  8:veditor      +   0      0      0      0      0      0      0     *1      0      0    
+    37  9:aeditor  9:aeditor          0      0      0      0      0      0.064  0      0.024 *0.797  0.115
+    38  9:aeditor   6:player      +   0      0.115  0      0      0     *0.327  0.23   0.024  0.304  0    
+    39  9:aeditor   6:player      +   0      0      0      0.27   0.252 *0.271  0.191  0.016  0      0    
+    40  9:aeditor  1:browser      +  *0.98   0      0      0      0.02   0      0      0      0      0    
+    41  9:aeditor  9:aeditor          0      0      0      0.145  0      0.138  0.097  0.009 *0.612  0    
+    42  9:aeditor   6:player      +   0      0.126  0      0.025  0     *0.548  0      0.001  0.299  0    
+    43  1:browser  1:browser         *0.964  0      0      0.017  0.02   0      0      0      0      0    
+    44  1:browser  1:browser         *0.697  0      0      0.017  0.014  0.16   0.112  0      0      0    
+    45  1:browser  1:browser         *0.964  0      0      0.017  0.02   0      0      0      0      0    
+    46  1:browser  1:browser         *0.83   0      0      0      0.017  0      0      0.153  0      0    
+    47  1:browser  1:browser         *0.964  0      0      0.017  0.02   0      0      0      0      0    
+    48  1:browser  1:browser         *0.83   0      0      0      0.017  0      0      0.153  0      0    
+    49     4:game     4:game          0      0.044  0     *0.833  0.071  0.002  0.032  0      0.018  0    
+    50     4:game     4:game          0.231  0      0     *0.315  0.005  0.253  0.178  0.019  0      0    
+    51     4:game   2:office      +   0     *0.725  0      0.153  0      0.005  0.004  0      0.114  0    
+    52     4:game 10:calcula      +   0      0      0      0.462  0      0      0      0      0     *0.538
+    53     4:game   2:office      +   0     *0.725  0      0      0      0.02   0.014  0.153  0.089  0    
+    54     4:game     4:game          0      0      0     *0.828  0.071  0.002  0.032  0.049  0.018  0    
+    55       3:im   2:office      +   0     *0.826  0      0.174  0      0      0      0      0      0    
+    56       3:im       3:im          0      0.008 *0.543  0      0.035  0.047  0.033  0.153  0.009  0.173
+    57       3:im  8:veditor      +   0      0      0      0      0      0.009  0     *0.877  0.114  0    
+    58       3:im      5:ide      +   0      0      0.014  0.003 *0.711  0.16   0.112  0      0      0    
+    59       3:im  1:browser      +  *0.964  0      0      0.017  0.02   0      0      0      0      0    
+    60       3:im       3:im          0      0     *0.826  0.174  0      0      0      0      0      0    
+     1   2:office  9:aeditor      +   0      0.144  0.014  0.002  0.19   0.026  0.268  0.007 *0.348  0    
+     2   2:office   2:office          0     *0.718  0      0      0      0.032  0.044  0.206  0      0    
+     3   2:office  9:aeditor      +   0.001  0      0.099  0.014  0.19   0.026  0.315  0.007 *0.348  0    
+     4   2:office   2:office          0     *0.943  0      0      0      0      0.057  0      0      0    
+     5   2:office   2:office          0     *0.943  0      0      0      0      0.057  0      0      0    
+     6   2:office   2:office          0     *0.943  0      0      0      0      0.057  0      0      0    
+     7  8:veditor  8:veditor          0      0      0      0      0      0      0     *1      0      0    
+     8  8:veditor  8:veditor          0      0      0      0      0.015  0.287  0     *0.67   0.028  0    
+     9  8:veditor    7:graph      +   0      0.267  0      0      0      0     *0.495  0.238  0      0    
+    10  8:veditor   6:player      +   0.002  0      0.375  0.052  0     *0.444  0      0.127  0      0    
+    11  8:veditor   6:player      +   0      0      0.013  0.002  0.01  *0.462  0.364  0.132  0.017  0    
+    12  8:veditor       3:im      +   0.003  0     *0.6    0.083  0      0.003  0.076  0.021  0.139  0.076
+    13    7:graph    7:graph          0.001  0.337  0.002  0.035  0      0     *0.625  0      0      0    
+    14    7:graph      5:ide      +   0      0.132  0      0     *0.533  0.069  0.246  0.02   0      0    
+    15    7:graph       3:im      +   0.002  0.015 *0.337  0.046  0      0.008  0.028  0.05   0.332  0.182
+    16    7:graph      5:ide      +   0      0.132  0      0     *0.533  0.069  0.246  0.02   0      0    
+    17    7:graph      5:ide      +   0      0.132  0      0     *0.533  0      0.246  0.089  0      0    
+    18    7:graph       3:im      +   0.002  0.015 *0.337  0.046  0.182  0.008  0.028  0.05   0.332  0    
+    19 10:calcula 10:calcula          0      0      0      0      0.022  0.1    0      0      0.018 *0.861
+    20 10:calcula   2:office      +   0     *0.943  0      0      0      0      0.057  0      0      0    
+    21 10:calcula 10:calcula          0      0      0      0      0.022  0.1    0      0      0.018 *0.861
+    22 10:calcula  8:veditor      +   0      0.117  0      0      0      0.089  0.217 *0.578  0      0    
+    23 10:calcula 10:calcula          0.002  0.007  0.002  0.058  0.02   0.093  0      0      0.016 *0.801
+    24 10:calcula 10:calcula          0.002  0.007  0.002  0.058  0.02   0.093  0      0      0.016 *0.801
+    25      5:ide  8:veditor      +   0      0.144  0.014  0.002  0.029  0.147  0.268 *0.343  0.053  0    
+    26      5:ide      5:ide          0      0.132  0      0     *0.533  0      0.246  0.089  0      0    
+    27      5:ide       3:im      +   0.002  0.015 *0.337  0.046  0      0.008  0.028  0.05   0.332  0.182
+    28      5:ide      5:ide          0      0.127  0.013  0.002 *0.533  0.012  0.236  0.077  0      0    
+    29      5:ide      5:ide          0.002  0.013  0.298  0.041 *0.559  0.008  0.025  0.054  0      0    
+    30      5:ide  8:veditor      +   0      0.127  0.013  0.002  0      0.083  0.236 *0.539  0      0    
+    31   6:player  9:aeditor      +   0      0      0      0      0.309  0.097  0      0.028 *0.566  0    
+    32   6:player      5:ide      +   0      0      0      0     *1      0      0      0      0      0    
+    33   6:player   6:player          0.013  0      0.019  0.347  0     *0.483  0      0.138  0      0    
+    34   6:player  9:aeditor      +   0.001  0.012  0.262  0.036  0.212  0.009  0.022  0.058 *0.388  0    
+    35   6:player   6:player          0      0      0      0      0     *0.778  0      0.222  0      0    
+    36   6:player    7:graph      +   0.037  0.337  0.002  0      0      0     *0.625  0      0      0    
+    37  9:aeditor  9:aeditor          0      0.127  0.013  0.002  0.198  0.008  0.236  0.054 *0.362  0    
+    38  9:aeditor  9:aeditor          0      0.144  0.014  0.002  0.19   0      0.268  0.034 *0.348  0    
+    39  9:aeditor  9:aeditor          0      0.127  0.013  0.002  0.188  0      0.236  0.089 *0.344  0    
+    40  9:aeditor  8:veditor      +   0      0.127  0.013  0.002  0.01   0.079  0.236 *0.515  0.017  0    
+    41  9:aeditor  9:aeditor          0.002  0.013  0.298  0.041  0      0.008  0.025  0.054 *0.362  0.198
+    42  9:aeditor     4:game      +   0.024  0.072  0.026 *0.636  0.21   0.024  0.004  0      0.004  0    
+    43  1:browser  1:browser         *0.933  0      0.049  0      0      0      0.018  0      0      0    
+    44  1:browser  1:browser         *0.933  0      0.049  0      0      0      0.018  0      0      0    
+    45  1:browser  1:browser         *0.767  0      0.04   0      0.059  0.003  0.014  0.007  0.109  0    
+    46  1:browser      5:ide      +   0      0      0      0     *1      0      0      0      0      0    
+    47  1:browser  1:browser         *0.933  0      0.049  0      0      0      0.018  0      0      0    
+    48  1:browser  1:browser         *0.933  0      0.049  0      0      0      0.018  0      0      0    
+    49     4:game   2:office      +   0.007 *0.528  0.01   0.185  0      0.071  0.032  0.167  0      0    
+    50     4:game  8:veditor      +   0.002  0      0.331  0.046  0      0.083  0     *0.539  0      0    
+    51     4:game     4:game          0.031  0.029  0.046 *0.84   0      0      0.054  0      0      0    
+    52     4:game   2:office      +   0.007 *0.528  0.01   0.185  0      0.071  0.032  0.167  0      0    
+    53     4:game     4:game          0.028  0.086  0.032 *0.765  0.002  0.008  0.005  0      0.001  0.072
+    54     4:game   2:office      +   0     *0.718  0      0      0      0      0.044  0.238  0      0    
+    55       3:im       3:im          0.123  0     *0.86   0      0      0      0.018  0      0      0    
+    56       3:im       3:im          0.003  0     *0.667  0.092  0      0.185  0      0.053  0      0    
+    57       3:im       3:im          0.003  0.027 *0.6    0.083  0      0.003  0.05   0.021  0.139  0.076
+    58       3:im       3:im          0.003  0     *0.667  0.092  0      0.185  0      0.053  0      0    
+    59       3:im       3:im          0.123  0     *0.86   0      0      0      0.018  0      0      0    
+    60       3:im       3:im          0.004  0.035 *0.788  0.108  0      0      0.065  0      0      0    
+     1   2:office 10:calcula      +   0      0.042  0      0      0.002  0      0.006  0.013  0     *0.938
+     2   2:office   2:office          0     *0.382  0.007  0      0.024  0      0.187  0.374  0.025  0    
+     3   2:office       3:im      +   0      0     *0.415  0      0.053  0.235  0.177  0.12   0      0    
+     4   2:office     4:game      +   0      0.263  0.014 *0.536  0.004  0.064  0.032  0      0.088  0    
+     5   2:office   6:player      +   0      0      0      0      0.048 *0.42   0.317  0.215  0      0    
+     6   2:office   2:office          0     *0.979  0      0      0.002  0      0.006  0.013  0      0    
+     7  8:veditor   6:player      +   0      0      0      0      0     *0.441  0.333  0.225  0      0    
+     8  8:veditor  8:veditor          0      0      0      0      0.091  0      0.303 *0.606  0      0    
+     9  8:veditor      5:ide      +   0      0      0.415  0     *0.468  0      0.039  0.078  0      0    
+    10  8:veditor      5:ide      +   0      0.035  0.007  0     *0.468  0.052  0.039  0.026  0.373  0    
+    11  8:veditor  9:aeditor      +   0      0.035  0.007  0      0.195  0      0.13   0.26  *0.373  0    
+    12  8:veditor      5:ide      +   0      0      0      0     *0.8    0.088  0.067  0.045  0      0    
+    13    7:graph      5:ide      +   0      0      0      0     *1      0      0      0      0      0    
+    14    7:graph  8:veditor      +   0      0.014  0.023  0.23   0      0      0.195 *0.39   0.148  0    
+    15    7:graph       3:im      +   0      0.329 *0.549  0      0.005  0.042  0.032  0.021  0.022  0    
+    16    7:graph  9:aeditor      +   0      0      0.007  0      0.028  0.246  0.186  0.125 *0.408  0    
+    17    7:graph   2:office      +   0     *0.259  0.002  0.067  0.028  0.246  0.186  0.126  0.086  0    
+    18    7:graph  9:aeditor      +   0      0      0.007  0      0.028  0.246  0.186  0.125 *0.408  0    
+    19 10:calcula       3:im      +   0      0.031 *0.57   0      0.003  0.028  0.021  0.014  0.332  0    
+    20 10:calcula 10:calcula          0      0.042  0      0      0.002  0.008  0.006  0.004  0     *0.938
+    21 10:calcula 10:calcula          0      0.042  0      0      0.002  0.008  0.006  0.004  0     *0.938
+    22 10:calcula 10:calcula          0      0      0      0      0.002  0      0.006  0.013  0.042 *0.938
+    23 10:calcula  8:veditor      +   0      0.03   0      0      0.053  0      0.177 *0.354  0.316  0.069
+    24 10:calcula 10:calcula          0      0      0      0      0.002  0      0.006  0.013  0.042 *0.938
+    25      5:ide   2:office      +   0     *0.382  0.007  0      0      0.258  0.195  0.132  0.025  0    
+    26      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+    27      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+    28      5:ide      5:ide          0      0      0      0.415 *0.585  0      0      0      0      0    
+    29      5:ide       3:im      +   0      0     *0.415  0      0.028  0.246  0.186  0.125  0      0    
+    30      5:ide     4:game      +   0      0.015  0.013 *0.521  0.011  0.05   0.038  0.026  0      0.326
+    31   6:player  9:aeditor      +   0      0      0.007  0      0.024  0.28   0.187  0.093 *0.408  0    
+    32   6:player     4:game      +   0      0      0     *0.415  0      0.258  0.195  0.132  0      0    
+    33   6:player  9:aeditor      +   0      0.084  0.018  0      0      0      0      0     *0.898  0    
+    34   6:player   2:office      +   0     *0.408  0.007  0      0.028  0.246  0.186  0.125  0      0    
+    35   6:player   6:player          0      0      0      0      0.048 *0.42   0.317  0.215  0      0    
+    36   6:player       3:im      +   0      0     *0.253  0      0.028  0.246  0.186  0.126  0.161  0    
+    37  9:aeditor       3:im      +   0      0.298 *0.598  0      0.002  0.008  0.006  0.004  0.02   0.064
+    38  9:aeditor 10:calcula      +   0      0      0      0      0.053  0.235  0.177  0.12   0     *0.415
+    39  9:aeditor   2:office      +   0     *0.382  0.007  0      0      0.258  0.195  0.132  0.025  0    
+    40  9:aeditor      5:ide      +   0      0.389  0      0     *0.536  0.032  0.016  0      0.026  0    
+    41  9:aeditor  9:aeditor          0      0.035  0.007  0      0.028  0.246  0.186  0.125 *0.373  0    
+    42  9:aeditor  9:aeditor          0      0.084  0.018  0      0      0      0      0     *0.898  0    
+    43  1:browser  1:browser         *0.527  0      0.023  0.23   0.011  0.033  0.016  0      0.161  0    
+    44  1:browser  1:browser         *0.959  0      0      0.022  0.02   0      0      0      0      0    
+    45  1:browser     4:game      +   0      0      0.055 *0.555  0      0      0      0      0.39   0    
+    46  1:browser  1:browser         *0.959  0      0.002  0.02   0.02   0      0      0      0      0    
+    47  1:browser  1:browser         *0.959  0      0.002  0.02   0.02   0      0      0      0      0    
+    48  1:browser  1:browser         *0.959  0      0.002  0.02   0.02   0      0      0      0      0    
+    49     4:game     4:game          0      0.351  0.014 *0.536  0.004  0      0.032  0.064  0      0    
+    50     4:game     4:game          0      0.016  0.015 *0.583  0.002  0.008  0.006  0.004  0      0.365
+    51     4:game      5:ide      +   0      0.382  0.001  0.007 *0.536  0      0.016  0.032  0.025  0    
+    52     4:game      5:ide      +   0      0      0      0.415 *0.585  0      0      0      0      0    
+    53     4:game 10:calcula      +   0      0.035  0.004  0.159  0.002  0.008  0.006  0.004  0     *0.781
+    54     4:game     4:game          0      0      0.024 *0.955  0.002  0.008  0.006  0.004  0      0    
+    55       3:im       3:im          0      0     *0.534  0      0.011  0.05   0.038  0.026  0      0.341
+    56       3:im       3:im          0      0.031 *0.57   0      0.003  0.028  0.021  0.014  0.332  0    
+    57       3:im       3:im          0      0     *0.979  0      0.002  0      0.006  0.013  0      0    
+    58       3:im       3:im          0      0     *0.598  0      0.002  0.008  0.006  0.004  0      0.381
+    59       3:im      5:ide      +   0      0      0.415  0     *0.585  0      0      0      0      0    
+    60       3:im       3:im          0      0     *0.415  0      0.053  0      0.177  0.354  0      0    
+     1   2:office   6:player      +   0.035  0.031  0.01   0      0.027 *0.462  0.087  0.066  0.282  0    
+     2   2:office   6:player      +   0.035  0.031  0.028  0.154  0.078 *0.308  0.087  0.066  0.212  0    
+     3   2:office       3:im      +   0      0.008 *0.542  0.187  0.019  0      0      0.001  0.164  0.079
+     4   2:office  9:aeditor      +   0.091  0.004  0.025  0      0.07   0.055  0.01   0.008 *0.737  0    
+     5   2:office     4:game      +   0.035  0.031  0.028 *0.462  0.078  0      0.087  0.066  0.212  0    
+     6   2:office  9:aeditor      +   0.091  0.004  0.025  0.055  0.07   0      0.01   0.008 *0.737  0    
+     7  8:veditor  8:veditor          0      0      0      0      0      0      0     *1      0      0    
+     8  8:veditor  8:veditor          0      0.158  0.007  0      0      0      0     *0.783  0.052  0    
+     9  8:veditor  9:aeditor      +   0      0.001  0.022  0      0.061  0.187  0      0.007 *0.642  0.079
+    10  8:veditor    7:graph      +   0.003  0      0.02   0.121  0.001  0     *0.483  0.367  0.006  0    
+    11  8:veditor   6:player      +   0.02   0.025  0.047  0      0.133 *0.65   0.071  0.054  0      0    
+    12  8:veditor    7:graph      +   0.035  0.085  0.083  0      0.235  0.142 *0.239  0.181  0      0    
+    13    7:graph  9:aeditor      +   0.035  0.095  0.01   0      0.027  0.081  0.268  0.203 *0.282  0    
+    14    7:graph   6:player      +   0      0.025  0.005  0      0.015 *0.65   0.071  0.054  0.16   0.02 
+    15    7:graph   6:player      +   0.035  0.031  0.083  0      0.235 *0.462  0.087  0.066  0      0    
+    16    7:graph  9:aeditor      +   0.035  0.095  0.01   0      0.027  0.081  0.268  0.203 *0.282  0    
+    17    7:graph    7:graph          0      0.131  0      0      0      0.22  *0.369  0.28   0      0    
+    18    7:graph  9:aeditor      +   0.099  0      0      0      0      0      0      0     *0.901  0    
+    19 10:calcula 10:calcula          0      0.008  0.005  0.187  0.024  0      0      0.001  0.008 *0.767
+    20 10:calcula 10:calcula          0      0.008  0.005  0.187  0.024  0      0      0.001  0.008 *0.767
+    21 10:calcula 10:calcula          0      0.168  0.005  0      0.024  0      0.016  0.012  0.008 *0.767
+    22 10:calcula 10:calcula          0      0.008  0.005  0.187  0.024  0      0      0.001  0.008 *0.767
+    23 10:calcula      5:ide      +   0.053  0.026  0.147  0     *0.414  0.043  0.072  0.055  0.164  0.026
+    24 10:calcula      5:ide      +   0      0.031  0.104  0.159 *0.519  0      0      0.005  0.182  0    
+    25      5:ide   2:office      +   0     *0.649  0.022  0      0.001  0.213  0.062  0.047  0.007  0    
+    26      5:ide  1:browser      +  *1      0      0      0      0      0      0      0      0      0    
+    27      5:ide      5:ide          0.099  0      0.236  0     *0.666  0      0      0      0      0    
+    28      5:ide   6:player      +   0      0.025  0.016  0      0.044 *0.65   0.071  0.054  0.12   0.02 
+    29      5:ide      5:ide          0.095  0.006  0.226  0.002 *0.639  0.003  0.017  0.013  0      0    
+    30      5:ide      5:ide          0.091  0.004  0.168  0.055 *0.476  0      0.01   0.008  0.188  0    
+    31   6:player    7:graph      +   0.02   0.105  0.036  0      0.103  0.176 *0.295  0.224  0.041  0    
+    32   6:player    7:graph      +   0.02   0.105  0.036  0      0.103  0.176 *0.295  0.224  0.041  0    
+    33   6:player    7:graph      +   0.02   0.105  0.005  0      0.015  0.176 *0.295  0.224  0.16   0    
+    34   6:player    7:graph      +   0.02   0.105  0.005  0      0.015  0.176 *0.295  0.224  0.16   0    
+    35   6:player   6:player          0.02   0.038  0.047  0      0.133 *0.571  0.108  0.082  0      0    
+    36   6:player    7:graph      +   0.02   0.105  0.005  0      0.015  0.176 *0.295  0.224  0.16   0    
+    37  9:aeditor  9:aeditor          0      0.001  0.022  0      0.061  0.187  0.004  0.003 *0.642  0.079
+    38  9:aeditor   2:office      +   0     *0.649  0.004  0.213  0.019  0      0.062  0.047  0.007  0    
+    39  9:aeditor  9:aeditor          0.035  0.095  0.01   0.081  0.027  0      0.268  0.203 *0.282  0    
+    40  9:aeditor   6:player      +   0      0.032  0      0      0     *0.813  0.089  0.067  0      0    
+    41  9:aeditor   6:player      +   0.02   0.006  0.005  0      0.015 *0.764  0.017  0.013  0.16   0    
+    42  9:aeditor       3:im      +   0.099  0     *0.674  0      0.023  0      0      0      0.204  0    
+    43  1:browser  1:browser         *0.831  0.004  0.031  0      0      0.055  0.01   0.008  0.062  0    
+    44  1:browser   6:player      +   0.353  0.031  0      0      0     *0.462  0.087  0.066  0      0    
+    45  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    46  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    47  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    48  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    49     4:game      5:ide      +   0      0.024  0.19   0.045 *0.535  0.009  0.067  0.051  0      0.079
+    50     4:game     4:game          0.02   0.038  0.005 *0.571  0.015  0      0.108  0.082  0.16   0    
+    51     4:game     4:game          0.003  0.007  0.02  *0.926  0.001  0      0.021  0.016  0.006  0    
+    52     4:game     4:game          0.003  0.047  0.02  *0.693  0.001  0      0.131  0.1    0.006  0    
+    53     4:game    7:graph      +   0.003  0.127  0.02   0.213  0.001  0     *0.358  0.272  0.006  0    
+    54     4:game     4:game          0      0.048  0     *0.714  0      0      0.135  0.103  0      0    
+    55       3:im      5:ide      +   0      0.006  0.19   0     *0.535  0.159  0      0.031  0      0.079
+    56       3:im      5:ide      +   0.095  0.001  0.226  0.027 *0.639  0.005  0.004  0.003  0      0    
+    57       3:im       3:im          0.099  0     *0.674  0      0.023  0      0      0      0.204  0    
+    58       3:im       3:im          0      0.033 *0.542  0      0.019  0      0      0.163  0.164  0.079
+    59       3:im    7:graph      +   0.02   0.105  0.047  0      0.133  0.176 *0.295  0.224  0      0    
+    60       3:im       3:im          0.099  0     *0.674  0      0.023  0      0      0      0.204  0    
+     1   2:office    7:graph      +   0      0.242  0.003  0      0.023  0.024 *0.57   0.047  0.092  0    
+     2   2:office    7:graph      +   0      0      0.007  0      0      0     *0.52   0.285  0.188  0    
+     3   2:office   2:office          0     *0.828  0.011  0      0      0      0      0.161  0      0    
+     4   2:office   2:office          0     *0.828  0.011  0      0      0      0      0.161  0      0    
+     5   2:office   2:office          0     *0.828  0.011  0      0      0      0      0.161  0      0    
+     6   2:office   2:office          0     *0.828  0.011  0      0      0      0      0.161  0      0    
+     7  8:veditor  8:veditor          0      0      0      0.019  0.145  0.003  0     *0.833  0      0    
+     8  8:veditor   6:player      +   0.007  0.239  0      0.176  0     *0.353  0.014  0.046  0.165  0    
+     9  8:veditor      5:ide      +   0.007  0      0      0.041 *0.664  0      0.003  0.285  0      0    
+    10  8:veditor  8:veditor          0      0      0      0.019  0      0.003  0     *0.833  0.145  0    
+    11  8:veditor  8:veditor          0      0      0.011  0      0      0      0     *0.989  0      0    
+    12  8:veditor      5:ide      +   0.007  0      0      0     *0.664  0      0.044  0.285  0      0    
+    13    7:graph   6:player      +   0      0.239  0.007  0      0     *0.394  0.127  0.046  0.188  0    
+    14    7:graph    7:graph          0.001  0.242  0.002  0      0      0.024 *0.57   0.047  0.115  0    
+    15    7:graph    7:graph          0      0      0.007  0      0      0     *0.52   0.285  0.188  0    
+    16    7:graph   6:player      +   0      0.239  0.007  0      0.188 *0.394  0.127  0.046  0      0    
+    17    7:graph   6:player      +   0.281  0      0.005  0      0.188 *0.338  0.182  0.006  0      0    
+    18    7:graph   6:player      +   0.007  0      0      0      0.165 *0.353  0.19   0.285  0      0    
+    19 10:calcula 10:calcula          0      0.036  0.011  0      0      0      0      0.161  0     *0.792
+    20 10:calcula 10:calcula          0      0.036  0.011  0      0      0      0      0.161  0     *0.792
+    21 10:calcula 10:calcula          0      0      0.011  0      0      0      0      0.161  0     *0.828
+    22 10:calcula 10:calcula          0      0      0.011  0      0      0      0      0.161  0     *0.828
+    23 10:calcula   2:office      +   0     *0.808  0      0      0.006  0.004  0.025  0.157  0      0    
+    24 10:calcula 10:calcula          0      0      0.011  0      0      0      0      0.161  0     *0.828
+    25      5:ide       3:im      +   0      0     *0.802  0      0.158  0.003  0.021  0.016  0      0    
+    26      5:ide      5:ide          0      0.239  0.007  0     *0.708  0      0      0.046  0      0    
+    27      5:ide       3:im      +   0      0     *0.802  0      0.158  0.003  0.021  0.016  0      0    
+    28      5:ide       3:im      +   0      0     *1      0      0      0      0      0      0      0    
+    29      5:ide      5:ide          0.007  0.239  0      0     *0.708  0      0      0.046  0      0    
+    30      5:ide   6:player      +   0      0.239  0.007  0      0.188 *0.52   0      0.046  0      0    
+    31   6:player    7:graph      +   0      0.188  0      0      0      0.071 *0.499  0.037  0.206  0    
+    32   6:player     4:game      +   0      0.118  0.002 *0.689  0.139  0.029  0      0.023  0      0    
+    33   6:player  9:aeditor      +   0.286  0      0.005  0      0      0      0      0     *0.708  0    
+    34   6:player   6:player          0      0.239  0.007  0.127  0     *0.394  0      0.046  0.188  0    
+    35   6:player    7:graph      +   0.007  0.239  0      0      0.188  0     *0.52   0.046  0      0    
+    36   6:player   6:player          0      0.239  0.007  0      0     *0.52   0      0.046  0.188  0    
+    37  9:aeditor   6:player      +   0      0      0.292  0.127  0     *0.394  0      0      0.188  0    
+    38  9:aeditor    7:graph      +   0.007  0      0      0      0      0     *0.52   0.285  0.188  0    
+    39  9:aeditor   6:player      +   0.007  0.239  0      0.176  0     *0.353  0.014  0.046  0.165  0    
+    40  9:aeditor 10:calcula      +   0      0      0.009  0.142  0      0.006  0      0.133  0.029 *0.682
+    41  9:aeditor   6:player      +   0.007  0.239  0      0      0.165 *0.353  0.19   0.046  0      0    
+    42  9:aeditor    7:graph      +   0      0.239  0.007  0      0.188  0     *0.52   0.046  0      0    
+    43  1:browser  1:browser         *0.963  0      0.018  0      0      0      0      0.019  0      0    
+    44  1:browser  1:browser         *0.963  0      0.018  0      0      0      0      0.019  0      0    
+    45  1:browser  8:veditor      +   0      0      0      0      0      0.003  0.019 *0.833  0.145  0    
+    46  1:browser  1:browser         *0.963  0      0.018  0      0      0      0      0.019  0      0    
+    47  1:browser  8:veditor      +   0      0      0      0      0      0.016  0.112 *0.833  0.039  0    
+    48  1:browser  1:browser         *0.963  0      0.018  0      0      0      0      0.019  0      0    
+    49     4:game     4:game          0.001  0.242  0.002 *0.529  0.023  0.024  0.041  0.047  0.092  0    
+    50     4:game     4:game          0.001  0.242  0.002 *0.57   0.115  0.024  0      0.047  0      0    
+    51     4:game     4:game          0      0      0.003 *0.57   0      0.024  0      0.289  0.115  0    
+    52     4:game    7:graph      +   0      0.242  0.003  0      0      0.024 *0.57   0.047  0.115  0    
+    53     4:game   6:player      +   0.007  0.239  0      0      0.188 *0.52   0      0.046  0      0    
+    54     4:game     4:game          0      0      0.003 *0.57   0      0.024  0      0.289  0.115  0    
+    55       3:im       3:im          0      0.269 *0.644  0      0.006  0.001  0.004  0.052  0.024  0    
+    56       3:im       3:im          0      0     *0.824  0      0.029  0.018  0.129  0      0      0    
+    57       3:im     4:game      +   0      0      0     *0.643  0.265  0.092  0      0      0      0    
+    58       3:im 10:calcula      +   0      0      0      0.004  0.03   0.001  0      0.157  0     *0.808
+    59       3:im 10:calcula      +   0      0      0      0.004  0.03   0.001  0      0.157  0     *0.808
+    60       3:im       3:im          0      0     *0.966  0      0.006  0.004  0.025  0      0      0    
+     1   2:office 10:calcula      +   0      0      0      0.169  0      0      0      0      0     *0.831
+     2   2:office   2:office          0     *0.737  0.022  0.13   0.026  0.006  0      0.007  0.072  0    
+     3   2:office   6:player      +   0      0.335  0      0      0     *0.476  0.083  0.106  0      0    
+     4   2:office  8:veditor      +   0      0      0      0      0.083  0      0     *0.917  0      0    
+     5   2:office    7:graph      +   0      0      0      0      0.029  0.097 *0.512  0.028  0.335  0    
+     6   2:office   6:player      +   0      0.012  0      0      0.147 *0.501  0.121  0.197  0.021  0    
+     7  8:veditor   6:player      +   0      0      0      0      0     *0.818  0      0.182  0      0    
+     8  8:veditor       3:im      +   0      0     *0.9    0      0.066  0.016  0      0.018  0      0    
+     9  8:veditor  9:aeditor      +   0      0.015  0      0      0.058  0.014  0.013  0.016 *0.885  0    
+    10  8:veditor  9:aeditor      +   0      0.288  0.008  0      0.026  0.006  0.13   0.007 *0.534  0    
+    11  8:veditor   6:player      +   0      0      0.033  0      0     *0.819  0.121  0.027  0      0    
+    12  8:veditor       3:im      +   0      0.244 *0.732  0      0      0      0      0.024  0      0    
+    13    7:graph   6:player      +   0      0      0      0      0.116 *0.394  0      0.155  0.335  0    
+    14    7:graph  9:aeditor      +   0      0      0.297  0      0.098  0.023  0.021  0.027 *0.534  0    
+    15    7:graph    7:graph          0.329  0.006  0      0      0      0     *0.665  0      0      0    
+    16    7:graph   6:player      +   0      0.12   0      0      0.124 *0.421  0      0.121  0.215  0    
+    17    7:graph   6:player      +   0      0      0      0      0     *0.818  0      0.182  0      0    
+    18    7:graph     4:game      +   0      0.006  0     *0.512  0.029  0.097  0      0.028  0      0.329
+    19 10:calcula 10:calcula          0      0.09   0.003  0.169  0      0      0      0      0     *0.739
+    20 10:calcula 10:calcula          0      0      0      0.1    0      0      0      0      0     *0.9  
+    21 10:calcula 10:calcula          0      0.09   0.003  0.169  0      0      0      0      0     *0.739
+    22 10:calcula       3:im      +   0      0     *0.831  0      0.111  0.027  0      0.031  0      0    
+    23 10:calcula 10:calcula          0      0      0      0.169  0      0      0      0      0     *0.831
+    24 10:calcula 10:calcula          0      0.288  0.008  0.13   0.026  0.006  0      0.007  0     *0.534
+    25      5:ide  8:veditor      +   0.014  0      0.012  0      0      0      0     *0.967  0.007  0    
+    26      5:ide   6:player      +   0      0      0.033  0.121  0     *0.819  0      0.027  0      0    
+    27      5:ide      5:ide          0      0      0      0     *0.968  0      0      0.032  0      0    
+    28      5:ide 10:calcula      +   0      0.288  0.008  0.13   0.026  0.006  0      0.007  0     *0.534
+    29      5:ide 10:calcula      +   0      0.09   0.003  0.169  0      0      0      0      0     *0.739
+    30      5:ide      5:ide          0      0      0      0     *0.78   0.187  0      0.032  0      0    
+    31   6:player 10:calcula      +   0      0.288  0.008  0.13   0.026  0.006  0      0.007  0     *0.534
+    32   6:player   6:player          0      0.306  0      0      0.124 *0.421  0      0.121  0.029  0    
+    33   6:player   6:player          0      0      0.12   0      0.108 *0.368  0.083  0.106  0.215  0    
+    34   6:player    7:graph      +   0      0.12   0      0      0      0     *0.665  0      0.215  0    
+    35   6:player      5:ide      +   0      0      0      0     *0.51   0      0      0.155  0.335  0    
+    36   6:player   6:player          0      0.037  0      0      0.124 *0.421  0      0.121  0.298  0    
+    37  9:aeditor  8:veditor      +   0      0      0.12   0      0.032  0.016  0.083 *0.533  0      0.215
+    38  9:aeditor  1:browser      +  *0.976  0      0      0.023  0      0      0.001  0      0      0    
+    39  9:aeditor    7:graph      +   0      0.12   0      0      0      0     *0.665  0      0.215  0    
+    40  9:aeditor    7:graph      +   0      0.12   0      0      0      0     *0.665  0      0.215  0    
+    41  9:aeditor    7:graph      +   0      0.12   0      0      0      0     *0.665  0      0.215  0    
+    42  9:aeditor  9:aeditor          0      0.297  0      0      0.098  0.023  0.021  0.027 *0.534  0    
+    43  1:browser     4:game      +   0      0      0.033 *0.91   0      0      0.057  0      0      0    
+    44  1:browser   6:player      +   0      0.335  0      0      0     *0.51   0      0.155  0      0    
+    45  1:browser  1:browser         *0.907  0      0.016  0      0      0.074  0      0.002  0      0    
+    46  1:browser  1:browser         *0.959  0      0.017  0      0      0.024  0      0.001  0      0    
+    47  1:browser  1:browser         *0.959  0      0.017  0      0.024  0      0      0.001  0      0    
+    48  1:browser  1:browser         *0.907  0.016  0      0      0.059  0      0      0.018  0      0    
+    49     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+    50     4:game 10:calcula      +   0      0.09   0.003  0.169  0      0      0      0      0     *0.739
+    51     4:game     4:game          0      0.036  0.001 *0.665  0      0      0      0      0      0.298
+    52     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+    53     4:game 10:calcula      +   0      0.09   0.003  0.169  0      0      0      0      0     *0.739
+    54     4:game     4:game          0      0.036  0.001 *0.665  0      0      0      0      0.298  0    
+    55       3:im      5:ide      +   0      0      0.033  0     *0.819  0      0.121  0.027  0      0    
+    56       3:im   6:player      +   0      0      0.335  0      0.108 *0.368  0.083  0.106  0      0    
+    57       3:im       3:im          0      0     *0.335  0      0.297  0.149  0.083  0.136  0      0    
+    58       3:im  9:aeditor      +   0      0      0.297  0      0.098  0.023  0.021  0.027 *0.534  0    
+    59       3:im      5:ide      +   0      0      0      0     *0.78   0.187  0      0.032  0      0    
+    60       3:im  9:aeditor      +   0      0.074  0.223  0      0.098  0.023  0.021  0.027 *0.534  0    
+     1   2:office   2:office          0.006 *0.619  0.019  0.106  0.086  0.01   0.004  0.147  0      0.001
+     2   2:office   2:office          0.007 *0.706  0.021  0      0.098  0      0      0.167  0      0    
+     3   2:office 10:calcula      +   0      0.039  0.001  0      0.005  0.081  0      0.009  0     *0.863
+     4   2:office    7:graph      +   0.003  0.136  0      0      0.177  0.158 *0.416  0.064  0.042  0.005
+     5   2:office    7:graph      +   0.001  0.12   0.004  0      0.017  0.007 *0.751  0.028  0.064  0.009
+     6   2:office  9:aeditor      +   0      0      0      0      0      0.066  0.34   0     *0.59   0.004
+     7  8:veditor   6:player      +   0      0.011  0      0      0.015 *0.689  0.096  0.005  0.182  0.001
+     8  8:veditor      5:ide      +   0.007  0      0.36   0     *0.466  0      0      0.167  0      0    
+     9  8:veditor   6:player      +   0      0      0      0      0     *0.712  0.099  0      0.188  0.001
+    10  8:veditor    7:graph      +   0.001  0      0.028  0      0.036  0.235 *0.618  0.013  0.062  0.007
+    11  8:veditor  9:aeditor      +   0.003  0.034  0.102  0      0.177  0      0      0.064 *0.559  0.062
+    12  8:veditor  8:veditor          0.028  0      0.12   0      0.155  0.015  0.039 *0.639  0.004  0    
+    13    7:graph  9:aeditor      +   0      0      0      0      0      0.069  0.34   0     *0.587  0.004
+    14    7:graph    7:graph          0      0      0      0      0      0.009 *0.904  0      0.077  0.01 
+    15    7:graph    7:graph          0      0      0.034  0      0.043  0.235 *0.618  0      0.062  0.007
+    16    7:graph   6:player      +   0      0.011  0      0      0.015 *0.635  0.33   0.005  0      0.004
+    17    7:graph    7:graph          0      0      0      0      0      0.255 *0.67   0      0.068  0.008
+    18    7:graph  9:aeditor      +   0      0      0      0      0      0.066  0.34   0     *0.59   0.004
+    19 10:calcula 10:calcula          0.001  0.12   0.004  0      0.017  0      0      0.028  0.071 *0.759
+    20 10:calcula 10:calcula          0      0.039  0.001  0      0.005  0      0      0.009  0.081 *0.863
+    21 10:calcula     4:game      +   0.001  0.12   0.004 *0.721  0.017  0.071  0.03   0.028  0      0.009
+    22 10:calcula 10:calcula          0      0      0      0      0      0      0      0      0.086 *0.914
+    23 10:calcula  9:aeditor      +   0.003  0.034  0.102  0      0.177  0      0      0.064 *0.559  0.062
+    24 10:calcula     4:game      +   0.001  0.12   0.004 *0.729  0.017  0      0.03   0.028  0.071  0    
+    25      5:ide      5:ide          0      0      0.409  0.042 *0.529  0.016  0      0      0.004  0    
+    26      5:ide  9:aeditor      +   0      0.003  0.008  0      0.015  0      0.333  0.005 *0.635  0    
+    27      5:ide   6:player      +   0      0      0      0      0     *0.656  0      0      0      0.344
+    28      5:ide      5:ide          0      0      0.41   0     *0.531  0.015  0.039  0      0.004  0    
+    29      5:ide     4:game      +   0.001  0.12   0.004 *0.721  0.017  0.071  0.03   0.028  0      0.009
+    30      5:ide  1:browser      +  *0.945  0      0.008  0      0.01   0      0      0.036  0      0    
+    31   6:player   6:player          0      0      0      0      0     *0.656  0.34   0      0      0.004
+    32   6:player   6:player          0      0      0      0      0     *0.712  0.099  0      0.188  0.001
+    33   6:player    7:graph      +   0      0      0      0      0      0.255 *0.67   0      0.068  0.008
+    34   6:player     4:game      +   0.001  0      0.028 *0.618  0.036  0.235  0      0.013  0.062  0.007
+    35   6:player 10:calcula      +   0.001  0.12   0.004  0      0.017  0      0      0.028  0.071 *0.759
+    36   6:player     4:game      +   0.001  0      0.028 *0.577  0.036  0.235  0.041  0.013  0.062  0.007
+    37  9:aeditor  9:aeditor          0      0.011  0      0      0.015  0.067  0.33   0.005 *0.569  0.004
+    38  9:aeditor       3:im      +   0.006  0     *0.638  0      0.086  0.008  0.042  0.147  0.072  0    
+    39  9:aeditor    7:graph      +   0      0.011  0      0      0.015  0.088 *0.871  0.005  0      0.01 
+    40  9:aeditor    7:graph      +   0.003  0      0.136  0      0.177  0.158 *0.42   0.064  0.042  0    
+    41  9:aeditor  9:aeditor          0      0      0      0      0      0.069  0.34   0     *0.587  0.004
+    42  9:aeditor  9:aeditor          0.003  0.034  0.102  0      0.177  0      0      0.064 *0.559  0.062
+    43  1:browser  1:browser         *0.945  0      0.008  0      0.01   0      0      0.036  0      0    
+    44  1:browser   6:player      +   0      0      0      0.318  0     *0.519  0.023  0      0.137  0.004
+    45  1:browser  1:browser         *0.945  0      0.008  0      0.01   0      0      0.036  0      0    
+    46  1:browser      5:ide      +   0.007  0      0.36   0     *0.466  0      0      0.167  0      0    
+    47  1:browser  8:veditor      +   0      0      0.008  0      0.01   0      0     *0.982  0      0    
+    48  1:browser      5:ide      +   0      0      0.436  0     *0.564  0      0      0      0      0    
+    49     4:game 10:calcula      +   0.001  0.12   0.004  0      0.017  0      0      0.028  0.071 *0.759
+    50     4:game      5:ide      +   0.007  0.36   0      0     *0.466  0      0      0.167  0      0    
+    51     4:game  9:aeditor      +   0      0      0      0.318  0      0.069  0.023  0     *0.587  0.004
+    52     4:game     4:game          0.16   0.003  0     *0.721  0      0.071  0.03   0.006  0      0.009
+    53     4:game     4:game          0      0      0     *0.868  0      0.086  0.036  0      0      0.01 
+    54     4:game     4:game          0.001  0      0.028 *0.618  0.036  0.235  0      0.013  0.062  0.007
+    55       3:im       3:im          0.006  0     *0.638  0      0.086  0.08   0.042  0.147  0      0    
+    56       3:im  9:aeditor      +   0.003  0      0.275  0      0.037  0      0      0.063 *0.408  0.214
+    57       3:im       3:im          0.006  0     *0.638  0      0.086  0.008  0.042  0.147  0.072  0    
+    58       3:im  9:aeditor      +   0.003  0.034  0.102  0      0.177  0      0      0.064 *0.559  0.062
+    59       3:im      5:ide      +   0      0      0.436  0     *0.564  0      0      0      0      0    
+    60       3:im      5:ide      +   0.007  0      0.337  0.042 *0.436  0.016  0      0.157  0.004  0    
+     1   2:office   2:office          0     *0.814  0.01   0.132  0      0.029  0      0      0.014  0    
+     2   2:office   2:office          0     *0.988  0.012  0      0      0      0      0      0      0    
+     3   2:office   2:office          0     *0.988  0.012  0      0      0      0      0      0      0    
+     4   2:office   2:office          0     *0.988  0.012  0      0      0      0      0      0      0    
+     5   2:office   2:office          0     *0.3    0      0      0.275  0.029  0.017  0.249  0.129  0    
+     6   2:office   2:office          0     *0.3    0      0      0.275  0.029  0.146  0.249  0      0    
+     7  8:veditor  1:browser      +  *0.631  0.05   0.001  0.257  0.002  0      0.032  0.002  0.026  0    
+     8  8:veditor    7:graph      +   0.089  0.02   0      0      0.018  0.267 *0.59   0.016  0      0    
+     9  8:veditor    7:graph      +   0      0      0.144  0      0.132  0.228 *0.377  0.12   0      0    
+    10  8:veditor    7:graph      +   0      0      0.144  0      0.132  0.228 *0.377  0.12   0      0    
+    11  8:veditor    7:graph      +   0      0      0      0      0      0.102 *0.45   0.395  0.053  0    
+    12  8:veditor    7:graph      +   0      0.144  0      0      0.132  0.228 *0.377  0.12   0      0    
+    13    7:graph    7:graph          0      0.05   0.001  0.065  0.002  0.159 *0.716  0.002  0.007  0    
+    14    7:graph  9:aeditor      +   0      0.144  0      0      0.132  0.102  0.105  0.12  *0.398  0    
+    15    7:graph  8:veditor      +   0      0      0      0      0      0.228  0.337 *0.395  0.04   0    
+    16    7:graph  9:aeditor      +   0      0      0      0      0      0.122  0      0     *0.605  0.273
+    17    7:graph       3:im      +   0      0     *0.333  0      0.306  0.031  0.052  0.277  0      0    
+    18    7:graph    7:graph          0      0.365  0.005  0.041  0.013  0.102 *0.457  0.012  0.004  0    
+    19 10:calcula 10:calcula          0      0      0.01   0.132  0.028  0.029  0      0.025  0.014 *0.762
+    20 10:calcula       3:im      +   0      0     *0.735  0      0      0.029  0      0      0.146  0.089
+    21 10:calcula 10:calcula          0      0      0.012  0      0      0      0      0      0     *0.988
+    22 10:calcula       3:im      +   0      0     *0.735  0      0      0.029  0.029  0      0.117  0.089
+    23 10:calcula 10:calcula          0      0      0.01   0.132  0.028  0.029  0      0.025  0.014 *0.762
+    24 10:calcula      5:ide      +   0      0      0.324  0     *0.334  0      0      0.303  0      0.039
+    25      5:ide       3:im      +   0      0     *0.333  0      0.306  0.031  0.052  0.277  0      0    
+    26      5:ide  8:veditor      +   0      0      0      0.005  0      0.031  0.046 *0.917  0      0    
+    27      5:ide     4:game      +   0      0.144  0     *0.478  0.132  0.102  0.025  0.12   0      0    
+    28      5:ide      5:ide          0      0      0      0.132 *0.433  0.029  0      0.392  0.014  0    
+    29      5:ide     4:game      +   0.04   0.006  0.048 *0.748  0      0.119  0.039  0      0      0    
+    30      5:ide      5:ide          0      0      0.364  0     *0.609  0      0      0.028  0      0    
+    31   6:player    7:graph      +   0      0.043  0.353  0      0      0.102 *0.457  0      0.046  0    
+    32   6:player     4:game      +   0      0.02   0     *0.748  0.018  0.159  0.039  0.016  0      0    
+    33   6:player    7:graph      +   0      0.144  0      0      0.132  0.228 *0.377  0.12   0      0    
+    34   6:player  9:aeditor      +   0      0.144  0      0      0.132  0.228  0.079  0.12  *0.298  0    
+    35   6:player  9:aeditor      +   0      0.144  0      0      0.132  0.102  0.105  0.12  *0.398  0    
+    36   6:player    7:graph      +   0      0      0.144  0      0.241  0.228 *0.377  0.011  0      0    
+    37  9:aeditor  8:veditor      +   0.057  0      0      0      0      0.171  0.337 *0.395  0.04   0    
+    38  9:aeditor  9:aeditor          0      0.144  0      0      0.132  0.228  0      0.12  *0.377  0    
+    39  9:aeditor     4:game      +   0      0      0.099 *0.359  0.091  0.274  0.094  0.083  0      0    
+    40  9:aeditor       3:im      +   0      0     *0.892  0      0      0      0      0      0      0.108
+    41  9:aeditor 10:calcula      +   0      0      0.01   0.132  0.028  0.029  0      0.025  0.014 *0.762
+    42  9:aeditor    7:graph      +   0      0      0      0      0      0.377 *0.558  0      0.066  0    
+    43  1:browser  1:browser         *0.946  0      0.02   0      0.033  0      0      0.001  0      0    
+    44  1:browser  1:browser         *0.946  0      0.054  0      0      0      0      0      0      0    
+    45  1:browser  1:browser         *0.946  0      0.02   0      0.033  0      0      0.001  0      0    
+    46  1:browser  1:browser         *0.946  0      0.02   0      0.033  0      0      0.001  0      0    
+    47  1:browser    7:graph      +   0.159  0      0      0      0.028  0     *0.787  0.026  0      0    
+    48  1:browser  1:browser         *0.946  0      0.02   0      0.033  0      0      0.001  0      0    
+    49     4:game     4:game          0.025  0.144  0     *0.478  0.132  0.076  0.025  0.12   0      0    
+    50     4:game     4:game          0.159  0.009  0     *0.714  0.024  0      0      0.021  0.073  0    
+    51     4:game     4:game          0.025  0.365  0.005 *0.411  0.013  0.076  0.05   0.012  0.042  0    
+    52     4:game     4:game          0      0.365  0.005 *0.411  0.013  0.102  0.05   0.012  0.042  0    
+    53     4:game     4:game          0.025  0.144  0     *0.478  0.132  0.076  0.025  0.12   0      0    
+    54     4:game     4:game          0.025  0.365  0.005 *0.411  0.013  0.076  0.05   0.012  0.042  0    
+    55       3:im       3:im          0      0     *0.3    0      0.275  0.029  0.017  0.249  0.129  0    
+    56       3:im      5:ide      +   0.083  0      0.333  0     *0.558  0      0      0.025  0      0    
+    57       3:im   2:office      +   0     *0.3    0      0      0.275  0.029  0.017  0.249  0.129  0    
+    58       3:im      5:ide      +   0      0      0.333  0.052 *0.558  0.031  0      0.025  0      0    
+    59       3:im       3:im          0      0     *0.892  0      0      0      0      0      0      0.108
+    60       3:im  9:aeditor      +   0.025  0.043  0.353  0      0      0.076  0.025  0     *0.478  0    
+     1   2:office  9:aeditor      +   0      0.072  0      0      0.298  0.045  0      0.222 *0.363  0    
+     2   2:office     4:game      +   0      0.072  0     *0.557  0.298  0.073  0      0      0      0    
+     3   2:office   2:office          0     *0.959  0      0      0.041  0      0      0      0      0    
+     4   2:office     4:game      +   0      0.072  0     *0.557  0.298  0.073  0      0      0      0    
+     5   2:office  9:aeditor      +   0.231  0.072  0      0      0.067  0      0      0.239 *0.391  0    
+     6   2:office   6:player      +   0.231  0.072  0      0      0.067 *0.63   0      0      0      0    
+     7  8:veditor  9:aeditor      +   0      0.072  0.028  0      0.298  0.021  0      0.221 *0.361  0    
+     8  8:veditor  8:veditor          0      0      0.045  0      0      0      0     *0.955  0      0    
+     9  8:veditor  9:aeditor      +   0      0.072  0      0      0.298  0      0      0.239 *0.391  0    
+    10  8:veditor   6:player      +   0      0.072  0      0      0.298 *0.577  0      0.052  0      0    
+    11  8:veditor  8:veditor          0.014  0      0      0      0.001  0.021  0     *0.609  0      0.355
+    12  8:veditor  9:aeditor      +   0      0.072  0.029  0      0.016  0      0.282  0.228 *0.373  0    
+    13    7:graph   6:player      +   0      0      0      0      0.067 *0.577  0.231  0.02   0.033  0.072
+    14    7:graph  9:aeditor      +   0      0.072  0      0      0.298  0      0      0.239 *0.391  0    
+    15    7:graph  1:browser      +  *0.653  0.167  0      0.126  0.037  0.017  0      0      0      0    
+    16    7:graph  9:aeditor      +   0      0.072  0      0      0.067  0      0.231  0.239 *0.391  0    
+    17    7:graph   6:player      +   0      0.072  0      0      0.067 *0.63   0.231  0      0      0    
+    18    7:graph  9:aeditor      +   0      0.072  0      0      0.016  0      0.282  0.239 *0.391  0    
+    19 10:calcula 10:calcula          0      0.044  0      0      0.041  0      0      0      0     *0.916
+    20 10:calcula 10:calcula          0      0.044  0      0      0.041  0      0      0      0     *0.916
+    21 10:calcula 10:calcula          0      0      0      0      0.041  0      0      0      0     *0.959
+    22 10:calcula 10:calcula          0      0.044  0      0      0.041  0      0      0      0     *0.916
+    23 10:calcula 10:calcula          0      0      0      0      0.041  0      0      0      0     *0.959
+    24 10:calcula     4:game      +   0      0      0     *0.557  0.015  0.073  0      0      0      0.355
+    25      5:ide  9:aeditor      +   0      0.072  0      0      0.298  0      0      0.239 *0.391  0    
+    26      5:ide  9:aeditor      +   0      0.072  0.126  0      0.016  0      0.282  0.191 *0.313  0    
+    27      5:ide     4:game      +   0      0.072  0     *0.63   0.016  0      0.282  0      0      0    
+    28      5:ide       3:im      +   0      0.072 *0.59   0      0.067  0      0.231  0.039  0      0    
+    29      5:ide       3:im      +   0      0.072 *0.571  0.018  0.298  0.003  0      0.038  0      0    
+    30      5:ide       3:im      +   0      0.072 *0.59   0      0.298  0      0      0.039  0      0    
+    31   6:player       3:im      +   0      0.003 *0.609  0      0.298  0.021  0      0      0      0.069
+    32   6:player       3:im      +   0      0.072 *0.548  0      0.016  0.045  0.282  0.037  0      0    
+    33   6:player  9:aeditor      +   0.282  0.072  0      0      0.016  0      0      0.239 *0.391  0    
+    34   6:player  9:aeditor      +   0.231  0.072  0.126  0      0.067  0      0      0.191 *0.313  0    
+    35   6:player   6:player          0      0.355  0      0      0.001 *0.63   0.014  0      0      0    
+    36   6:player   6:player          0      0      0      0      0     *0.63   0.37   0      0      0    
+    37  9:aeditor  9:aeditor          0      0      0      0      0.016  0.045  0.282  0.222 *0.363  0.072
+    38  9:aeditor  9:aeditor          0      0.072  0.126  0      0.016  0      0.282  0.191 *0.313  0    
+    39  9:aeditor  9:aeditor          0      0.072  0      0      0.067  0.021  0.231  0.231 *0.378  0    
+    40  9:aeditor   6:player      +   0      0.072  0      0      0.016 *0.42   0.282  0.08   0.13   0    
+    41  9:aeditor  9:aeditor          0      0.072  0.126  0      0.016  0      0.282  0.191 *0.313  0    
+    42  9:aeditor   2:office      +   0     *0.355  0.117  0      0.001  0.045  0.014  0.177  0.29   0    
+    43  1:browser       3:im      +   0      0.072 *0.59   0      0.016  0      0.282  0.039  0      0    
+    44  1:browser  1:browser         *0.762  0.195  0      0      0.044  0      0      0      0      0    
+    45  1:browser  1:browser         *0.762  0.195  0      0      0.044  0      0      0      0      0    
+    46  1:browser  9:aeditor      +   0.282  0.072  0      0      0.016  0      0      0.239 *0.391  0    
+    47  1:browser  1:browser         *0.762  0.195  0      0      0.044  0      0      0      0      0    
+    48  1:browser  1:browser         *0.762  0.195  0      0      0.044  0      0      0      0      0    
+    49     4:game     4:game          0      0      0     *0.557  0.015  0.073  0      0      0      0.355
+    50     4:game     4:game          0.282  0.072  0     *0.557  0.016  0.073  0      0      0      0    
+    51     4:game     4:game          0      0.355  0     *0.557  0.015  0.073  0      0      0      0    
+    52     4:game  9:aeditor      +   0.231  0.072  0      0      0.067  0      0      0.239 *0.391  0    
+    53     4:game 10:calcula      +   0      0.044  0      0      0.002  0      0.038  0      0     *0.916
+    54     4:game     4:game          0      0      0     *0.557  0.015  0.073  0      0      0      0.355
+    55       3:im       3:im          0      0     *0.609  0      0.298  0.021  0      0      0      0.072
+    56       3:im       3:im          0      0.072 *0.609  0      0.298  0.021  0      0      0      0    
+    57       3:im       3:im          0      0.003 *0.609  0      0.298  0.021  0      0      0      0.069
+    58       3:im       3:im          0      0     *0.609  0      0.015  0.021  0      0      0      0.355
+    59       3:im  8:veditor      +   0      0.072  0      0      0.298  0      0     *0.63   0      0    
+    60       3:im       3:im          0      0.058 *0.571  0      0.298  0.021  0      0.038  0      0.014
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         264               44      %
+Incorrectly Classified Instances       336               56      %
+Kappa statistic                          0.3778
+K&B Relative Info Score              26035.3145 %
+K&B Information Score                  864.8744 bits      1.4415 bits/instance
+Class complexity | order 0            1993.1569 bits      3.3219 bits/instance
+Class complexity | scheme           107310.9059 bits    178.8515 bits/instance
+Complexity improvement     (Sf)    -105317.749  bits   -175.5296 bits/instance
+Mean absolute error                      0.1248
+Root mean squared error                  0.2769
+Relative absolute error                 69.3472 %
+Root relative squared error             92.3161 %
+Total Number of Instances              600     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.75      0.017      0.833     0.75      0.789      0.878    browser
+                 0.433     0.037      0.565     0.433     0.491      0.759    office
+                 0.567     0.072      0.466     0.567     0.511      0.825    im
+                 0.567     0.054      0.54      0.567     0.553      0.868    game
+                 0.333     0.065      0.364     0.333     0.348      0.678    ide
+                 0.25      0.094      0.227     0.25      0.238      0.702    player
+                 0.233     0.1        0.206     0.233     0.219      0.708    graph
+                 0.217     0.048      0.333     0.217     0.263      0.72     veditor
+                 0.317     0.094      0.271     0.317     0.292      0.717    aeditor
+                 0.733     0.041      0.667     0.733     0.698      0.895    calculatorer
+Weighted Avg.    0.44      0.062      0.447     0.44      0.44       0.775
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 45  0  1  2  3  3  2  3  1  0 |  a = browser
+  0 26  2  4  0  7  6  2  8  5 |  b = office
+  1  2 34  1 10  1  1  3  5  2 |  c = im
+  0  5  2 34  4  1  3  2  2  7 |  d = game
+  3  3 12  7 20  4  1  5  3  2 |  e = ide
+  0  1  5  5  2 15 18  2  9  3 |  f = player
+  1  3  5  2  5 14 14  3 13  0 |  g = graph
+  1  0  4  2  7 12 12 13  9  0 |  h = veditor
+  3  3  4  3  1  9 11  4 19  3 |  i = aeditor
+  0  3  4  3  3  0  0  2  1 44 |  j = calculatorer
+

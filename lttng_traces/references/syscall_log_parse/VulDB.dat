@@ -1,0 +1,27 @@
+
+begin{Process-Vulnerability}
+
+apache2 : Buff DngPtr FmtStr SQLIn CodIn DirTrv
+wget : Buff DngPtr FmtStr 
+corehttp : Buff DngPtr FmtStr CodIn DirTrv
+ssh : PwdDic Buff
+
+end{Process-Vulnerability}
+
+
+comments
+vuls: Buff DngPtr FmtStr ShlMC SQLIn CodIn DirTrv CSS HttpHdr HttpRsp TcTu SymRc CSFor ClkJk FTPBnc WrnFtg BlmVic Race PwdDic Encrypt
+
+
+begin{IDS-Vulnerability(FP,FN)}
+
+zabbix : 6 PwdDic 0.2 0.1 Encrypt 0.2 0.1
+snort : 18 SQLIn 0.1 0.3 Buff 0.1 0.3 
+valgrind : 30 Buff 0.1 0.01 FmtStr 0.1 0.01 DngPtr 0.1 0.01
+samhain : 40 CodIn 0.3 0.8
+libsafe : 4 Buff 0.1 0.1 FmtStr 0.1 0.1
+clamav : 13 CodIn 0.3 0.8
+php-ids : 5 SQLIn 0.1 0.2 CodIn 0.1 0.1 HttpHdr 0.1 0.1 DirTrv 0.1 0.1
+greensql : 3 SQLIn 0.1 0.1 CodIn 0.2 0.1 
+
+end{IDS-Vulnerability(FP,FN)}

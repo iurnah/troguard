@@ -1,0 +1,2143 @@
+=== Run information ===
+
+Scheme:weka.classifiers.meta.nestedDichotomies.DataNearBalancedND -S 1 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     linuxapp
+Instances:    600
+Attributes:   95
+              class
+              CPU_usage_Mean
+              CPU_usage_Stdev
+              CPU_usage_Virance
+              Dep(anjuta-launcher)
+              Dep(cc1plus)
+              Dep(codelite_indexe)
+              Dep(gdnc)
+              Dep(genius-readline)
+              Dep(java)
+              Dep(lame)
+              Dep(make)
+              Dep(perl)
+              Dep(pool)
+              Dep(StreamTrans_#5)
+              Dep(unity-panel-ser)
+              Dep(Xorg)
+              Dep(zdclient)
+              File_access_class_count
+              INET
+              INET6
+              KB_Alpa
+              KB_Arrow
+              KB_Modi
+              KB_Num
+              KB_Punc
+              Memory_class_count
+              MEM_usage_Mean
+              MEM_usage_Stdev
+              MEM_usage_Virance
+              Mouse_Left
+              Mouse_Middle
+              Mouse_Right
+              Mouse_Wheel
+              NETLINK
+              Network_class_count
+              Port(11380)
+              Port(12350)
+              Port(143)
+              Port(1863)
+              Port(25)
+              Port(38658)
+              Port(40005)
+              Port(43277)
+              Port(443)
+              Port(465)
+              Port(49037)
+              Port(49038)
+              Port(5222)
+              Port(53)
+              Port(80)
+              Port(993)
+              Port(9997)
+              Process_control_class_count
+              R(/..)
+              R(./..)
+              R(dev/..)
+              R(etc/..)
+              R(extcalc/..)
+              R(helloword.project/..)
+              R(home/..)
+              R(in/..)
+              R(initrd.img/..)
+              R(lib/..)
+              R(opt/..)
+              R(proc/..)
+              R(run/..)
+              R(sys/..)
+              R(tmp/..)
+              R(ui/..)
+              R(usr/..)
+              R(var/..)
+              Total_read
+              Total_recieve
+              Total_sent
+              Total_write
+              Unique_IPs
+              UNIX
+              UNKNOWN-SOCKET-TYPE
+              W(/..)
+              W(C:\nppdf32Log\debuglog.txt/..)
+              W(dev/..)
+              W(etc/..)
+              W(extcalc/..)
+              W(helloword_wsp.mk/..)
+              W(home/..)
+              W(lib/..)
+              W(opt/..)
+              W(proc/..)
+              W(pwd/..)
+              W(sylpheed.log/..)
+              W(tmp/..)
+              W(usr/..)
+              W(var/..)
+              W(zdesktop.log/..)
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+DataNearBalancedND
+
+Node number: 1
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1-2,8-10 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1-2,8-10-N'
+
+@attribute class {neg_1-2_8-10,pos_1-2_8-10}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+MEM_usage_Mean <= 1.938: pos_1-2_8-10 (47.0)
+MEM_usage_Mean > 1.938
+|   Unique_IPs <= 4
+|   |   Port(1863) = true: neg_1-2_8-10 (18.0)
+|   |   Port(1863) = false
+|   |   |   Port(5222) = true: neg_1-2_8-10 (7.0)
+|   |   |   Port(5222) = false
+|   |   |   |   Port(12350) = true: neg_1-2_8-10 (5.0)
+|   |   |   |   Port(12350) = false
+|   |   |   |   |   Port(443) = true: pos_1-2_8-10 (4.0)
+|   |   |   |   |   Port(443) = false
+|   |   |   |   |   |   Port(49037) = true: neg_1-2_8-10 (4.0)
+|   |   |   |   |   |   Port(49037) = false
+|   |   |   |   |   |   |   KB_Arrow = true
+|   |   |   |   |   |   |   |   KB_Alpa = true
+|   |   |   |   |   |   |   |   |   File_access_class_count <= 3383: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   File_access_class_count > 3383: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   KB_Alpa = false: neg_1-2_8-10 (18.0)
+|   |   |   |   |   |   |   KB_Arrow = false
+|   |   |   |   |   |   |   |   MEM_usage_Mean <= 360.38
+|   |   |   |   |   |   |   |   |   W(dev/..) = true
+|   |   |   |   |   |   |   |   |   |   CPU_usage_Mean <= 10.9: neg_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   CPU_usage_Mean > 10.9: pos_1-2_8-10 (10.0)
+|   |   |   |   |   |   |   |   |   W(dev/..) = false
+|   |   |   |   |   |   |   |   |   |   W(usr/..) = true
+|   |   |   |   |   |   |   |   |   |   |   Total_write <= 116: pos_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Total_write > 116
+|   |   |   |   |   |   |   |   |   |   |   |   W(tmp/..) = true: pos_1-2_8-10 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W(tmp/..) = false: neg_1-2_8-10 (18.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W(usr/..) = false
+|   |   |   |   |   |   |   |   |   |   |   Mouse_Wheel = true
+|   |   |   |   |   |   |   |   |   |   |   |   R(proc/..) = true: pos_1-2_8-10 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   R(proc/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count <= 3128: pos_1-2_8-10 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count > 3128: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Mouse_Wheel = false
+|   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Mean <= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   KB_Alpa = true: neg_1-2_8-10 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   KB_Alpa = false: pos_1-2_8-10 (31.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Mean > 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   KB_Alpa = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Modi = true: neg_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Modi = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(etc/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total_read <= 2234135: pos_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total_read > 2234135: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(etc/..) = false: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = false: pos_1-2_8-10 (29.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   KB_Alpa = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   INET <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W(tmp/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(dev/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Memory_class_count <= 145: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Memory_class_count > 145: pos_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(dev/..) = false: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W(tmp/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Modi = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = true: neg_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = true: neg_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 33.9718: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 33.9718: pos_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Modi = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Num = true: pos_1-2_8-10 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Num = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(home/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NETLINK <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(etc/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(var/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 142.005: neg_1-2_8-10 (29.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 142.005: pos_1-2_8-10 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(var/..) = false: neg_1-2_8-10 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(etc/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = true: neg_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total_read <= 258704: neg_1-2_8-10 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total_read > 258704: pos_1-2_8-10 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NETLINK > 0: pos_1-2_8-10 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 131.341: pos_1-2_8-10 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 131.341: neg_1-2_8-10 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(home/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Right = true: pos_1-2_8-10 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Right = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Mean <= 7.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = true: neg_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev <= 0.87178: neg_1-2_8-10 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev > 0.87178
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = true: pos_1-2_8-10 (20.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Virance <= 0.182086
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Process_control_class_count <= 3380: neg_1-2_8-10 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Process_control_class_count > 3380: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Memory_class_count <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Stdev <= 0.0144
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev <= 1.8: pos_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev > 1.8: neg_1-2_8-10 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Stdev > 0.0144: neg_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Memory_class_count > 5: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Virance > 0.182086: pos_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Mean > 7.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = true: neg_1-2_8-10 (30.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   R(usr/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Mean <= 35.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count <= 35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 106.953: pos_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 106.953
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count <= 29: neg_1-2_8-10 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count > 29: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count > 35: neg_1-2_8-10 (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Left = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Network_class_count <= 6920
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Virance <= 0.089027
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev <= 7.96806: neg_1-2_8-10 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev > 7.96806: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Virance > 0.089027: neg_1-2_8-10 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Network_class_count > 6920: pos_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Mean > 35.1: pos_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   INET > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Process_control_class_count <= 2176: pos_1-2_8-10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Process_control_class_count > 2176: neg_1-2_8-10 (15.0)
+|   |   |   |   |   |   |   |   MEM_usage_Mean > 360.38
+|   |   |   |   |   |   |   |   |   R(lib/..) = true
+|   |   |   |   |   |   |   |   |   |   R(usr/..) = true: neg_1-2_8-10 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   R(usr/..) = false: pos_1-2_8-10 (4.0)
+|   |   |   |   |   |   |   |   |   R(lib/..) = false: neg_1-2_8-10 (45.0/1.0)
+|   Unique_IPs > 4: pos_1-2_8-10 (47.0/1.0)
+
+Number of Leaves  : 	68
+
+Size of the tree : 	135
+
+
+Node number: 2
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1-2 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1-2,8-10-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1-2-N'
+
+@attribute class {neg_1-2,pos_1-2}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Unique_IPs <= 0
+|   KB_Alpa = true: pos_1-2 (46.0/3.0)
+|   KB_Alpa = false
+|   |   KB_Punc = true
+|   |   |   KB_Num = true: neg_1-2 (9.0)
+|   |   |   KB_Num = false
+|   |   |   |   CPU_usage_Mean <= 0: neg_1-2 (4.0/1.0)
+|   |   |   |   CPU_usage_Mean > 0: pos_1-2 (9.0)
+|   |   KB_Punc = false: neg_1-2 (176.0/11.0)
+Unique_IPs > 0: pos_1-2 (56.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Node number: 3
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 1 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1-2,8-10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1-2-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V1-N'
+
+@attribute class {neg_browser,pos_browser}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Process_control_class_count <= 5597
+|   Port(443) = true: pos_browser (2.0)
+|   Port(443) = false: neg_browser (61.0/1.0)
+Process_control_class_count > 5597: pos_browser (57.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Node number: 4
+
+null
+
+Node number: 5
+
+null
+
+Node number: 6
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 8-9 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1-2,8-10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L8-10-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V8-9-N'
+
+@attribute class {neg_8-9,pos_8-9}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+MEM_usage_Mean <= 37.967
+|   MEM_usage_Mean <= 0.16: pos_8-9 (5.0)
+|   MEM_usage_Mean > 0.16
+|   |   Total_sent <= 3113: neg_8-9 (48.0)
+|   |   Total_sent > 3113: pos_8-9 (3.0/1.0)
+MEM_usage_Mean > 37.967
+|   Dep(genius-readline) = true: neg_8-9 (2.0)
+|   Dep(genius-readline) = false
+|   |   KB_Punc = true
+|   |   |   CPU_usage_Mean <= 0.636364: pos_8-9 (2.0)
+|   |   |   CPU_usage_Mean > 0.636364: neg_8-9 (2.0)
+|   |   KB_Punc = false
+|   |   |   R(usr/..) = true
+|   |   |   |   MEM_usage_Mean <= 64.9627
+|   |   |   |   |   Memory_class_count <= 4: neg_8-9 (5.0)
+|   |   |   |   |   Memory_class_count > 4: pos_8-9 (3.0)
+|   |   |   |   MEM_usage_Mean > 64.9627: pos_8-9 (60.0/2.0)
+|   |   |   R(usr/..) = false: pos_8-9 (50.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+
+
+Node number: 7
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 8 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L1-2,8-10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L8-10-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L8-9-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V8-N'
+
+@attribute class {neg_veditor,pos_veditor}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+KB_Num = true: neg_veditor (5.0/1.0)
+KB_Num = false
+|   R(dev/..) = true
+|   |   Total_sent <= 794: neg_veditor (24.0/1.0)
+|   |   Total_sent > 794
+|   |   |   File_access_class_count <= 21463: pos_veditor (6.0)
+|   |   |   File_access_class_count > 21463: neg_veditor (2.0)
+|   R(dev/..) = false
+|   |   MEM_usage_Virance <= 68.4353
+|   |   |   R(tmp/..) = true: neg_veditor (2.0)
+|   |   |   R(tmp/..) = false
+|   |   |   |   R(home/..) = true
+|   |   |   |   |   MEM_usage_Mean <= 158.607: neg_veditor (15.0)
+|   |   |   |   |   MEM_usage_Mean > 158.607
+|   |   |   |   |   |   Memory_class_count <= 1: neg_veditor (2.0)
+|   |   |   |   |   |   Memory_class_count > 1: pos_veditor (11.0)
+|   |   |   |   R(home/..) = false
+|   |   |   |   |   Total_write <= 46
+|   |   |   |   |   |   MEM_usage_Mean <= 51.661: pos_veditor (17.0/1.0)
+|   |   |   |   |   |   MEM_usage_Mean > 51.661
+|   |   |   |   |   |   |   Memory_class_count <= 1
+|   |   |   |   |   |   |   |   MEM_usage_Mean <= 192.373: pos_veditor (7.0)
+|   |   |   |   |   |   |   |   MEM_usage_Mean > 192.373
+|   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 237.991: neg_veditor (6.0)
+|   |   |   |   |   |   |   |   |   MEM_usage_Mean > 237.991: pos_veditor (3.0)
+|   |   |   |   |   |   |   Memory_class_count > 1: neg_veditor (6.0/1.0)
+|   |   |   |   |   Total_write > 46: pos_veditor (2.0)
+|   |   MEM_usage_Virance > 68.4353: pos_veditor (12.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Node number: 8
+
+null
+
+Node number: 9
+
+null
+
+Node number: 10
+
+null
+
+Node number: 11
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 3-4,7 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3-7-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V3-4,7-N'
+
+@attribute class {neg_3-4_7,pos_3-4_7}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Port(53) = true: neg_3-4_7 (4.0)
+Port(53) = false
+|   W(dev/..) = true: neg_3-4_7 (4.0)
+|   W(dev/..) = false
+|   |   R(sys/..) = true
+|   |   |   Port(443) = true: pos_3-4_7 (2.0)
+|   |   |   Port(443) = false
+|   |   |   |   R(tmp/..) = true
+|   |   |   |   |   KB_Punc = true: pos_3-4_7 (2.0)
+|   |   |   |   |   KB_Punc = false: neg_3-4_7 (2.0)
+|   |   |   |   R(tmp/..) = false: neg_3-4_7 (19.0)
+|   |   R(sys/..) = false
+|   |   |   Dep(cc1plus) = true: neg_3-4_7 (3.0)
+|   |   |   Dep(cc1plus) = false
+|   |   |   |   Port(1863) = true: pos_3-4_7 (17.0)
+|   |   |   |   Port(1863) = false
+|   |   |   |   |   Port(5222) = true: pos_3-4_7 (7.0)
+|   |   |   |   |   Port(5222) = false
+|   |   |   |   |   |   UNIX <= 10
+|   |   |   |   |   |   |   KB_Modi = true
+|   |   |   |   |   |   |   |   CPU_usage_Mean <= 2.9: pos_3-4_7 (4.0)
+|   |   |   |   |   |   |   |   CPU_usage_Mean > 2.9
+|   |   |   |   |   |   |   |   |   Total_sent <= 12149
+|   |   |   |   |   |   |   |   |   |   CPU_usage_Mean <= 20.6: neg_3-4_7 (17.0)
+|   |   |   |   |   |   |   |   |   |   CPU_usage_Mean > 20.6: pos_3-4_7 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Total_sent > 12149: pos_3-4_7 (2.0)
+|   |   |   |   |   |   |   KB_Modi = false
+|   |   |   |   |   |   |   |   W(usr/..) = true: pos_3-4_7 (18.0)
+|   |   |   |   |   |   |   |   W(usr/..) = false
+|   |   |   |   |   |   |   |   |   KB_Num = true: neg_3-4_7 (2.0)
+|   |   |   |   |   |   |   |   |   KB_Num = false
+|   |   |   |   |   |   |   |   |   |   KB_Arrow = true: pos_3-4_7 (11.0)
+|   |   |   |   |   |   |   |   |   |   KB_Arrow = false
+|   |   |   |   |   |   |   |   |   |   |   W(home/..) = true: pos_3-4_7 (37.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   W(home/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   R(etc/..) = true
+|   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = true: pos_3-4_7 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 80.403: pos_3-4_7 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 80.403: neg_3-4_7 (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   R(etc/..) = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Wheel = true: pos_3-4_7 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mouse_Wheel = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Memory_class_count <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 807.688
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Network_class_count <= 3146
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Alpa = true: pos_3-4_7 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Alpa = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = true: neg_3-4_7 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   KB_Punc = false
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev <= 7.96806
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 226.469
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean <= 89.2557
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count <= 1581: pos_3-4_7 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count > 1581: neg_3-4_7 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 89.2557: neg_3-4_7 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 226.469: pos_3-4_7 (18.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   CPU_usage_Stdev > 7.96806: pos_3-4_7 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Network_class_count > 3146: pos_3-4_7 (31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MEM_usage_Mean > 807.688: neg_3-4_7 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Memory_class_count > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Network_class_count <= 10270
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count <= 1802: pos_3-4_7 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   File_access_class_count > 1802: neg_3-4_7 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Network_class_count > 10270: pos_3-4_7 (3.0)
+|   |   |   |   |   |   UNIX > 10: neg_3-4_7 (14.0)
+
+Number of Leaves  : 	34
+
+Size of the tree : 	67
+
+
+Node number: 12
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 3,7 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3-7-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3-4,7-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V3,7-N'
+
+@attribute class {neg_3_7,pos_3_7}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+KB_Arrow = true: neg_3_7 (16.0)
+KB_Arrow = false
+|   MEM_usage_Mean <= 45.938
+|   |   Network_class_count <= 9676
+|   |   |   MEM_usage_Stdev <= 12.9641: neg_3_7 (29.0)
+|   |   |   MEM_usage_Stdev > 12.9641: pos_3_7 (3.0/1.0)
+|   |   Network_class_count > 9676
+|   |   |   CPU_usage_Stdev <= 3.36977: neg_3_7 (2.0)
+|   |   |   CPU_usage_Stdev > 3.36977: pos_3_7 (8.0)
+|   MEM_usage_Mean > 45.938
+|   |   CPU_usage_Mean <= 33.1818
+|   |   |   MEM_usage_Mean <= 506.235: pos_3_7 (102.0)
+|   |   |   MEM_usage_Mean > 506.235
+|   |   |   |   MEM_usage_Mean <= 557.46: neg_3_7 (6.0)
+|   |   |   |   MEM_usage_Mean > 557.46: pos_3_7 (6.0)
+|   |   CPU_usage_Mean > 33.1818
+|   |   |   R(etc/..) = true: pos_3_7 (2.0)
+|   |   |   R(etc/..) = false: neg_3_7 (6.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+
+
+Node number: 13
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 3 -N
+
+Filtered Header
+@relation 'linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3-7-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3-4,7-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3,7-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V3-N'
+
+@attribute class {neg_im,pos_im}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Unique_IPs <= 0
+|   CPU_usage_Mean <= 4.5: pos_im (17.0)
+|   CPU_usage_Mean > 4.5
+|   |   R(tmp/..) = true: pos_im (2.0)
+|   |   R(tmp/..) = false
+|   |   |   MEM_usage_Mean <= 506.235: neg_im (65.0/5.0)
+|   |   |   MEM_usage_Mean > 506.235: pos_im (5.0)
+Unique_IPs > 0: pos_im (31.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Node number: 14
+
+null
+
+Node number: 15
+
+null
+
+Node number: 16
+
+null
+
+Node number: 17
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.MakeIndicator -C 1 -V 5 -N
+
+Filtered Header
+@relation linuxapp-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L3-7-V-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L5-6-V-weka.filters.unsupervised.attribute.MakeIndicator-C1-V5-N
+
+@attribute class {neg_ide,pos_ide}
+@attribute CPU_usage_Mean numeric
+@attribute CPU_usage_Stdev numeric
+@attribute CPU_usage_Virance numeric
+@attribute Dep(anjuta-launcher) {true,false}
+@attribute Dep(cc1plus) {true,false}
+@attribute Dep(codelite_indexe) {true,false}
+@attribute Dep(gdnc) {true,false}
+@attribute Dep(genius-readline) {true,false}
+@attribute Dep(java) {true,false}
+@attribute Dep(lame) {true,false}
+@attribute Dep(make) {true,false}
+@attribute Dep(perl) {true,false}
+@attribute Dep(pool) {true,false}
+@attribute Dep(StreamTrans_#5) {true,false}
+@attribute Dep(unity-panel-ser) {true,false}
+@attribute Dep(Xorg) {true,false}
+@attribute Dep(zdclient) {true,false}
+@attribute File_access_class_count numeric
+@attribute INET numeric
+@attribute INET6 numeric
+@attribute KB_Alpa {true,false}
+@attribute KB_Arrow {true,false}
+@attribute KB_Modi {true,false}
+@attribute KB_Num {true,false}
+@attribute KB_Punc {true,false}
+@attribute Memory_class_count numeric
+@attribute MEM_usage_Mean numeric
+@attribute MEM_usage_Stdev numeric
+@attribute MEM_usage_Virance numeric
+@attribute Mouse_Left {true,false}
+@attribute Mouse_Middle {true,false}
+@attribute Mouse_Right {true,false}
+@attribute Mouse_Wheel {true,false}
+@attribute NETLINK numeric
+@attribute Network_class_count numeric
+@attribute Port(11380) {true,false}
+@attribute Port(12350) {true,false}
+@attribute Port(143) {true,false}
+@attribute Port(1863) {true,false}
+@attribute Port(25) {true,false}
+@attribute Port(38658) {true,false}
+@attribute Port(40005) {true,false}
+@attribute Port(43277) {true,false}
+@attribute Port(443) {true,false}
+@attribute Port(465) {true,false}
+@attribute Port(49037) {true,false}
+@attribute Port(49038) {true,false}
+@attribute Port(5222) {true,false}
+@attribute Port(53) {true,false}
+@attribute Port(80) {true,false}
+@attribute Port(993) {true,false}
+@attribute Port(9997) {true,false}
+@attribute Process_control_class_count numeric
+@attribute R(/..) {true,false}
+@attribute R(./..) {true,false}
+@attribute R(dev/..) {true,false}
+@attribute R(etc/..) {true,false}
+@attribute R(extcalc/..) {true,false}
+@attribute R(helloword.project/..) {true,false}
+@attribute R(home/..) {true,false}
+@attribute R(in/..) {true,false}
+@attribute R(initrd.img/..) {true,false}
+@attribute R(lib/..) {true,false}
+@attribute R(opt/..) {true,false}
+@attribute R(proc/..) {true,false}
+@attribute R(run/..) {true,false}
+@attribute R(sys/..) {true,false}
+@attribute R(tmp/..) {true,false}
+@attribute R(ui/..) {true,false}
+@attribute R(usr/..) {true,false}
+@attribute R(var/..) {true,false}
+@attribute Total_read numeric
+@attribute Total_recieve numeric
+@attribute Total_sent numeric
+@attribute Total_write numeric
+@attribute Unique_IPs numeric
+@attribute UNIX numeric
+@attribute UNKNOWN-SOCKET-TYPE numeric
+@attribute W(/..) {true,false}
+@attribute 'W(C:\\nppdf32Log\\debuglog.txt/..)' {true,false}
+@attribute W(dev/..) {true,false}
+@attribute W(etc/..) {true,false}
+@attribute W(extcalc/..) {true,false}
+@attribute W(helloword_wsp.mk/..) {true,false}
+@attribute W(home/..) {true,false}
+@attribute W(lib/..) {true,false}
+@attribute W(opt/..) {true,false}
+@attribute W(proc/..) {true,false}
+@attribute W(pwd/..) {true,false}
+@attribute W(sylpheed.log/..) {true,false}
+@attribute W(tmp/..) {true,false}
+@attribute W(usr/..) {true,false}
+@attribute W(var/..) {true,false}
+@attribute W(zdesktop.log/..) {true,false}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+KB_Punc = true: pos_ide (29.0)
+KB_Punc = false
+|   W(dev/..) = true: pos_ide (3.0)
+|   W(dev/..) = false
+|   |   KB_Num = true: pos_ide (2.0)
+|   |   KB_Num = false
+|   |   |   MEM_usage_Mean <= 224.297
+|   |   |   |   MEM_usage_Mean <= 28.0909: pos_ide (3.0)
+|   |   |   |   MEM_usage_Mean > 28.0909: neg_ide (52.0/3.0)
+|   |   |   MEM_usage_Mean > 224.297
+|   |   |   |   Unique_IPs <= 0
+|   |   |   |   |   Network_class_count <= 9148: pos_ide (20.0/1.0)
+|   |   |   |   |   Network_class_count > 9148: neg_ide (4.0/1.0)
+|   |   |   |   Unique_IPs > 0: neg_ide (7.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Node number: 18
+
+null
+
+Node number: 19
+
+null
+
+Time taken to build model: 0.11 seconds
+
+=== Predictions on training set ===
+
+inst#,    actual, predicted, error, probability distribution
+     1  1:browser  1:browser         *0.979  0      0      0.021  0      0      0      0      0      0    
+     2  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+     3  1:browser  1:browser         *0.979  0      0      0.021  0      0      0      0      0      0    
+     4  1:browser  1:browser         *0.979  0      0      0.021  0      0      0      0      0      0    
+     5  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+     6  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+     7  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+     8  1:browser  1:browser         *0.979  0      0      0.019  0.002  0      0      0      0      0    
+     9  1:browser  1:browser         *0.979  0      0.019  0      0      0.002  0      0      0      0    
+    10  1:browser  1:browser         *0.979  0      0      0.019  0      0.002  0      0      0      0    
+    11  1:browser  1:browser         *0.979  0      0.021  0      0      0      0      0      0      0    
+    12  1:browser  1:browser         *0.979  0      0      0.019  0.002  0      0      0      0      0    
+    13  1:browser  1:browser         *0.979  0      0.019  0      0.002  0      0      0      0      0    
+    14  1:browser  1:browser         *0.979  0      0.019  0      0      0.002  0      0      0      0    
+    15  1:browser  1:browser         *0.979  0      0.019  0      0.002  0      0      0      0      0    
+    16  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    17  1:browser  1:browser         *0.979  0      0.019  0      0.002  0      0      0      0      0    
+    18  1:browser  1:browser         *0.979  0      0.019  0      0      0.002  0      0      0      0    
+    19  1:browser  1:browser         *0.979  0      0.019  0      0.002  0      0      0      0      0    
+    20  1:browser  1:browser         *0.979  0      0.019  0      0.002  0      0      0      0      0    
+    21  1:browser  1:browser         *0.979  0      0      0.019  0.002  0      0      0      0      0    
+    22  1:browser  1:browser         *0.979  0      0      0.019  0.002  0      0      0      0      0    
+    23  1:browser  1:browser         *0.979  0      0      0.019  0      0.002  0      0      0      0    
+    24  1:browser   6:player      +   0.022  0      0      0      0     *0.978  0      0      0      0    
+    25  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    26  1:browser  1:browser         *0.979  0      0.019  0      0      0.002  0      0      0      0    
+    27  1:browser  1:browser         *0.979  0      0      0.019  0      0.002  0      0      0      0    
+    28  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    29  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    30  1:browser  1:browser         *0.979  0      0      0.019  0      0.002  0      0      0      0    
+    31  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    32  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    33  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    34  1:browser  1:browser         *0.935  0      0      0      0      0      0      0      0      0.065
+    35  1:browser  8:veditor      +   0.063  0      0      0      0      0      0     *0.938  0      0    
+    36  1:browser  8:veditor      +   0.063  0      0      0      0      0      0     *0.938  0      0    
+    37  1:browser  1:browser         *0.828  0      0.172  0      0      0      0      0      0      0    
+    38  1:browser  1:browser         *0.828  0      0.172  0      0      0      0      0      0      0    
+    39  1:browser  1:browser         *0.979  0      0.001  0      0.001  0.019  0      0      0      0    
+    40  1:browser  1:browser         *0.979  0      0.001  0      0.001  0.019  0      0      0      0    
+    41  1:browser  1:browser         *0.979  0      0.001  0      0.001  0.019  0      0      0      0    
+    42  1:browser  1:browser         *0.979  0      0.001  0      0.001  0.019  0      0      0      0    
+    43  1:browser   2:office      +   0.015 *0.919  0      0      0      0      0      0      0      0.065
+    44  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    45  1:browser  1:browser         *0.979  0      0.021  0      0      0      0      0      0      0    
+    46  1:browser  1:browser         *0.979  0      0.021  0      0      0      0      0      0      0    
+    47  1:browser  1:browser         *0.979  0      0.021  0      0      0      0      0      0      0    
+    48  1:browser  1:browser         *0.979  0      0      0      0      0.021  0      0      0      0    
+    49  1:browser  1:browser         *0.828  0      0.154  0      0.019  0      0      0      0      0    
+    50  1:browser      5:ide      +   0.167  0      0      0     *0.833  0      0      0      0      0    
+    51  1:browser  1:browser         *0.979  0      0      0.019  0      0.002  0      0      0      0    
+    52  1:browser  1:browser         *0.979  0      0      0      0      0.021  0      0      0      0    
+    53  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    54  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    55  1:browser  1:browser         *1      0      0      0      0      0      0      0      0      0    
+    56  1:browser  1:browser         *0.979  0      0      0      0      0.021  0      0      0      0    
+    57  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    58  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    59  1:browser  1:browser         *0.979  0      0      0      0.021  0      0      0      0      0    
+    60  1:browser  1:browser         *0.979  0      0      0      0      0.021  0      0      0      0    
+    61   2:office   2:office          0.012 *0.738  0      0      0.25   0      0      0      0      0    
+    62   2:office   2:office          0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+    63   2:office   2:office          0.013 *0.761  0      0.172  0      0      0      0      0      0.054
+    64   2:office   2:office          0.013 *0.761  0      0.172  0      0      0      0      0      0.054
+    65   2:office   2:office          0.013 *0.761  0      0.172  0      0      0      0      0      0.054
+    66   2:office   2:office          0.013 *0.761  0      0.172  0      0      0      0      0      0.054
+    67   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+    68   2:office   2:office          0.013 *0.761  0.012  0      0.019  0      0.142  0      0      0.054
+    69   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+    70   2:office   2:office          0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+    71   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+    72   2:office  8:veditor      +   0.001  0.052  0.134  0      0.001  0.015  0     *0.797  0      0    
+    73   2:office    7:graph      +   0.005  0.271  0.05   0      0.078  0     *0.596  0      0      0    
+    74   2:office   2:office          0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+    75   2:office   2:office          0.013 *0.761  0.001  0      0.161  0      0.011  0      0      0.054
+    76   2:office   2:office          0.013 *0.761  0.001  0      0.161  0      0.011  0      0      0.054
+    77   2:office  9:aeditor      +   0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+    78   2:office  9:aeditor      +   0.001  0.061  0      0      0      0      0      0     *0.938  0    
+    79   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+    80   2:office   2:office          0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+    81   2:office   2:office          0.013 *0.761  0.001  0      0.161  0      0.011  0      0      0.054
+    82   2:office   2:office          0.013 *0.761  0.013  0      0      0      0.159  0      0      0.054
+    83   2:office   2:office          0.013 *0.788  0.011  0      0      0      0.132  0      0      0.056
+    84   2:office  9:aeditor      +   0.001  0.049  0.001  0      0.011  0.176  0.012  0.121 *0.604  0.025
+    85   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+    86   2:office   2:office          0.013 *0.761  0.009  0      0.057  0      0.106  0      0      0.054
+    87   2:office   2:office          0.013 *0.761  0.009  0      0.057  0      0.106  0      0      0.054
+    88   2:office   2:office          0.013 *0.761  0.009  0      0.057  0      0.106  0      0      0.054
+    89   2:office   2:office          0.013 *0.761  0      0      0.01   0.162  0      0      0.052  0.002
+    90   2:office   2:office          0.013 *0.761  0.013  0      0      0      0.159  0      0      0.054
+    91   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+    92   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+    93   2:office  8:veditor      +   0.001  0.049  0      0.2    0      0      0     *0.706  0.044  0    
+    94   2:office  9:aeditor      +   0.001  0.041  0      0      0.333  0      0      0.125 *0.5    0    
+    95   2:office   2:office          0.013 *0.761  0      0.011  0.009  0.152  0      0.051  0.003  0    
+    96   2:office  8:veditor      +   0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+    97   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0.043  0.022
+    98   2:office   2:office          0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+    99   2:office   2:office          0.013 *0.761  0      0.172  0      0      0      0      0      0.054
+   100   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+   101   2:office 10:calcula      +   0.001  0.061  0      0      0      0      0      0      0     *0.938
+   102   2:office 10:calcula      +   0.001  0.052  0      0.15   0      0      0      0      0     *0.797
+   103   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   104   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   105   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   106   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   107   2:office 10:calcula      +   0.004  0.246  0      0      0      0      0      0      0     *0.75 
+   108   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+   109   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   110   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   111   2:office   2:office          0.016 *0.984  0      0      0      0      0      0      0      0    
+   112   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   113   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   114   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0      0.065
+   115   2:office   2:office          0.015 *0.919  0      0      0      0      0      0.013  0.052  0    
+   116   2:office   2:office          0.015 *0.919  0      0      0      0      0      0      0.065  0    
+   117   2:office   2:office          0.015 *0.919  0      0      0      0      0      0.065  0      0    
+   118   2:office   2:office          0.015 *0.919  0      0      0      0      0      0.065  0      0    
+   119   2:office   2:office          0.015 *0.919  0      0      0      0      0      0.065  0      0    
+   120   2:office   2:office          0.015 *0.919  0      0      0      0      0      0.013  0.052  0    
+   121     4:game     4:game          0.003  0.164  0     *0.833  0      0      0      0      0      0    
+   122     4:game     4:game          0      0.001  0     *0.869  0.103  0.005  0      0.02   0      0.001
+   123     4:game     4:game          0      0.001  0     *0.869  0.103  0.005  0      0.02   0      0.001
+   124     4:game     4:game          0      0.001  0     *0.978  0      0      0      0.02   0      0.001
+   125     4:game     4:game          0      0.001  0     *0.869  0.103  0.005  0      0.02   0      0.001
+   126     4:game     4:game          0      0.001  0     *0.869  0.103  0.005  0      0.02   0      0.001
+   127     4:game    7:graph      +   0.001  0.055  0.048  0.315  0      0     *0.581  0      0      0    
+   128     4:game     4:game          0      0.002  0     *0.967  0      0      0      0.005  0.025  0.001
+   129     4:game     4:game          0      0.002  0     *0.967  0      0      0      0.03   0      0.001
+   130     4:game     4:game          0      0.003  0     *0.944  0      0      0      0      0.05   0.002
+   131     4:game     4:game          0      0.002  0     *0.967  0      0      0      0.005  0.025  0.001
+   132     4:game     4:game          0      0.002  0     *0.862  0.006  0.098  0      0.03   0      0.001
+   133     4:game     4:game          0.005  0.271  0     *0.724  0      0      0      0      0      0    
+   134     4:game     4:game          0      0.002  0     *0.967  0      0      0      0      0      0.031
+   135     4:game     4:game          0      0.002  0     *0.967  0      0      0      0      0      0.031
+   136     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   137     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   138     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   139     4:game     4:game          0.276  0      0     *0.724  0      0      0      0      0      0    
+   140     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   141     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   142     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   143     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   144     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   145     4:game     4:game          0.005  0.271  0     *0.646  0.078  0      0      0      0      0    
+   146     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   147     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   148     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   149     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   150     4:game     4:game          0      0      0     *0.892  0.108  0      0      0      0      0    
+   151     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   152     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   153     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   154     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   155     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   156     4:game   6:player      +   0      0.002  0      0.107  0.05  *0.81   0      0.001  0.029  0.001
+   157     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   158     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   159     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   160     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   161     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   162     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   163     4:game     4:game          0.005  0.271  0     *0.724  0      0      0      0      0      0    
+   164     4:game     4:game          0.001  0.033  0     *0.862  0.105  0      0      0      0      0    
+   165     4:game     4:game          0      0.003  0     *0.944  0      0      0      0      0      0.052
+   166     4:game     4:game          0      0.003  0     *0.944  0      0      0      0      0      0.052
+   167     4:game     4:game          0      0.003  0     *0.944  0      0      0      0      0      0.052
+   168     4:game     4:game          0      0.002  0     *0.862  0.006  0.098  0      0      0      0.031
+   169     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   170     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   171     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   172     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   173     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   174     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   175     4:game     4:game          0.005  0.271  0     *0.646  0.078  0      0      0      0      0    
+   176     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   177     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   178     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   179     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   180     4:game     4:game          0      0      0     *1      0      0      0      0      0      0    
+   181      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   182      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   183      5:ide      5:ide          0      0      0.005  0     *0.933  0      0.062  0      0      0    
+   184      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   185      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   186      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   187      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   188      5:ide   2:office      +   0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+   189      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   190      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   191      5:ide   2:office      +   0.013 *0.761  0      0      0.172  0      0      0      0      0.054
+   192      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   193      5:ide  1:browser      +  *0.623  0      0.222  0      0.111  0      0      0      0      0.043
+   194      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   195      5:ide      5:ide          0.001  0.055  0      0     *0.944  0      0      0      0      0    
+   196      5:ide   6:player      +   0      0.003  0      0      0.054 *0.89   0      0      0.052  0    
+   197      5:ide   6:player      +   0      0.002  0      0.064  0.052 *0.85   0      0.005  0.025  0.001
+   198      5:ide  9:aeditor      +   0.001  0.049  0      0      0.2    0      0      0.145 *0.58   0.025
+   199      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   200      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   201      5:ide      5:ide          0      0.02   0      0     *0.978  0      0      0      0      0.001
+   202      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   203      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   204      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   205      5:ide      5:ide          0      0.022  0      0     *0.978  0      0      0      0      0    
+   206      5:ide      5:ide          0      0.02   0      0     *0.978  0      0      0      0      0.001
+   207      5:ide      5:ide          0      0.02   0      0     *0.978  0      0      0      0      0.001
+   208      5:ide      5:ide          0      0.022  0      0     *0.978  0      0      0      0      0    
+   209      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   210      5:ide    7:graph      +   0      0.001  0.067  0      0.103  0.005 *0.802  0.021  0      0    
+   211      5:ide      5:ide          0.003  0.164  0      0     *0.833  0      0      0      0      0    
+   212      5:ide      5:ide          0      0      0      0     *0.95   0.05   0      0      0      0    
+   213      5:ide   6:player      +   0.01   0      0      0      0.208 *0.625  0      0      0.151  0.005
+   214      5:ide      5:ide          0      0.02   0      0     *0.978  0      0      0      0.001  0    
+   215      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   216      5:ide      5:ide          0      0.02   0      0     *0.978  0      0      0.001  0      0    
+   217      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.001  0.019  0.001
+   218      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.02   0      0.001
+   219      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.003  0.017  0    
+   220      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   221      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   222      5:ide      5:ide          0      0.001  0      0     *0.929  0.049  0      0.021  0      0    
+   223      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   224      5:ide      5:ide          0      0      0      0     *0.95   0.05   0      0      0      0    
+   225      5:ide      5:ide          0      0      0      0     *0.95   0.05   0      0      0      0    
+   226      5:ide      5:ide          0      0      0      0     *0.95   0.05   0      0      0      0    
+   227      5:ide      5:ide          0      0      0      0     *0.95   0.05   0      0      0      0    
+   228      5:ide      5:ide          0      0      0      0     *0.95   0.05   0      0      0      0    
+   229      5:ide    7:graph      +   0      0.017  0.05   0      0.005  0.074 *0.596  0.01   0.24   0.009
+   230      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   231      5:ide  8:veditor      +   0.001  0.056  0.006  0      0.086  0.005  0     *0.819  0      0.028
+   232      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   233      5:ide      5:ide          0      0      0.005  0     *0.933  0      0.062  0      0      0    
+   234      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   235      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   236      5:ide     4:game      +   0      0      0     *0.892  0.108  0      0      0      0      0    
+   237      5:ide      5:ide          0      0      0      0.25  *0.75   0      0      0      0      0    
+   238      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   239      5:ide      5:ide          0      0      0      0     *1      0      0      0      0      0    
+   240      5:ide      5:ide          0      0.002  0      0.064 *0.902  0      0      0      0      0.031
+   241       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   242       3:im       3:im          0      0     *0.892  0      0.108  0      0      0      0      0    
+   243       3:im       3:im          0      0     *0.892  0      0.108  0      0      0      0      0    
+   244       3:im       3:im          0      0     *0.892  0      0.006  0.102  0      0      0      0    
+   245       3:im   6:player      +   0      0      0.25   0      0.043 *0.707  0      0      0      0    
+   246       3:im  1:browser      +  *0.979  0      0.019  0      0      0.002  0      0      0      0    
+   247       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   248       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   249       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   250       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   251       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   252       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   253       3:im       3:im          0.156  0     *0.743  0      0.09   0      0      0      0      0.011
+   254       3:im       3:im          0      0.022 *0.978  0      0      0      0      0      0      0    
+   255       3:im       3:im          0.001  0     *0.872  0      0.026  0.079  0      0.02   0      0.001
+   256       3:im       3:im          0      0.001 *0.869  0      0.103  0.005  0      0.02   0      0.001
+   257       3:im       3:im          0      0.001 *0.869  0      0.103  0.005  0      0.001  0.019  0.001
+   258       3:im       3:im          0      0.001 *0.869  0      0.103  0.005  0      0.021  0      0    
+   259       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   260       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   261       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   262       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   263       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   264       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   265       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   266       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   267       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   268       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   269       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   270       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   271       3:im   2:office      +   0.013 *0.761  0.172  0      0      0      0      0      0      0.054
+   272       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   273       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   274       3:im    7:graph      +   0      0      0.077  0      0      0     *0.923  0      0      0    
+   275       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   276       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   277       3:im       3:im          0.005  0.306 *0.667  0      0      0      0      0.004  0.017  0    
+   278       3:im   2:office      +   0.013 *0.788  0.143  0      0      0      0      0.056  0      0    
+   279       3:im       3:im          0      0.003 *0.944  0      0      0      0      0.05   0      0.002
+   280       3:im  9:aeditor      +   0.001  0.056  0.086  0      0.001  0.01   0      0     *0.819  0.028
+   281       3:im  8:veditor      +   0.001  0.056  0.086  0      0.001  0.01   0     *0.819  0      0.028
+   282       3:im       3:im          0.005  0.306 *0.667  0      0      0      0      0      0.022  0    
+   283       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   284       3:im       3:im          0.021  0     *0.978  0      0      0      0      0      0      0.001
+   285       3:im       3:im          0.001  0     *0.978  0      0      0      0      0.021  0      0    
+   286       3:im       3:im          0.022  0     *0.978  0      0      0      0      0      0      0    
+   287       3:im       3:im          0.001  0     *0.978  0      0      0      0      0.021  0      0    
+   288       3:im       3:im          0.001  0     *0.978  0      0      0      0      0.003  0.017  0.001
+   289       3:im   2:office      +   0.013 *0.761  0.013  0      0      0      0.159  0      0      0.054
+   290       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   291       3:im       3:im          0      0.02  *0.667  0      0      0      0      0.313  0      0    
+   292       3:im    7:graph      +   0      0      0.077  0      0      0     *0.923  0      0      0    
+   293       3:im    7:graph      +   0      0      0.051  0      0.019  0.314 *0.615  0      0      0    
+   294       3:im    7:graph      +   0      0      0.077  0      0      0     *0.923  0      0      0    
+   295       3:im       3:im          0      0     *0.667  0.333  0      0      0      0      0      0    
+   296       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   297       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   298       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   299       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   300       3:im       3:im          0      0     *1      0      0      0      0      0      0      0    
+   301    7:graph    7:graph          0      0      0.051  0      0.019  0.314 *0.615  0      0      0    
+   302    7:graph    7:graph          0      0.008  0.06   0      0.09   0.005 *0.72   0.113  0      0.004
+   303    7:graph    7:graph          0.016  0      0.058  0      0      0     *0.692  0.01   0.225  0    
+   304    7:graph    7:graph          0.011  0      0.056  0      0.084  0.004 *0.674  0.165  0      0.006
+   305    7:graph    7:graph          0      0.011  0.056  0      0.005  0.083 *0.674  0.007  0.158  0.006
+   306    7:graph    7:graph          0      0.008  0.06   0      0.09   0.005 *0.72   0.113  0      0.004
+   307    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   308    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   309    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   310    7:graph  8:veditor      +   0.001  0.049  0.015  0      0      0      0.185 *0.75   0      0    
+   311    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   312    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   313    7:graph    7:graph          0      0.01   0.064  0      0      0     *0.769  0.151  0      0.005
+   314    7:graph    7:graph          0      0.001  0.075  0      0      0     *0.903  0.021  0      0    
+   315    7:graph    7:graph          0      0.001  0.067  0      0.103  0.005 *0.802  0.021  0      0    
+   316    7:graph    7:graph          0      0.001  0.067  0      0.103  0.005 *0.802  0.021  0      0    
+   317    7:graph    7:graph          0      0.001  0.067  0      0.103  0.005 *0.802  0.021  0      0    
+   318    7:graph    7:graph          0      0.001  0.067  0      0.103  0.005 *0.802  0.021  0      0    
+   319    7:graph    7:graph          0      0.017  0.05   0      0.005  0.074 *0.596  0.01   0.24   0.009
+   320    7:graph    7:graph          0      0.008  0.06   0      0.005  0.089 *0.72   0      0.113  0.004
+   321    7:graph    7:graph          0.002  0      0.066  0      0.006  0.098 *0.796  0.03   0      0.001
+   322    7:graph    7:graph          0      0.011  0.063  0      0      0     *0.755  0      0.165  0.006
+   323    7:graph    7:graph          0      0.002  0.074  0      0      0     *0.892  0.005  0.025  0.001
+   324    7:graph    7:graph          0      0.002  0.066  0      0.006  0.098 *0.796  0.03   0      0.001
+   325    7:graph    7:graph          0.017  0      0.05   0      0.078  0     *0.596  0.172  0      0.086
+   326    7:graph    7:graph          0.002  0      0.066  0      0.105  0     *0.796  0      0      0.031
+   327    7:graph    7:graph          0      0      0.069  0      0.108  0     *0.823  0      0      0    
+   328    7:graph    7:graph          0.002  0      0.066  0      0.105  0     *0.796  0      0      0.031
+   329    7:graph    7:graph          0      0      0.069  0      0.108  0     *0.823  0      0      0    
+   330    7:graph    7:graph          0      0      0.069  0      0.108  0     *0.823  0      0      0    
+   331    7:graph    7:graph          0      0.017  0.05   0      0.005  0.074 *0.596  0.01   0.24   0.009
+   332    7:graph    7:graph          0      0.003  0.073  0      0      0     *0.872  0.05   0      0.002
+   333    7:graph    7:graph          0      0.003  0.073  0      0      0     *0.872  0.05   0      0.002
+   334    7:graph    7:graph          0      0      0.073  0      0      0     *0.872  0      0      0.056
+   335    7:graph  8:veditor      +   0.001  0.052  0.012  0      0      0      0.138 *0.797  0      0    
+   336    7:graph    7:graph          0      0.011  0.063  0      0      0     *0.755  0.165  0      0.006
+   337    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   338    7:graph    7:graph          0      0      0.068  0      0.106  0.006 *0.821  0      0      0    
+   339    7:graph    7:graph          0      0      0.068  0      0.106  0.006 *0.821  0      0      0    
+   340    7:graph    7:graph          0      0      0.068  0      0.106  0.006 *0.821  0      0      0    
+   341    7:graph    7:graph          0      0      0.068  0      0.106  0.006 *0.821  0      0      0    
+   342    7:graph    7:graph          0      0      0.068  0      0.106  0.006 *0.821  0      0      0    
+   343    7:graph    7:graph          0      0.017  0.056  0      0      0     *0.668  0.01   0.24   0.009
+   344    7:graph   6:player      +   0      0.008  0.004  0      0.048 *0.776  0.048  0.113  0      0.004
+   345    7:graph   2:office      +   0.013 *0.761  0.013  0      0      0      0.159  0      0      0.054
+   346    7:graph    7:graph          0      0      0.069  0      0.006  0.102 *0.823  0      0      0    
+   347    7:graph  8:veditor      +   0.001  0.052  0.01   0      0.001  0.015  0.123 *0.797  0      0    
+   348    7:graph    7:graph          0      0      0.069  0      0.006  0.102 *0.823  0      0      0    
+   349    7:graph    7:graph          0      0.017  0.05   0      0.005  0.074 *0.596  0.01   0.24   0.009
+   350    7:graph    7:graph          0      0.003  0.073  0      0      0     *0.872  0.05   0      0.002
+   351    7:graph    7:graph          0      0.003  0.073  0      0      0     *0.872  0.052  0      0    
+   352    7:graph    7:graph          0      0.003  0.073  0      0      0     *0.872  0.05   0      0.002
+   353    7:graph    7:graph          0.003  0      0.073  0      0      0     *0.872  0.052  0      0    
+   354    7:graph    7:graph          0      0.003  0.073  0      0      0     *0.872  0.052  0      0    
+   355    7:graph    7:graph          0      0.017  0.037  0.241  0      0     *0.446  0.172  0      0.086
+   356    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   357    7:graph    7:graph          0      0      0.077  0      0      0     *0.923  0      0      0    
+   358    7:graph    7:graph          0      0.002  0.074  0      0      0     *0.892  0.029  0.002  0    
+   359    7:graph    7:graph          0.002  0      0.074  0      0      0     *0.892  0.029  0.002  0    
+   360    7:graph   6:player      +   0      0      0.005  0      0.054 *0.879  0.062  0      0      0    
+   361   6:player   6:player          0      0      0      0      0.058 *0.942  0      0      0      0    
+   362   6:player   6:player          0      0      0.005  0      0.054 *0.879  0.062  0      0      0    
+   363   6:player   6:player          0      0      0.005  0      0.054 *0.879  0.062  0      0      0    
+   364   6:player   6:player          0      0.002  0      0      0.056 *0.911  0      0.03   0      0.001
+   365   6:player   6:player          0      0.002  0      0.064  0.052 *0.85   0      0.03   0      0.001
+   366   6:player   6:player          0      0      0.005  0      0.054 *0.879  0.062  0      0      0    
+   367   6:player   6:player          0      0.017  0      0      0.042 *0.682  0      0.259  0      0    
+   368   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   369   6:player   6:player          0      0      0.005  0      0.054 *0.887  0.054  0      0      0    
+   370   6:player   6:player          0.017  0      0      0      0.042 *0.682  0      0.01   0.24   0.009
+   371   6:player  8:veditor      +   0.047  0      0.001  0      0.014  0.222  0.014 *0.68   0      0.023
+   372   6:player   6:player          0.002  0      0      0.064  0.052 *0.85   0      0.005  0.025  0.001
+   373   6:player   6:player          0      0.017  0.003  0      0.039 *0.642  0.039  0.25   0      0.009
+   374   6:player   6:player          0      0.011  0.007  0      0.042 *0.685  0.084  0      0.165  0.006
+   375   6:player   6:player          0      0      0.005  0      0.054 *0.887  0.054  0      0      0    
+   376   6:player   6:player          0      0.011  0.004  0      0.044 *0.72   0.05   0.165  0      0.006
+   377   6:player   6:player          0      0.011  0.004  0      0.044 *0.72   0.05   0.165  0      0.006
+   378   6:player   6:player          0      0.011  0.004  0      0.044 *0.72   0.05   0.165  0      0.006
+   379   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   380   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   381   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   382   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   383   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   384   6:player   6:player          0      0      0.009  0      0.051 *0.838  0.103  0      0      0    
+   385   6:player   6:player          0      0.017  0.003  0      0.039 *0.642  0.039  0.25   0      0.009
+   386   6:player   6:player          0      0.017  0.003  0      0.039 *0.642  0.039  0.01   0.24   0.009
+   387   6:player   6:player          0      0.015  0.003  0      0.041 *0.665  0.041  0.01   0.225  0    
+   388   6:player   6:player          0      0.017  0.003  0      0.039 *0.642  0.039  0.01   0.24   0.009
+   389   6:player   6:player          0      0.017  0.003  0      0.039 *0.642  0.039  0.01   0.24   0.009
+   390   6:player   6:player          0      0.015  0.003  0      0.041 *0.665  0.041  0.01   0.225  0    
+   391   6:player   6:player          0      0.017  0      0      0.042 *0.682  0      0      0      0.259
+   392   6:player   6:player          0.002  0      0      0      0.056 *0.911  0      0      0      0.031
+   393   6:player   6:player          0.002  0      0      0      0.056 *0.911  0      0.005  0.026  0    
+   394   6:player   6:player          0.002  0      0      0      0.056 *0.911  0      0      0      0.031
+   395   6:player   6:player          0.002  0      0      0      0.056 *0.911  0      0      0      0.031
+   396   6:player   6:player          0.002  0      0      0      0.056 *0.911  0      0.03   0      0.001
+   397   6:player   6:player          0      0      0      0      0.058 *0.942  0      0      0      0    
+   398   6:player 10:calcula      +   0.001  0.052  0      0.038  0.006  0.106  0      0      0     *0.797
+   399   6:player   6:player          0      0      0      0.25   0.043 *0.707  0      0      0      0    
+   400   6:player   6:player          0      0.008  0.004  0      0.048 *0.776  0.048  0.113  0      0.004
+   401   6:player    7:graph      +   0      0.011  0.056  0      0.005  0.083 *0.674  0      0.165  0.006
+   402   6:player   6:player          0      0.002  0.005  0      0.052 *0.85   0.059  0.005  0.025  0.001
+   403   6:player   6:player          0      0      0      0      0     *1      0      0      0      0    
+   404   6:player   6:player          0      0      0      0      0     *1      0      0      0      0    
+   405   6:player   6:player          0      0      0      0      0     *1      0      0      0      0    
+   406   6:player   6:player          0      0      0      0      0.25  *0.75   0      0      0      0    
+   407   6:player   6:player          0      0      0      0      0.25  *0.75   0      0      0      0    
+   408   6:player   6:player          0      0      0      0      0.25  *0.75   0      0      0      0    
+   409   6:player   6:player          0      0.003  0      0      0.054 *0.89   0      0.05   0      0.002
+   410   6:player   6:player          0      0.022  0      0      0     *0.978  0      0      0      0    
+   411   6:player   6:player          0.022  0      0      0      0     *0.978  0      0      0      0    
+   412   6:player   6:player          0      0.022  0      0      0     *0.978  0      0      0      0    
+   413   6:player   6:player          0      0.022  0      0      0     *0.978  0      0      0      0    
+   414   6:player     4:game      +   0      0.001  0     *0.869  0.103  0.005  0      0.021  0      0    
+   415   6:player   6:player          0      0.017  0.043  0      0.039 *0.642  0      0.01   0.24   0.009
+   416   6:player    7:graph      +   0      0.008  0.06   0      0.005  0.089 *0.72   0.113  0      0.004
+   417   6:player   6:player          0      0.008  0.004  0      0.048 *0.776  0.048  0      0.113  0.004
+   418   6:player   6:player          0      0.002  0.004  0      0.052 *0.857  0.052  0      0.03   0.001
+   419   6:player   6:player          0      0.002  0.004  0      0.052 *0.857  0.052  0      0.03   0.001
+   420   6:player   6:player          0      0.02   0.003  0      0.036 *0.591  0.036  0      0.313  0    
+   421  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   422  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   423  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   424  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   425  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   426  8:veditor  9:aeditor      +   0.001  0.061  0      0      0      0      0      0.151 *0.755  0.031
+   427  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   428  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   429  8:veditor  8:veditor          0.063  0      0      0      0      0      0     *0.882  0.055  0    
+   430  8:veditor  8:veditor          0.063  0      0      0      0      0      0     *0.882  0.055  0    
+   431  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   432  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   433  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   434  8:veditor  8:veditor          0.004  0.246  0      0      0      0      0     *0.706  0.044  0    
+   435  8:veditor  8:veditor          0.004  0.246  0      0      0      0      0     *0.706  0.044  0    
+   436  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   437  8:veditor   2:office      +   0.015 *0.919  0      0      0      0      0      0.061  0.004  0    
+   438  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   439  8:veditor  9:aeditor      +   0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   440  8:veditor  8:veditor          0.001  0.056  0.086  0      0.001  0.01   0     *0.819  0      0.028
+   441  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   442  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   443  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   444  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   445  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   446  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   447  8:veditor  8:veditor          0.001  0.053  0.011  0      0      0      0.132 *0.804  0      0    
+   448  8:veditor    7:graph      +   0      0.02   0.051  0      0      0     *0.615  0.313  0      0    
+   449  8:veditor  8:veditor          0.001  0.052  0.01   0      0.016  0.001  0.123 *0.797  0      0    
+   450  8:veditor  8:veditor          0.001  0.049  0.178  0      0.021  0.001  0     *0.75   0      0    
+   451  8:veditor    7:graph      +   0      0.017  0.033  0.215  0.005  0.074 *0.397  0.259  0      0    
+   452  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   453  8:veditor  8:veditor          0.001  0.052  0.012  0      0      0      0.138 *0.75   0.047  0    
+   454  8:veditor  8:veditor          0.001  0.049  0.001  0      0.011  0.176  0.012 *0.706  0.044  0    
+   455  8:veditor  8:veditor          0.001  0.052  0      0      0.009  0.141  0     *0.75   0.047  0    
+   456  8:veditor  8:veditor          0.053  0      0.15   0      0      0      0     *0.75   0.047  0    
+   457  8:veditor  9:aeditor      +   0      0      0      0      0.097  0      0      0.181 *0.723  0    
+   458  8:veditor  8:veditor          0.226  0      0.097  0      0      0      0     *0.677  0      0    
+   459  8:veditor  8:veditor          0.056  0      0.086  0      0.001  0.01   0     *0.819  0      0.028
+   460  8:veditor  8:veditor          0.056  0      0.097  0      0      0      0     *0.819  0      0.028
+   461  8:veditor  8:veditor          0.056  0      0.086  0      0.001  0.01   0     *0.847  0      0    
+   462  8:veditor  8:veditor          0.056  0      0.086  0      0.001  0.01   0     *0.819  0      0.028
+   463  8:veditor  8:veditor          0.001  0.046  0      0      0.014  0.236  0     *0.68   0      0.023
+   464  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   465  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   466  8:veditor  8:veditor          0.001  0.053  0.127  0      0.001  0.015  0     *0.777  0      0.027
+   467  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   468  8:veditor  8:veditor          0.001  0.053  0      0.127  0.001  0.015  0     *0.777  0      0.027
+   469  8:veditor   6:player      +   0      0.002  0.004  0      0.052 *0.857  0.052  0.03   0      0.001
+   470  8:veditor  8:veditor          0.063  0      0      0      0      0      0     *0.906  0      0.031
+   471  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.906  0      0.031
+   472  8:veditor  8:veditor          0.063  0      0      0      0      0      0     *0.906  0      0.031
+   473  8:veditor   6:player      +   0      0.011  0      0      0.047 *0.771  0      0.165  0      0.006
+   474  8:veditor   6:player      +   0.016  0      0      0      0.043 *0.707  0      0.234  0      0    
+   475  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   476  8:veditor  8:veditor          0.001  0.053  0.011  0      0      0      0.132 *0.804  0      0    
+   477  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   478  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   479  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   480  8:veditor  8:veditor          0.001  0.061  0      0      0      0      0     *0.938  0      0    
+   481  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0     *0.906  0.031
+   482  9:aeditor   6:player      +   0.017  0      0      0      0.042 *0.682  0      0.01   0.24   0.009
+   483  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.039 *0.898  0    
+   484  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0.039 *0.898  0    
+   485  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.039 *0.898  0    
+   486  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0.039 *0.898  0    
+   487  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   488  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   489  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.039 *0.898  0    
+   490  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.039 *0.898  0    
+   491  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.039 *0.898  0    
+   492  9:aeditor    7:graph      +   0      0.003  0.073  0      0      0     *0.872  0.002  0.05   0    
+   493  9:aeditor  9:aeditor          0.001  0.049  0      0      0.2    0      0      0.1   *0.4    0.25 
+   494  9:aeditor  9:aeditor          0.001  0.049  0      0      0.2    0      0      0.15  *0.6    0    
+   495  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.938  0    
+   496  9:aeditor  8:veditor      +   0.001  0.061  0      0      0      0      0     *0.882  0.055  0    
+   497  9:aeditor  9:aeditor          0.001  0.056  0.097  0      0      0      0      0.141 *0.706  0    
+   498  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.156 *0.781  0    
+   499  9:aeditor    7:graph      +   0      0.017  0.05   0      0.005  0.074 *0.596  0.01   0.24   0.009
+   500  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   501  9:aeditor     4:game      +   0      0.011  0     *0.818  0      0      0      0      0.165  0.006
+   502  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   503  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   504  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   505  9:aeditor  9:aeditor          0.001  0.046  0.017  0      0.027  0      0.206  0     *0.469  0.234
+   506  9:aeditor    7:graph      +   0      0.017  0.056  0      0      0     *0.668  0.01   0.24   0.009
+   507  9:aeditor   6:player      +   0      0.017  0      0      0.042 *0.682  0      0.01   0.24   0.009
+   508  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0.039 *0.898  0    
+   509  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0.156 *0.781  0    
+   510  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.156 *0.781  0    
+   511  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.181 *0.725  0.031
+   512  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   513  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   514  9:aeditor  9:aeditor          0.001  0.056  0.006  0      0.005  0.086  0      0.034 *0.784  0.028
+   515  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   516  9:aeditor  9:aeditor          0.001  0.041  0.333  0      0      0      0      0     *0.604  0.021
+   517  9:aeditor   2:office      +   0.015 *0.919  0      0      0      0      0      0.003  0.06   0.002
+   518  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   519  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   520  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   521  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.151 *0.755  0.031
+   522  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.938  0    
+   523  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0.038 *0.868  0.031
+   524  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.938  0    
+   525  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0     *0.938  0    
+   526  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0     *0.938  0    
+   527  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0     *0.906  0.031
+   528  9:aeditor  9:aeditor          0.063  0      0      0      0      0      0      0     *0.938  0    
+   529  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.181 *0.725  0.031
+   530  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   531  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   532  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   533  9:aeditor  9:aeditor          0.001  0.052  0.133  0      0.016  0.001  0      0     *0.77   0.027
+   534  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.906  0.031
+   535  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0.038 *0.868  0.031
+   536  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.938  0    
+   537  9:aeditor  9:aeditor          0.001  0.061  0      0      0      0      0      0     *0.938  0    
+   538  9:aeditor  9:aeditor          0.001  0.052  0.001  0      0.008  0.126  0.015  0     *0.797  0    
+   539  9:aeditor  9:aeditor          0.001  0.052  0.001  0      0.008  0.126  0.015  0     *0.797  0    
+   540  9:aeditor  9:aeditor          0.001  0.053  0.011  0      0      0      0.132  0     *0.804  0    
+   541 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   542 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   543 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   544 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   545 10:calcula 10:calcula          0.001  0.052  0      0.15   0      0      0      0      0     *0.797
+   546 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   547 10:calcula     4:game      +   0      0.017  0     *0.724  0      0      0      0      0      0.259
+   548 10:calcula 10:calcula          0.001  0.052  0.003  0      0.006  0.106  0.035  0      0     *0.797
+   549 10:calcula 10:calcula          0.001  0.052  0.003  0      0.006  0.106  0.035  0      0     *0.797
+   550 10:calcula 10:calcula          0.001  0.052  0.012  0      0      0      0.138  0      0     *0.797
+   551 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   552 10:calcula 10:calcula          0.001  0.052  0.003  0      0.006  0.106  0.035  0      0     *0.797
+   553 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   554 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   555 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   556 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   557 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   558 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   559 10:calcula  9:aeditor      +   0.001  0.061  0      0      0      0      0      0     *0.625  0.313
+   560 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   561 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   562 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   563 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   564 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   565 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   566 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   567 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   568 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   569 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   570 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   571 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   572 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   573 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   574 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   575 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   576 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   577 10:calcula 10:calcula          0.001  0.056  0      0.086  0.01   0      0      0      0     *0.847
+   578 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   579 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   580 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   581 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   582 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   583 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+   584 10:calcula 10:calcula          0.001  0.056  0      0.097  0      0      0      0      0     *0.847
+   585 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+   586 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+   587 10:calcula 10:calcula          0      0      0      0      0.2    0      0      0      0     *0.8  
+   588 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+   589 10:calcula     4:game      +   0      0.017  0     *0.724  0      0      0      0      0      0.259
+   590 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   591 10:calcula 10:calcula          0.001  0.052  0      0.15   0      0      0      0      0     *0.797
+   592 10:calcula 10:calcula          0.001  0.052  0      0.15   0      0      0      0      0     *0.797
+   593 10:calcula 10:calcula          0.001  0.061  0      0      0      0      0      0      0     *0.938
+   594 10:calcula 10:calcula          0.001  0.052  0      0.15   0      0      0      0      0     *0.797
+   595 10:calcula       3:im      +   0.005  0.306 *0.595  0      0.072  0      0      0      0      0.022
+   596 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+   597 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+   598 10:calcula   6:player      +   0      0.008  0.004  0      0.048 *0.776  0.048  0.113  0      0.004
+   599 10:calcula  9:aeditor      +   0.001  0.049  0      0      0.2    0      0      0.145 *0.58   0.025
+   600 10:calcula 10:calcula          0      0      0      0      0.097  0      0      0      0     *0.903
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances         526               87.6667 %
+Incorrectly Classified Instances        74               12.3333 %
+Kappa statistic                          0.863 
+K&B Relative Info Score              50565.4645 %
+K&B Information Score                 1679.7484 bits      2.7996 bits/instance
+Class complexity | order 0            1993.1569 bits      3.3219 bits/instance
+Class complexity | scheme              360.7123 bits      0.6012 bits/instance
+Complexity improvement     (Sf)       1632.4446 bits      2.7207 bits/instance
+Mean absolute error                      0.0414
+Root mean squared error                  0.1432
+Relative absolute error                 22.9811 %
+Root relative squared error             47.7376 %
+Total Number of Instances              600     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.917     0.004      0.965     0.917     0.94       0.996    browser
+                 0.817     0.017      0.845     0.817     0.831      0.962    office
+                 0.817     0.002      0.98      0.817     0.891      0.988    im
+                 0.967     0.009      0.921     0.967     0.943      0.998    game
+                 0.817     0.002      0.98      0.817     0.891      0.985    ide
+                 0.917     0.026      0.797     0.917     0.853      0.984    player
+                 0.9       0.028      0.783     0.9       0.837      0.987    graph
+                 0.85      0.022      0.81      0.85      0.829      0.984    veditor
+                 0.867     0.02       0.825     0.867     0.846      0.989    aeditor
+                 0.9       0.007      0.931     0.9       0.915      0.986    calculatorer
+Weighted Avg.    0.877     0.014      0.884     0.877     0.878      0.986
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 55  1  0  0  1  1  0  2  0  0 |  a = browser
+  0 49  0  0  0  0  1  3  4  3 |  b = office
+  1  3 49  0  0  1  4  1  1  0 |  c = im
+  0  0  0 58  0  1  1  0  0  0 |  d = game
+  1  2  0  1 49  3  2  1  1  0 |  e = ide
+  0  0  0  1  0 55  2  1  0  1 |  f = player
+  0  1  0  0  0  2 54  3  0  0 |  g = graph
+  0  1  0  0  0  3  2 51  3  0 |  h = veditor
+  0  1  0  1  0  2  3  1 52  0 |  i = aeditor
+  0  0  1  2  0  1  0  0  2 54 |  j = calculatorer
+

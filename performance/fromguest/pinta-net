@@ -1,0 +1,358 @@
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 20 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 4 secs
+0 of 5 processes prepared for launch   0 sec
+5 of 5 processes prepared for launch   0 sec
+releasing clients
+   5     10258   363.82 MB/sec  warmup   1 sec  latency 25.913 ms
+   5     20102   313.83 MB/sec  warmup   2 sec  latency 49.961 ms
+   5     30279   299.86 MB/sec  warmup   3 sec  latency 21.358 ms
+   5     50376   267.24 MB/sec  execute   1 sec  latency 22.582 ms
+   5     61385   283.64 MB/sec  execute   2 sec  latency 29.648 ms
+   5     73497   295.52 MB/sec  execute   3 sec  latency 23.213 ms
+   5     84869   301.10 MB/sec  execute   4 sec  latency 83.749 ms
+   5     94334   291.19 MB/sec  execute   5 sec  latency 29.371 ms
+   5    104465   287.70 MB/sec  execute   6 sec  latency 18.480 ms
+   5    115103   287.46 MB/sec  execute   7 sec  latency 22.793 ms
+   5    126621   290.86 MB/sec  execute   8 sec  latency 36.546 ms
+   5    139020   295.00 MB/sec  execute   9 sec  latency 20.749 ms
+   5    150057   295.98 MB/sec  execute  10 sec  latency 25.479 ms
+   5    160317   293.89 MB/sec  execute  11 sec  latency 19.873 ms
+   5    170779   293.07 MB/sec  execute  12 sec  latency 23.369 ms
+   5    183241   296.25 MB/sec  execute  13 sec  latency 25.116 ms
+   5    197201   301.83 MB/sec  execute  14 sec  latency 18.986 ms
+   5    208729   302.70 MB/sec  execute  15 sec  latency 25.914 ms
+   5    220972   304.16 MB/sec  execute  16 sec  latency 23.755 ms
+   5    230030   300.63 MB/sec  execute  17 sec  latency 29.296 ms
+   5    241047   300.36 MB/sec  execute  18 sec  latency 24.991 ms
+   5    252870   301.43 MB/sec  execute  19 sec  latency 23.052 ms
+   5  cleanup  20 sec
+   0  cleanup  20 sec
+
+ Operation      Count    AvgLat    MaxLat
+ ----------------------------------------
+ NTCreateX     193825     0.071    29.636
+ Close         142270     0.068    21.612
+ Rename          8215     0.067     8.782
+ Unlink         39239     0.071    19.019
+ Qpathinfo     175718     0.071    83.735
+ Qfileinfo      30606     0.069    22.785
+ Qfsinfo        32248     0.066    13.675
+ Sfileinfo      15807     0.070    29.287
+ Find           67919     0.070    23.998
+ WriteX         95757     0.103    25.903
+ ReadX         303834     0.078    36.536
+ LockX            630     0.080    13.197
+ UnlockX          630     0.065     4.253
+ Flush          13600     0.067    19.327
+
+Throughput 301.427 MB/sec  5 clients  5 procs  max_latency=83.749 ms
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 20 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 4 secs
+0 of 5 processes prepared for launch   0 sec
+client 3 failed to start
+failed to use the barrier semaphore in child 25924
+failed to use the barrier semaphore in child 25928
+failed to use the barrier semaphore in child 25925
+failed to use the barrier semaphore in child 25926
+-1 of 5 processes prepared for launch   0 sec
+-1 of 5 processes prepared for launch   0 sec
+-1 of 5 processes prepared for launch   0 sec
+-1 of 5 processes prepared for launch   0 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   1 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   2 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   3 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   4 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   5 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   6 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   7 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   8 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch   9 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  10 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  11 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  12 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  13 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  14 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  15 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  16 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  17 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  18 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  19 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  20 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  21 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  22 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  23 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  24 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  25 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  26 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  27 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  28 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  29 sec
+-1 of 5 processes prepared for launch  30 sec
+-1 of 5 processes prepared for launch  30 sec
+-1 of 5 processes prepared for launch  30 sec
+-1 of 5 processes prepared for launch  30 sec
+-1 of 5 processes prepared for launch  30 sec
+FAILED TO START 5 CLIENTS (started -1)
+Throughput 0 MB/sec  5 clients  5 procs  max_latency=0.000 ms

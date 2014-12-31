@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-I.
+DEPS=trace_parser.h
+OBJ=app_profile.o
+
+.PHONY: all
+all: main
+
+main: main.cpp trace_parser.cpp
+	g++ -o main main.cpp trace_parser.cpp
+
+.PHONY: clean
+clean:
+	rm -f main

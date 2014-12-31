@@ -1,0 +1,72 @@
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 30 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 6 secs
+0 of 5 processes prepared for launch   0 sec
+5 of 5 processes prepared for launch   0 sec
+releasing clients
+   5       667   105.66 MB/sec  warmup   1 sec  latency 497.512 ms
+   5       673    52.86 MB/sec  warmup   2 sec  latency 596.842 ms
+   5       694    35.34 MB/sec  warmup   3 sec  latency 577.458 ms
+   5       714    26.57 MB/sec  warmup   4 sec  latency 1574.937 ms
+   5       727    21.29 MB/sec  warmup   5 sec  latency 1642.563 ms
+   5       778     0.58 MB/sec  execute   1 sec  latency 812.676 ms
+   5       793     0.38 MB/sec  execute   2 sec  latency 564.785 ms
+   5       797     0.26 MB/sec  execute   3 sec  latency 797.501 ms
+   5       858     0.39 MB/sec  execute   4 sec  latency 751.867 ms
+   5       897     0.41 MB/sec  execute   5 sec  latency 616.011 ms
+   5       905     0.36 MB/sec  execute   6 sec  latency 1129.260 ms
+   5       966     0.40 MB/sec  execute   7 sec  latency 1304.770 ms
+   5      1069     0.87 MB/sec  execute   8 sec  latency 776.144 ms
+   5      1502     2.22 MB/sec  execute   9 sec  latency 727.921 ms
+   5      1833     2.51 MB/sec  execute  10 sec  latency 593.207 ms
+   5      1836     2.28 MB/sec  execute  11 sec  latency 744.772 ms
+   5      2259     2.62 MB/sec  execute  12 sec  latency 612.212 ms
+   5      2414     2.64 MB/sec  execute  13 sec  latency 602.904 ms
+   5      2728     3.63 MB/sec  execute  14 sec  latency 507.234 ms
+   5      2942     3.96 MB/sec  execute  15 sec  latency 705.866 ms
+   5      3174     4.07 MB/sec  execute  16 sec  latency 609.926 ms
+   5      3244     4.02 MB/sec  execute  17 sec  latency 603.830 ms
+   5      3330     3.90 MB/sec  execute  18 sec  latency 770.098 ms
+   5      4058     4.73 MB/sec  execute  19 sec  latency 597.164 ms
+   5      4241     4.74 MB/sec  execute  20 sec  latency 795.148 ms
+   5      4246     4.52 MB/sec  execute  21 sec  latency 773.721 ms
+   5      4282     4.33 MB/sec  execute  22 sec  latency 732.247 ms
+   5      4287     4.15 MB/sec  execute  23 sec  latency 723.257 ms
+   5      4299     3.98 MB/sec  execute  24 sec  latency 652.053 ms
+   5      4302     3.82 MB/sec  execute  25 sec  latency 903.304 ms
+   5      4302     3.67 MB/sec  execute  26 sec  latency 1903.621 ms
+   5      4302     3.54 MB/sec  execute  27 sec  latency 2904.018 ms
+   5      4348     3.43 MB/sec  execute  28 sec  latency 3159.879 ms
+   5      4352     3.32 MB/sec  execute  29 sec  latency 668.943 ms
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 30 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 6 secs
+0 of 5 processes prepared for launch   0 sec
+5 of 5 processes prepared for launch   0 sec
+releasing clients
+   5  cleanup  30 sec
+   0  cleanup  31 sec
+
+ Operation      Count    AvgLat    MaxLat
+ ----------------------------------------
+ NTCreateX       3125     0.376   278.733
+ Close           2300     0.050    18.890
+ Rename           135     0.120     3.795
+ Unlink           630     0.164    18.736
+ Qpathinfo       2930     0.101    28.662
+ Qfileinfo        494     0.057    18.792
+ Qfsinfo          530     0.071    22.491
+ Sfileinfo        262     0.973    54.419
+ Find            1085     0.337    26.102
+ WriteX          1560     0.118    54.790
+ ReadX           4870     0.047    28.288
+ LockX             10     0.027     0.050
+ UnlockX           10     0.022     0.044
+ Flush            245   604.298  3159.849
+
+Throughput 3.31603 MB/sec  5 clients  5 procs  max_latency=3159.879 ms
+   5       669   105.20 MB/sec  warmup   1 sec  latency 362.251 ms
+   5       674    52.78 MB/sec  warmup   2 sec  latency 749.217 ms
+[678] open ./clients/client4/~dmtmp/PWRPNT/NEWPCB.PPT failed for handle 10013 (No such file or directory)
+(679) ERROR: handle 10013 was not found
+Child failed with status 1

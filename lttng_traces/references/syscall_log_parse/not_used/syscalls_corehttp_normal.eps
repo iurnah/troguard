@@ -1,0 +1,1431 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: Graphviz version 2.20.3 (Sun Jul 26 05:00:36 UTC 2009)
+%%For: (root) root
+%%Title: G
+%%Pages: 1
+%%BoundingBox: 36 36 1852 530
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 1852 530
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 1816 494 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% gnome-terminal
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1095 468 91.03 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1037.5 463.9 moveto 115 (gnome-terminal) alignedtext
+grestore
+% Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1105 378 34.05 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1088.5 373.9 moveto 33 (Xorg) alignedtext
+grestore
+% gnome-terminal->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1080 450 moveto
+1072 440 1066 426 1071 414 curveto
+1073 409 1076 405 1079 400 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1081.4 402.55 moveto
+1086 393 lineto
+1076.45 397.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1081.4 402.55 moveto
+1086 393 lineto
+1076.45 397.6 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1073.5 418.9 moveto 27 (244) alignedtext
+grestore
+% Xorg->gnome-terminal
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1103 396 moveto
+1101 409 1100 426 1098 440 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1094.51 439.7 moveto
+1097 450 lineto
+1101.48 440.4 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1094.51 439.7 moveto
+1097 450 lineto
+1101.48 440.4 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1102.5 418.9 moveto 29 (417) alignedtext
+grestore
+% gnome-settings-
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+385 288 93.11 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+326 283.9 moveto 118 (gnome-settings-) alignedtext
+grestore
+% Xorg->gnome-settings-
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1071 377 moveto
+991 375 784 368 613 342 curveto
+557 334 493 317 448 306 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 448.58 302.52 moveto
+438 303 lineto
+446.57 309.23 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 448.58 302.52 moveto
+438 303 lineto
+446.57 309.23 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+628.5 328.9 moveto 17 (34) alignedtext
+grestore
+% metacity
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+665 288 54.9 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+633.5 283.9 moveto 63 (metacity) alignedtext
+grestore
+% Xorg->metacity
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1071 377 moveto
+1014 374 899 365 804 342 curveto
+786 337 742 319 709 306 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 709.58 302.46 moveto
+699 302 lineto
+706.98 308.96 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 709.58 302.46 moveto
+699 302 lineto
+706.98 308.96 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+813.5 328.9 moveto 17 (93) alignedtext
+grestore
+% wnck-applet
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1567 288 71.07 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1523.5 283.9 moveto 87 (wnck-applet) alignedtext
+grestore
+% Xorg->wnck-applet
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1130 366 moveto
+1136 363 1142 361 1148 360 curveto
+1229 341 1444 377 1518 342 curveto
+1531 336 1541 324 1550 314 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1552.8 316.1 moveto
+1556 306 lineto
+1547.2 311.9 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1552.8 316.1 moveto
+1556 306 lineto
+1547.2 311.9 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1538.5 328.9 moveto 17 (59) alignedtext
+grestore
+% nautilus
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+789 288 50.92 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+760 283.9 moveto 58 (nautilus) alignedtext
+grestore
+% Xorg->nautilus
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1071 376 moveto
+1011 371 887 360 847 342 curveto
+833 335 820 323 810 312 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 812.55 309.6 moveto
+803 305 lineto
+807.6 314.55 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 812.55 309.6 moveto
+803 305 lineto
+807.6 314.55 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+856.5 328.9 moveto 27 (146) alignedtext
+grestore
+% chrome
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+544 288 47.95 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+517.5 283.9 moveto 53 (chrome) alignedtext
+grestore
+% Xorg->chrome
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1071 376 moveto
+984 372 753 360 678 342 curveto
+660 337 617 320 584 306 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 585.56 302.86 moveto
+575 302 lineto
+582.72 309.26 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 585.56 302.86 moveto
+575 302 lineto
+582.72 309.26 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+692 328.9 moveto 26 (504) alignedtext
+grestore
+% gnome-panel
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1732 288 75.94 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1685 283.9 moveto 94 (gnome-panel) alignedtext
+grestore
+% Xorg->gnome-panel
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1130 366 moveto
+1136 363 1142 361 1148 360 curveto
+1327 319 1380 373 1560 342 curveto
+1602 335 1649 319 1682 307 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1683.43 310.23 moveto
+1692 304 lineto
+1681.42 303.52 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1683.43 310.23 moveto
+1692 304 lineto
+1681.42 303.52 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1626 328.9 moveto 18 (19) alignedtext
+grestore
+% VBoxClient
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1147 288 64.82 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1108 283.9 moveto 78 (VBoxClient) alignedtext
+grestore
+% Xorg->VBoxClient
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1115 361 moveto
+1119 355 1122 348 1125 342 curveto
+1129 333 1133 324 1136 315 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1139.14 316.56 moveto
+1140 306 lineto
+1132.74 313.72 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1139.14 316.56 moveto
+1140 306 lineto
+1132.74 313.72 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1134 328.9 moveto 18 (22) alignedtext
+grestore
+% evince
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1434 288 43.78 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1410.5 283.9 moveto 47 (evince) alignedtext
+grestore
+% Xorg->evince
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1131 366 moveto
+1136 364 1142 361 1148 360 curveto
+1210 343 1229 357 1290 342 curveto
+1327 333 1367 318 1395 305 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1396.28 308.26 moveto
+1404 301 lineto
+1393.44 301.86 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1396.28 308.26 moveto
+1404 301 lineto
+1393.44 301.86 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1345 328.9 moveto 8 (3) alignedtext
+grestore
+% gnome-power-man
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+961 288 103.04 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+894.5 283.9 moveto 133 (gnome-power-man) alignedtext
+grestore
+% Xorg->gnome-power-man
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1072 373 moveto
+1048 369 1017 360 994 342 curveto
+985 334 978 325 973 315 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 975.92 313.04 moveto
+968 306 lineto
+969.8 316.44 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 975.92 313.04 moveto
+968 306 lineto
+969.8 316.44 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+997.5 328.9 moveto 17 (34) alignedtext
+grestore
+% clock-applet
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1301 288 71.07 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1257.5 283.9 moveto 87 (clock-applet) alignedtext
+grestore
+% Xorg->clock-applet
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1131 366 moveto
+1163 351 1218 326 1257 308 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1259.02 310.96 moveto
+1267 304 lineto
+1256.42 304.46 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1259.02 310.96 moveto
+1267 304 lineto
+1256.42 304.46 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1222 328.9 moveto 18 (10) alignedtext
+grestore
+% metacity->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 682 305 moveto
+696 318 716 334 737 342 curveto
+796 364 977 373 1061 377 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1061 380.5 moveto
+1071 377 lineto
+1061 373.5 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1061 380.5 moveto
+1071 377 lineto
+1061 373.5 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+743.5 328.9 moveto 17 (34) alignedtext
+grestore
+% wnck-applet->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1521 302 moveto
+1479 314 1414 332 1357 342 curveto
+1266 357 1239 337 1148 360 curveto
+1145 360 1142 361 1139 362 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1137.72 358.74 moveto
+1130 366 lineto
+1140.56 365.14 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1137.72 358.74 moveto
+1130 366 lineto
+1140.56 365.14 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1433.5 328.9 moveto 19 (41) alignedtext
+grestore
+% nautilus->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 826 300 moveto
+861 312 913 329 959 342 curveto
+995 352 1035 362 1064 369 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1063.51 372.47 moveto
+1074 371 lineto
+1064.88 365.61 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1063.51 372.47 moveto
+1074 371 lineto
+1064.88 365.61 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+968 328.9 moveto 18 (10) alignedtext
+grestore
+% SOCK_AF_INET
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+504 198 84.08 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+451.5 193.9 moveto 105 (SOCK_AF_INET) alignedtext
+grestore
+% chrome->SOCK_AF_INET
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 537 270 moveto
+533 259 528 246 522 234 curveto
+521 231 520 228 518 225 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 521.26 223.72 moveto
+514 216 lineto
+514.86 226.56 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 521.26 223.72 moveto
+514 216 lineto
+514.86 226.56 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+533 238.9 moveto 8 (9) alignedtext
+grestore
+% /home/saman/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+488 18 80.11 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+438 13.9 moveto 100 (/home/saman/) alignedtext
+grestore
+% chrome->/home/saman/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 512 275 moveto
+476 259 423 234 411 216 curveto
+397 192 413 118 426 90 curveto
+434 73 448 56 460 43 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 462.78 45.22 moveto
+468 36 lineto
+458.17 39.95 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 462.78 45.22 moveto
+468 36 lineto
+458.17 39.95 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+412.5 148.9 moveto 17 (30) alignedtext
+grestore
+% /var/tmp/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+700 198 55.79 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+667.5 193.9 moveto 65 (/var/tmp/) alignedtext
+grestore
+% chrome->/var/tmp/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 579 275 moveto
+595 269 614 261 630 252 curveto
+645 243 660 231 673 221 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 675.1 223.8 moveto
+681 215 lineto
+670.9 218.2 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 675.1 223.8 moveto
+681 215 lineto
+670.9 218.2 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+656.5 238.9 moveto 9 (4) alignedtext
+grestore
+% gnome-panel->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1711 305 moveto
+1695 318 1672 334 1648 342 curveto
+1541 375 1257 336 1148 360 curveto
+1145 360 1142 361 1139 362 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1137.72 358.74 moveto
+1130 366 lineto
+1140.56 365.14 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1137.72 358.74 moveto
+1130 366 lineto
+1140.56 365.14 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1680 328.9 moveto 8 (6) alignedtext
+grestore
+% VBoxClient->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1119 304 moveto
+1112 310 1106 316 1102 324 curveto
+1098 332 1098 341 1099 350 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1095.52 350.4 moveto
+1100 360 lineto
+1102.49 349.7 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1095.52 350.4 moveto
+1100 360 lineto
+1102.49 349.7 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1102.5 328.9 moveto 19 (12) alignedtext
+grestore
+% gnome-power-man->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 989 305 moveto
+1013 321 1049 343 1074 359 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1072.56 362.2 moveto
+1083 364 lineto
+1075.96 356.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1072.56 362.2 moveto
+1083 364 lineto
+1075.96 356.08 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1047 328.9 moveto 18 (22) alignedtext
+grestore
+% dbus-daemon
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+961 198 78.02 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+912.5 193.9 moveto 97 (dbus-daemon) alignedtext
+grestore
+% gnome-power-man->dbus-daemon
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 961 270 moveto
+961 257 961 241 961 226 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 964.5 226 moveto
+961 216 lineto
+957.5 226 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 964.5 226 moveto
+961 216 lineto
+957.5 226 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+961.5 238.9 moveto 9 (4) alignedtext
+grestore
+% clock-applet->Xorg
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1287 306 moveto
+1276 318 1260 333 1243 342 curveto
+1205 361 1190 347 1148 360 curveto
+1145 360 1143 361 1140 362 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1138.72 358.74 moveto
+1131 366 lineto
+1141.56 365.14 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1138.72 358.74 moveto
+1131 366 lineto
+1141.56 365.14 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1268 328.9 moveto 18 (10) alignedtext
+grestore
+% SOCK_AF_INET->chrome
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 499 216 moveto
+497 227 496 241 501 252 curveto
+503 257 507 262 511 266 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 508.9 268.8 moveto
+519 272 lineto
+513.1 263.2 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 508.9 268.8 moveto
+519 272 lineto
+513.1 263.2 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+504.5 238.9 moveto 17 (23) alignedtext
+grestore
+% corehttp
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+488 108 53.01 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+457.5 103.9 moveto 61 (corehttp) alignedtext
+grestore
+% SOCK_AF_INET->corehttp
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 487 180 moveto
+482 175 478 169 476 162 curveto
+473 153 474 144 476 136 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 479.48 136.58 moveto
+479 126 lineto
+472.77 134.57 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 479.48 136.58 moveto
+479 126 lineto
+472.77 134.57 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+479.5 148.9 moveto 19 (15) alignedtext
+grestore
+% /home/saman/->chrome
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 506 36 moveto
+534 63 583 120 597 180 curveto
+601 195 602 200 597 216 curveto
+591 233 579 250 568 263 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 564.95 261.17 moveto
+561 271 lineto
+570.22 265.78 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 564.95 261.17 moveto
+561 271 lineto
+570.22 265.78 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+594.5 148.9 moveto 9 (2) alignedtext
+grestore
+% /home/saman/->corehttp
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 488 36 moveto
+488 49 488 65 488 80 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 484.5 80 moveto
+488 90 lineto
+491.5 80 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 484.5 80 moveto
+488 90 lineto
+491.5 80 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+488 58.9 moveto 18 (81) alignedtext
+grestore
+% /
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1246 468 27 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1243.5 463.9 moveto 5 (/) alignedtext
+grestore
+% sendmail
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1213 378 55.79 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1180.5 373.9 moveto 65 (sendmail) alignedtext
+grestore
+% /->sendmail
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1236 451 moveto
+1232 445 1229 439 1226 432 curveto
+1223 423 1221 414 1219 406 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1222.23 404.57 moveto
+1216 396 lineto
+1215.52 406.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1222.23 404.57 moveto
+1216 396 lineto
+1215.52 406.58 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1229.5 418.9 moveto 19 (12) alignedtext
+grestore
+% rmmod
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1333 378 45.86 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1308 373.9 moveto 50 (rmmod) alignedtext
+grestore
+% /->rmmod
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1261 453 moveto
+1275 439 1294 419 1310 403 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1313.05 404.83 moveto
+1317 395 lineto
+1307.78 400.22 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1313.05 404.83 moveto
+1317 395 lineto
+1307.78 400.22 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1299 418.9 moveto 10 (1) alignedtext
+grestore
+% /etc/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+264 378 32.86 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+248 373.9 moveto 32 (/etc/) alignedtext
+grestore
+% /etc/->gnome-settings-
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 284 363 moveto
+303 349 331 328 354 311 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 356.1 313.8 moveto
+362 305 lineto
+351.9 308.2 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 356.1 313.8 moveto
+362 305 lineto
+351.9 308.2 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+337.5 328.9 moveto 9 (2) alignedtext
+grestore
+% /etc/->chrome
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 294 370 moveto
+307 367 322 363 335 360 curveto
+367 351 376 352 407 342 curveto
+440 331 476 317 503 306 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 505.02 308.96 moveto
+513 302 lineto
+502.42 302.46 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 505.02 308.96 moveto
+513 302 lineto
+502.42 302.46 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+455 328.9 moveto 8 (6) alignedtext
+grestore
+% hald-addon-stor
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+89 288 89.14 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+32.5 283.9 moveto 113 (hald-addon-stor) alignedtext
+grestore
+% /etc/->hald-addon-stor
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 240 365 moveto
+212 351 165 328 131 310 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 132.44 306.8 moveto
+122 305 lineto
+129.04 312.92 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 132.44 306.8 moveto
+122 305 lineto
+129.04 312.92 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+193.5 328.9 moveto 17 (30) alignedtext
+grestore
+% crond
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+235 288 38.91 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+215 283.9 moveto 40 (crond) alignedtext
+grestore
+% /etc/->crond
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 258 360 moveto
+254 347 249 330 244 316 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 247.23 314.57 moveto
+241 306 lineto
+240.52 316.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 247.23 314.57 moveto
+241 306 lineto
+240.52 316.58 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+253.5 328.9 moveto 9 (2) alignedtext
+grestore
+% corehttp->SOCK_AF_INET
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 492 126 moveto
+493 132 494 138 495 144 curveto
+496 153 498 162 500 170 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 496.52 170.4 moveto
+501 180 lineto
+503.49 169.7 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 496.52 170.4 moveto
+501 180 lineto
+503.49 169.7 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+501.5 148.9 moveto 17 (66) alignedtext
+grestore
+% corehttp->/home/saman/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 476 90 moveto
+473 84 470 78 468 72 curveto
+466 64 466 61 468 54 curveto
+469 51 470 48 471 45 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 474.2 46.44 moveto
+476 36 lineto
+468.08 43.04 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 474.2 46.44 moveto
+476 36 lineto
+468.08 43.04 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+471.5 58.9 moveto 19 (15) alignedtext
+grestore
+% /var/run/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1470 468 52.81 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1440 463.9 moveto 60 (/var/run/) alignedtext
+grestore
+% VBoxService
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1470 378 72.96 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1425.5 373.9 moveto 89 (VBoxService) alignedtext
+grestore
+% /var/run/->VBoxService
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1470 450 moveto
+1470 437 1470 421 1470 406 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1473.5 406 moveto
+1470 396 lineto
+1466.5 406 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1473.5 406 moveto
+1470 396 lineto
+1466.5 406 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1469.5 418.9 moveto 17 (84) alignedtext
+grestore
+% dbus-daemon->gnome-power-man
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 953 216 moveto
+951 222 949 228 948 234 curveto
+947 241 947 244 948 252 curveto
+948 255 949 258 950 260 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 946.77 261.43 moveto
+953 270 lineto
+953.48 259.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 946.77 261.43 moveto
+953 270 lineto
+953.48 259.42 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+951.5 238.9 moveto 9 (4) alignedtext
+grestore
+% console-kit-dae
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+961 108 87.05 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+906 103.9 moveto 110 (console-kit-dae) alignedtext
+grestore
+% dbus-daemon->console-kit-dae
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 952 180 moveto
+950 174 947 168 946 162 curveto
+945 154 945 151 946 144 curveto
+946 141 947 138 948 136 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 951.54 136.58 moveto
+952 126 lineto
+945.04 133.98 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 951.54 136.58 moveto
+952 126 lineto
+945.04 133.98 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+949.5 148.9 moveto 9 (4) alignedtext
+grestore
+% console-kit-dae->dbus-daemon
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 961 126 moveto
+961 139 961 155 961 170 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 957.5 170 moveto
+961 180 lineto
+964.5 170 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 957.5 170 moveto
+961 180 lineto
+964.5 170 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+961.5 148.9 moveto 9 (4) alignedtext
+grestore
+% /1498/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+385 378 41.19 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+363 373.9 moveto 44 (/1498/) alignedtext
+grestore
+% /1498/->gnome-settings-
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 385 360 moveto
+385 347 385 331 385 316 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 388.5 316 moveto
+385 306 lineto
+381.5 316 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 388.5 316 moveto
+385 306 lineto
+381.5 316 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+385 328.9 moveto 18 (22) alignedtext
+grestore
+% /lib/
+gsave
+1 setlinewidth
+0.000 0.000 0.000 nodecolor
+1333 468 29.88 18 ellipse_path stroke
+0.000 0.000 0.000 nodecolor
+14 /Times-Roman set_font
+1319.5 463.9 moveto 27 (/lib/) alignedtext
+grestore
+% /lib/->rmmod
+gsave
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1333 450 moveto
+1333 437 1333 421 1333 406 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1336.5 406 moveto
+1333 396 lineto
+1329.5 406 lineto
+closepath fill
+1 setlinewidth
+solid
+0.000 0.000 0.000 edgecolor
+newpath 1336.5 406 moveto
+1333 396 lineto
+1329.5 406 lineto
+closepath stroke
+0.000 0.000 0.000 edgecolor
+14 /Times-Roman set_font
+1333 418.9 moveto 10 (1) alignedtext
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+end
+restore
+%%EOF

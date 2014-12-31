@@ -1,0 +1,24 @@
+digraph G{
+
+sys_open->firefoxlsof1txt
+sys_open->home->rui->mozilla->firefox->Crash_Reports->InstallTime20120713224749
+sys_open->home->rui->mozilla->firefox->
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->addonssqlite
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->extensions->{d4e0dc9cc356438eafbedca439f4399d}->chrome->content->facebooksharebuttonjs
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->extensionsini
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->content->facebooksharebuttonjs
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->defaults->preferences->defaultsjs
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->installrdf
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}json
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->formhistorysqlite
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->urlclassifierpset
+sys_open->home->rui->mozilla->firefox->u1qjreeldefault->webappsstoresqlitejournal
+sys_open->usr->lib->firefox->chrome->icons->default->default16png
+sys_open->usr->lib->firefox->components->binarymanifest
+sys_open->usr->lib->firefox->distribution->distributionini
+sys_open->usr->lib->firefox->extensions->{ce4c67e084474a2853208198ce6fd}->chromemanifest
+sys_open->usr->lib->firefox->extensions->globalmenu_at_ubuntucom->chrome->globalmenu->content->firefoxMenujs
+sys_open->usr->lib->firefox->libfreebl3so
+
+}
+

@@ -1,0 +1,180 @@
+root@saman-desktop:/home/saman/Research/syscall_log_parse# ./log_parser /home/saman/Downloads/syslog 238035
+
+VulDB Report:
+	apache2 : Buff DngPtr FmtStr SQLIn CodIn DirTrv 
+	ssh : PwdDic Buff 
+
+VulDB Report:
+	Buff : snort(0.1, 0.3)  snort(0.1, 0.3)  valgrind(0.1, 0.01)  libsafe(0.1, 0.1)  
+	CodIn : samhain(0.3, 0.8)  clamav(0.3, 0.8)  php-ids(0.1, 0.1)  greensql(0.2, 0.1)  greensql(0.2, 0.1)  
+	DirTrv : php-ids(0.1, 0.1)  
+	DngPtr : valgrind(0.1, 0.01)  
+	Encrypt : zabbix(0.2, 0.1)  
+	FmtStr : valgrind(0.1, 0.01)  libsafe(0.1, 0.1)  
+	HttpHdr : php-ids(0.1, 0.1)  
+	PwdDic : zabbix(0.2, 0.1)  
+	SQLIn : snort(0.1, 0.3)  php-ids(0.1, 0.2)  greensql(0.1, 0.1)  
+line:100000
+line:200000
+detection_point:
+	::Saman:: COMMAND: Read read PROCESS: cat PID: 3025 SECCON: system_u:system_r:initrc_t:s0 OBJTYPE: REG FD: 3 INODE: 138520 FILEPATH: /var/www/eVision-2.0/modules/tour/adminpart/siamak.dat
+
+Saman:: parsing the file (while loop) is Done: 
+	1625 msecs 
+	7199 of 238035 lines had unknown object types!
+0: gnome-terminal PROCESS
+1: SOCK_AF_UNIX<13498,13499> SOCK_AF_UNIX
+2: Xorg PROCESS
+3: SOCK_AF_UNIX<8632,8633> SOCK_AF_UNIX
+4: SOCK_AF_UNIX<10283,10284> SOCK_AF_UNIX
+5: SOCK_AF_UNIX<10610,10611> SOCK_AF_UNIX
+6: SOCK_AF_UNIX<10825,10826> SOCK_AF_UNIX
+7: gnome-settings- PROCESS
+8: wnck-applet PROCESS
+9: metacity PROCESS
+10: notify-osd PROCESS
+11: update-notifier PROCESS
+12: SOCK_AF_UNIX<14045,14046> SOCK_AF_UNIX
+13: dhclient PROCESS
+14: SOCK_AF_INET SOCK_AF_INET
+15: nautilus PROCESS
+16: SOCK_AF_UNIX<11076,11077> SOCK_AF_UNIX
+17: hald-addon-stor PROCESS
+18: /etc/mtab REG
+19: /etc REG
+20: 788946 REG
+21: SOCK_AF_UNIX<13498,13498> SOCK_AF_UNIX
+22: nas PROCESS
+23: clock-applet PROCESS
+24: SOCK_AF_UNIX<10758,10759> SOCK_AF_UNIX
+25: SOCK_AF_UNIX<13498,134999> SOCK_AF_UNIX
+26: SOCK_AF_UNIX<14622,14623> SOCK_AF_UNIX
+27: rg PROCESS
+28: pulseaudio PROCESS
+29: SOCK_AF_UNIX<14622,4623> SOCK_AF_UNIX
+30: dropbox PROCESS
+31: gnome-power-man PROCESS
+32: SOCK_AF_UNIX<9317,9318> SOCK_AF_UNIX
+33: gnome-panel PROCESS
+34: SOCK_AF_UNIX<9024,9025> SOCK_AF_UNIX
+35: indicator-apple PROCESS
+36: SOCK_AF_UNIX<10750,10751> SOCK_AF_UNIX
+37: SOCK_AF_UNIX<11060,11061> SOCK_AF_UNIX
+38: avahi-daemon PROCESS
+39: FIFO<5884>:0 FIFO
+40: SOCK_AF_UNIX<9904,9905> SOCK_AF_UNIX
+41: dbus-daemon PROCESS
+42: SOCK_AF_UNIX<13503,13504> SOCK_AF_UNIX
+43: SOCK_AF_UNIX<13253,13254> SOCK_AF_UNIX
+44: SOCK_AF_UNIX<11137,11138> SOCK_AF_UNIX
+45: SOCK_AF_UNIX<11004,11005> SOCK_AF_UNIX
+46: SOCK_AF_UNIX<10931,10932> SOCK_AF_UNIX
+47: SOCK_AF_UNIX<10777,10778> SOCK_AF_UNIX
+48: SOCK_AF_UNIX<10843,10844> SOCK_AF_UNIX
+49: SOCK_AF_UNIX<9486,9487> SOCK_AF_UNIX
+50: SOCK_AF_UNIX<9665,9666> SOCK_AF_UNIX
+51: SOCK_AF_UNIX<9458,9459> SOCK_AF_UNIX
+52: SOCK_AF_UNIX<9328,9329> SOCK_AF_UNIX
+53: SOCK_AF_UNIX<8676,8677> SOCK_AF_UNIX
+54: SOCK_AF_UNIX<8513,8514> SOCK_AF_UNIX
+55: SOCK_AF_UNIX<8059,8060> SOCK_AF_UNIX
+56: nm-applet PROCESS
+57: SOCK_AF_UNIX<9453,9456> SOCK_AF_UNIX
+58: bluetooth-apple PROCESS
+59: SOCK_AF_UNIX<9177,9178> SOCK_AF_UNIX
+60: gvfsd PROCESS
+61: SOCK_AF_UNIX<10156,10158> SOCK_AF_UNIX
+62: greensql-fw PROCESS
+63: SOCK_AF_UNIX<11949,11950> SOCK_AF_UNIX
+64: mysqld PROCESS
+65: greensql-ensql-fw PROCESS
+66: apache2 PROCESS
+67: /var/www/ REG
+68: /var/log/ REG
+69: FIFO<12534>:0 FIFO
+70: /meminfo REG
+71: /usr/share/ REG
+72: FD: REG
+73: sh PROCESS
+74: /etc/ld.so.cache REG
+75: /lib/tls/ REG
+76: /lib/tls562611] REG
+77: id PROCESS
+78: /lib/libselinux.so.1 REG
+79: /etc/passwd REG
+80: /etc/group REG
+81: /sys/kernel/ REG
+82: FIFO<36591>:0 FIFO
+83: ls PROCESS
+84: /lib/libattr.so.1.1.0 REG
+85: FIFO<36635>:0 FIFO
+86: /etc/ REG
+87: /etc: REG
+88: VBoxService PROCESS
+89: /utmp REG
+90: /ut_r:initrc_t:s0 REG
+91: /var/lib/ REG
+92: greensgreensql-fw PROCESS
+93: nus PROCESS
+94: /etc/mad REG
+95: SOCK_AF_UNIX<11,11076> SOCK_AF_UNIX
+96: nautiutilus PROCESS
+97: /var REG
+98: cat PROCESS
+99: FIFO<36710>:0 FIFO
+
+Saman:: before refine_graph num_nodes: 100  counter:58
+Refining the graph took 36 msecs.
+Saman:: after refine_graph num_nodes: 36  counter (process or reg):35
+
+Saman:: Calling reachability analysis...
+Reachability analysis took 76 msecs.
+
+FIFO:0 AF_UNIX:0 AF_INET:1 REG:0 IPCMSG:0 PROC:6
+
+VulDB Report:
+	apache2 : Buff DngPtr FmtStr SQLIn CodIn DirTrv 
+	ssh : PwdDic Buff 
+
+VulDB Report:
+	Buff : snort(0.1, 0.3)  snort(0.1, 0.3)  valgrind(0.1, 0.01)  libsafe(0.1, 0.1)  
+	CodIn : samhain(0.3, 0.8)  clamav(0.3, 0.8)  php-ids(0.1, 0.1)  greensql(0.2, 0.1)  greensql(0.2, 0.1)  
+	DirTrv : php-ids(0.1, 0.1)  
+	DngPtr : valgrind(0.1, 0.01)  
+	Encrypt : zabbix(0.2, 0.1)  
+	FmtStr : valgrind(0.1, 0.01)  libsafe(0.1, 0.1)  
+	HttpHdr : php-ids(0.1, 0.1)  
+	PwdDic : zabbix(0.2, 0.1)  
+	SQLIn : snort(0.1, 0.3)  php-ids(0.1, 0.2)  greensql(0.1, 0.1)  
+agt_size:3 cat
+
+
+Starting Forensics Analysis...
+
+	greensql:apache2
+	Enter -1 to stop the forensics.
+	Result (0:SQLIn 1:CodIn 2:CodIn ): 1
+
+	libsafe:apache2
+	Enter -1 to stop the forensics.
+	Result (0:Buff 1:FmtStr ): 
+
+	php-ids:apache2
+	Enter -1 to stop the forensics.
+	Result (0:SQLIn 1:CodIn 2:HttpHdr 3:DirTrv ): 1
+
+	snort:apache2
+	Enter -1 to stop the forensics.
+	Result (0:SQLIn 1:Buff 2:Buff ): 
+
+	valgrind:apache2
+	Enter -1 to stop the forensics.
+	Result (0:Buff 1:FmtStr 2:DngPtr ): 
+
+	clamav:apache2
+	Enter -1 to stop the forensics.
+	Result (0:CodIn ): 0
+
+	samhain:apache2
+	Enter -1 to stop the forensics.
+	Result (0:CodIn ): 0

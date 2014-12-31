@@ -1,0 +1,31 @@
+digraph G {
+	size="8,6"; ratio=fill; node[fontsize=24];
+	"SOCK_AF_INET:SOCK_AF_INET" -> "PROCESS:apache2";
+	"PROCESS:apache2" -> "SOCK_AF_INET:SOCK_AF_INET";
+	"PROCESS:apache2" -> "PROCESS:sh";
+	"PROCESS:sh" -> "PROCESS:id";
+	"PROCESS:sh" -> "PROCESS:john";
+	"PROCESS:sh" -> "PROCESS:grep";
+	"PROCESS:sh" -> "PROCESS:john-mmx";
+	"PROCESS:id" -> "PROCESS:sh";
+	"PROCESS:id" -> "PROCESS:john";
+	"PROCESS:id" -> "PROCESS:grep";
+	"PROCESS:id" -> "PROCESS:john-mmx";
+	"PROCESS:john" -> "PROCESS:grep";
+	"PROCESS:john" -> "PROCESS:john-mmx";
+	"PROCESS:grep" -> "PROCESS:john-mmx";
+
+	subgraph "cluster_initrc_t" {
+		label="initrc_t";
+		"PROCESS:apache2" ;
+		"PROCESS:sh" ;
+		"PROCESS:id" ;
+		"PROCESS:john" ;
+		"PROCESS:grep" ;
+		"PROCESS:john-mmx" ;
+	}
+	subgraph "cluster_object" {
+		label="object";
+		"SOCK_AF_INET:SOCK_AF_INET" ;
+	}
+}

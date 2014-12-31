@@ -1,0 +1,101 @@
+@relation linuxapp
+
+
+@attribute class { browser, office, im, game, ide, player, graph, veditor, aeditor, calculator }
+@attribute CPU_usage_Mean numeric 
+@attribute CPU_usage_Stdev numeric 
+@attribute CPU_usage_Virance numeric 
+@attribute Dep(cc1plus) { true, false }
+@attribute Dep(codelite_indexe) { true, false }
+@attribute Dep(gdnc) { true, false }
+@attribute Dep(genius-readline) { true, false }
+@attribute Dep(lame) { true, false }
+@attribute Dep(make) { true, false }
+@attribute Dep(perl) { true, false }
+@attribute Dep(pool) { true, false }
+@attribute Dep(StreamTrans_#5) { true, false }
+@attribute Dep(unity-panel-ser) { true, false }
+@attribute Dep(Xorg) { true, false }
+@attribute File_access_class_count numeric 
+@attribute INET numeric 
+@attribute INET6 numeric 
+@attribute KB_Alpa { true, false }
+@attribute KB_Arrow { true, false }
+@attribute KB_Modi { true, false }
+@attribute KB_Num { true, false }
+@attribute KB_Punc { true, false }
+@attribute Memory_class_count numeric 
+@attribute MEM_usage_Mean numeric 
+@attribute MEM_usage_Stdev numeric 
+@attribute MEM_usage_Virance numeric 
+@attribute Mouse_Left { true, false }
+@attribute Mouse_Middle { true, false }
+@attribute Mouse_Right { true, false }
+@attribute Mouse_Wheel { true, false }
+@attribute NETLINK numeric 
+@attribute Network_class_count numeric 
+@attribute Port(11380) { true, false }
+@attribute Port(12350) { true, false }
+@attribute Port(1863) { true, false }
+@attribute Port(40005) { true, false }
+@attribute Port(43277) { true, false }
+@attribute Port(443) { true, false }
+@attribute Port(49037) { true, false }
+@attribute Port(49038) { true, false }
+@attribute Port(5222) { true, false }
+@attribute Port(53) { true, false }
+@attribute Port(80) { true, false }
+@attribute Port(9997) { true, false }
+@attribute Process_control_class_count numeric 
+@attribute R(./..) { true, false }
+@attribute R(dev/..) { true, false }
+@attribute R(etc/..) { true, false }
+@attribute R(extcalc/..) { true, false }
+@attribute R(helloword.project/..) { true, false }
+@attribute R(home/..) { true, false }
+@attribute R(in/..) { true, false }
+@attribute R(initrd.img/..) { true, false }
+@attribute R(lib/..) { true, false }
+@attribute R(opt/..) { true, false }
+@attribute R(proc/..) { true, false }
+@attribute R(run/..) { true, false }
+@attribute R(sys/..) { true, false }
+@attribute R(tmp/..) { true, false }
+@attribute R(ui/..) { true, false }
+@attribute R(usr/..) { true, false }
+@attribute R(var/..) { true, false }
+@attribute Total_read numeric 
+@attribute Total_recieve numeric 
+@attribute Total_sent numeric 
+@attribute Total_write numeric 
+@attribute Unique_IPs numeric 
+@attribute UNIX numeric 
+@attribute W(/..) { true, false }
+@attribute W(C:\nppdf32Log\debuglog.txt/..) { true, false }
+@attribute W(dev/..) { true, false }
+@attribute W(etc/..) { true, false }
+@attribute W(extcalc/..) { true, false }
+@attribute W(helloword_wsp.mk/..) { true, false }
+@attribute W(home/..) { true, false }
+@attribute W(opt/..) { true, false }
+@attribute W(proc/..) { true, false }
+@attribute W(pwd/..) { true, false }
+@attribute W(tmp/..) { true, false }
+@attribute W(usr/..) { true, false }
+@attribute W(var/..) { true, false }
+
+
+@data
+%browser,0.0909091,0.28748,0.0826446,false,false,false,false,false,false,false,false,false,false,false,211,3,1,false,false,false,false,false,7,1.27091,0.00919935,0,false,false,false,false,1,42,false,false,false,false,false,false,false,false,false,false,false,false,85,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,7009,738,84,0,0,2,true,false,false,false,false,false,false,false,false,false,false,false,false,
+%browser,24.5,36.6913,1346.25,false,false,false,false,false,false,false,false,false,false,false,689,3,1,false,false,false,false,false,29,1.6086,0.422317,0.178351,false,false,false,false,1,57,false,false,false,false,false,false,false,false,false,false,true,false,387,false,false,true,false,false,true,false,false,true,false,true,false,false,false,false,false,false,8058,2158,86,0,1,2,true,false,false,false,false,false,false,false,false,false,false,false,false,
+%browser,5.4,14.5479,211.64,false,false,false,false,false,false,false,false,false,false,false,492,0,0,false,false,false,false,false,1,2.378,0.052,0.002704,false,false,false,false,0,0,false,false,false,false,false,false,false,false,false,false,true,false,425,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,133,0,0,0,2,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+%browser,1.2,1.46969,2.16,false,false,false,false,false,false,false,false,false,false,false,598,8,0,false,false,false,false,false,9,2.4612,0.0224713,0.00050496,false,false,false,false,0,31,false,false,false,false,false,false,false,false,false,false,true,false,493,false,false,true,false,false,true,false,false,true,false,false,false,false,false,false,false,false,22946,20957,120,0,2,2,true,false,false,false,false,false,false,false,false,false,false,false,false,
+%browser,1 ,1.34164,1.8,false,false,false,false,false,false,false,false,false,false,false,564,0,0,false,false,false,false,false,0,2.5344,0.0108,0.00011664,false,false,false,false,0,0,false,false,false,false,false,false,false,false,false,false,true,false,582,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,126,0,0,0,2,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+%browser,2.3,3.95095,15.61,false,false,false,false,false,false,false,false,false,false,false,874,18,0,false,false,false,false,false,34,3.0858,0.99634,0.992693,false,false,false,false,0,87,false,false,false,false,false,false,false,false,false,false,true,false,546,false,false,true,false,false,true,false,false,true,false,false,false,false,false,false,false,false,168374,4892,433,5863,6,10,true,false,false,false,false,false,true,false,false,false,false,false,false,
+game,4.72727,10.558,111.471,false,false,false,false,false,false,false,false,false,false,false,2716,0,0,false,false,false,false,false,147,36.6499,0.137525,0.0189132,false,false,false,false,0,2770,false,false,false,false,false,false,false,false,false,false,false,false,1723,false,false,true,false,false,true,false,false,true,false,true,false,false,false,false,true,true,339815,14832,0,0,0,3,true,false,false,false,false,false,false,false,false,false,false,false,false,
+game,1.8,0.748331,0.56,false,false,false,false,false,false,false,false,false,false,false,1379,0,0,false,false,false,false,false,0,36.775,0,0,false,false,false,false,0,3208,false,false,false,false,false,false,false,false,false,false,false,false,1376,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+game,2.6,3.2,10.24,false,false,false,false,false,false,false,false,false,false,false,1214,0,0,false,false,false,false,false,0,37.2622,0.318947,0.101727,false,false,false,false,0,3010,false,false,false,false,false,false,false,false,false,false,false,false,1218,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,1024,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+game,4.2,3.09192,9.56,false,false,false,false,false,false,false,false,false,false,false,1759,0,0,false,false,false,false,false,0,37.5223,0.1539,0.0236852,false,false,false,false,0,2999,false,false,false,false,false,false,false,false,false,false,false,false,1773,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+game,1.9,0.7,0.49,false,false,false,false,false,false,false,false,false,false,false,1889,0,0,false,false,false,false,false,1,37.2958,0.561913,0.315746,false,false,false,false,0,2910,false,false,false,false,false,false,false,false,false,false,false,false,1913,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+game,2.6,1.11355,1.24,false,false,false,false,false,false,false,false,false,false,false,1813,0,0,false,false,false,false,false,13,36.837,0,0,false,false,false,false,0,3474,false,false,false,false,false,false,false,false,false,false,false,false,1777,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,true,14967,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,
+

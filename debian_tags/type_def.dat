@@ -1,0 +1,9 @@
+email: | works-with::mail | mail::imap | mail::pop | mail::smtp | mail::user-agent
+game: | use::gameplaying | game::arcade | game::fps | game::sport:racing | game::strategy | game::toys
+media: | works-with::audio | made-of::audio | works-with::video | sound:: | works-with-format::wav | works-with-format::mp3
+message: | works-with::im  | protocol::yahoo-messenger | protocol::msn-messenger | protocol::jabber | protocol::voip | use::chatting
+editor: | use::editing | devel::editor | use::text-formatting | use::typesetting | works-with::text
+security: | network::firewall | network::vpn | protocol::kerberos | security::
+graphics: | works-with::graphs | works-with-format::gif | works-with-format::jpg | works-with-format::png | works-with-format::tiff
+download: | protocol::bittorrent | protocol::ftp | use::downloading 
+reader: | works-with-format::chm | works-with-format::djvu | works-with-format::docbook | works-with-format::epub | works-with-format::dvi | works-with-format::pdf | works-with-format::postscript

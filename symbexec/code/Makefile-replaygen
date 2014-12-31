@@ -1,0 +1,6 @@
+replay-gen: replay-gen.cpp
+	g++ -o replay-gen replay-gen.cpp
+
+.PHONY: clean
+clean:
+	rm -f replay-gen

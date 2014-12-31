@@ -1,0 +1,103 @@
+digraph G {
+	size="8,6"; ratio=fill; node[fontsize=24];
+	"PROCESS:gnome-terminal" -> "PROCESS:Xorg" [label=8541] ;
+	"PROCESS:Xorg" -> "PROCESS:gnome-terminal" [label=1561] ;
+	"PROCESS:Xorg" -> "PROCESS:gnome-settings-" [label=1711] ;
+	"PROCESS:Xorg" -> "PROCESS:metacity" [label=2724] ;
+	"PROCESS:Xorg" -> "PROCESS:gnome-panel" [label=256] ;
+	"PROCESS:Xorg" -> "PROCESS:wnck-applet" [label=337] ;
+	"PROCESS:Xorg" -> "PROCESS:notify-osd" [label=5] ;
+	"PROCESS:Xorg" -> "PROCESS:nautilus" [label=2] ;
+	"PROCESS:sh" -> "PROCESS:sleep" [label=1] ;
+	"PROCESS:sh" -> "PROCESS:chmod" [label=1] ;
+	"PROCESS:sh" -> "PROCESS:eggdrop" [label=1] ;
+	"PROCESS:sh" -> "PROCESS:nmap" [label=8] ;
+	"PROCESS:sleep" -> "PROCESS:gzip" [label=22] ;
+	"PROCESS:sleep" -> "PROCESS:sh" [label=14] ;
+	"PROCESS:sleep" -> "PROCESS:nmap" [label=8] ;
+	"PROCESS:sleep" -> "PROCESS:wget" [label=10] ;
+	"PROCESS:sleep" -> "PROCESS:tar" [label=6] ;
+	"PROCESS:sleep" -> "PROCESS:chmod" [label=35] ;
+	"PROCESS:sleep" -> "PROCESS:eggdrop" [label=19] ;
+	"PROCESS:corehttp" -> "PROCESS:sh" [label=1] ;
+	"SOCK_AF_INET:SOCK_AF_INET" -> "PROCESS:corehttp" [label=1] ;
+	"SOCK_AF_INET:SOCK_AF_INET" -> "PROCESS:dhclient" [label=4336] ;
+	"SOCK_AF_INET:SOCK_AF_INET" -> "PROCESS:dropbox" [label=20] ;
+	"SOCK_AF_INET:SOCK_AF_INET" -> "PROCESS:avahi-daemon" [label=1] ;
+	"SOCK_AF_INET:SOCK_AF_INET" -> "PROCESS:wget" [label=134] ;
+	"PROCESS:gnome-settings-" -> "PROCESS:Xorg" [label=4] ;
+	"PROCESS:dropbox" -> "SOCK_AF_INET:SOCK_AF_INET" [label=14] ;
+	"PROCESS:avahi-daemon" -> "PROCESS:aahi-daemon" [label=1] ;
+	"PROCESS:metacity" -> "PROCESS:Xorg" [label=41] ;
+	"PROCESS:gnome-panel" -> "PROCESS:Xorg" [label=2] ;
+	"PROCESS:wnck-applet" -> "PROCESS:Xorg" [label=16] ;
+	"PROCESS:notify-osd" -> "PROCESS:Xorg" [label=9] ;
+	"PROCESS:updafier" -> "PROCESS:update-notifier" [label=120] ;
+	"PROCESS:greensql-fw" -> "PROCESS:mysqld" [label=430] ;
+	"PROCESS:mysqld" -> "PROCESS:greensql-fw" [label=8] ;
+	"PROCESS:wget" -> "SOCK_AF_INET:SOCK_AF_INET" [label=16] ;
+	"PROCESS:wget" -> "PROCESS:gzip" [label=22] ;
+	"PROCESS:wget" -> "PROCESS:sh" [label=14] ;
+	"PROCESS:wget" -> "PROCESS:nmap" [label=28] ;
+	"PROCESS:wget" -> "PROCESS:tar" [label=6] ;
+	"PROCESS:wget" -> "PROCESS:chmod" [label=35] ;
+	"PROCESS:wget" -> "PROCESS:eggdrop" [label=19] ;
+	"PROCESS:tar" -> "PROCESS:gzip" [label=2] ;
+	"PROCESS:gzip" -> "PROCESS:sh" [label=14] ;
+	"PROCESS:gzip" -> "PROCESS:nmap" [label=8] ;
+	"PROCESS:gzip" -> "PROCESS:chmod" [label=35] ;
+	"PROCESS:gzip" -> "PROCESS:eggdrop" [label=19] ;
+	"PROCESS:eggdrop" -> "PROCESS:sh" [label=1] ;
+	"PROCESS:nmap" -> "SOCK_AF_INET:SOCK_AF_INET" [label=3] ;
+
+	subgraph "cluster_unconfined_t" {
+		label="unconfined_t";
+		"PROCESS:gnome-terminal" ;
+		"PROCESS:sh" ;
+		"PROCESS:sleep" ;
+		"PROCESS:corehttp" ;
+		"PROCESS:gnome-settings-" ;
+		"PROCESS:dropbox" ;
+		"PROCESS:nautilus" ;
+		"PROCESS:metacity" ;
+		"PROCESS:gnome-panel" ;
+		"PROCESS:wnck-applet" ;
+		"PROCESS:notify-osd" ;
+		"PROCESS:update-notifier" ;
+		"PROCESS:updafier" ;
+		"PROCESS:wget" ;
+		"PROCESS:tar" ;
+		"PROCESS:gzip" ;
+		"PROCESS:chmod" ;
+		"PROCESS:eggdrop" ;
+		"PROCESS:nmap" ;
+	}
+	subgraph "cluster_xserver_t" {
+		label="xserver_t";
+		"PROCESS:Xorg" ;
+	}
+	subgraph "cluster_object" {
+		label="object";
+		"SOCK_AF_INET:SOCK_AF_INET" ;
+	}
+	subgraph "cluster_avahi_t" {
+		label="avahi_t";
+		"PROCESS:avahi-daemon" ;
+		"PROCESS:aahi-daemon" ;
+	}
+	subgraph "cluster_dhcpc_t" {
+		label="dhcpc_t";
+		"PROCESS:dhclient" ;
+	}
+	subgraph "cluster_hald_t" {
+		label="hald_t";
+	}
+	subgraph "cluster_initrc_t" {
+		label="initrc_t";
+		"PROCESS:greensql-fw" ;
+	}
+	subgraph "cluster_init_t" {
+		label="init_t";
+		"PROCESS:mysqld" ;
+	}
+}

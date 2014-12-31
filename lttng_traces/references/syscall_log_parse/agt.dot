@@ -1,0 +1,12 @@
+digraph G {
+	"initial_state" -> "unconfined_t " [ label="corehttp:Buff(0.9)"
+ ] ;	"initial_state" -> "unconfined_t " [ style=bold, label="corehttp:DngPtr(1)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="corehttp:FmtStr(0.1)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="corehttp:CodIn(0.1)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="corehttp:DirTrv(1)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="wget:Buff(0.9)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="wget:DngPtr(1)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="wget:FmtStr(0.1)"
+ ] ;	"initial_state" -> "unconfined_t " [ label="wget:FmtStr(0.1)"
+ ] ;	"unconfined_t " -> "goal_state" [ style=bold ] ;
+}

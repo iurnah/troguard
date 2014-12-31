@@ -1,0 +1,21 @@
+Anti-virus, 1, 0, 1, 0 
+Ebook, 1, 0, 1, 0
+Email, 1, 0, 1, 0
+Media Player, 1, 0, 1, 0
+Themes, 1, 0, 1, 0
+Downloader, 1, 0, 1, 0
+Driver, 1, 0, 0.9, 0
+Calculator, 1, 0, 0.9, 0
+Game, 1, 0, 0.9, 0
+Office, 1, 0, 0.7, 0
+Browser, 1, 0, 0.5, 0
+Video Editor, 0.9, 0, 0.7, 0
+Audio Editor,  0.9, 0, 0.5, 0
+Database,  0.9, 0, 0.5, 0
+IDE, 0.8, 0, 0.9, 0
+P2P App, 0.8, 0, 0.8, 0
+IM, 0.8, 0, 0.6, 0
+Graphics, 0.7, 0, 0.6, 0
+PDF Reader, 0.7, 0, 0.5, 0 
+Network, 0.6, 0, 0.4, 0
+Education, 0.5, 0, 0.5, 0

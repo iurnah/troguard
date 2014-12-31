@@ -1,0 +1,122 @@
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 30 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 6 secs
+0 of 5 processes prepared for launch   0 sec
+5 of 5 processes prepared for launch   0 sec
+releasing clients
+   5      8356   309.66 MB/sec  warmup   1 sec  latency 32.898 ms
+   5     17571   279.55 MB/sec  warmup   2 sec  latency 30.713 ms
+   5     29122   292.04 MB/sec  warmup   3 sec  latency 21.942 ms
+   5     39625   287.95 MB/sec  warmup   4 sec  latency 45.983 ms
+   5     51839   295.79 MB/sec  warmup   5 sec  latency 21.168 ms
+   5     73567   269.61 MB/sec  execute   1 sec  latency 28.807 ms
+   5     84918   288.20 MB/sec  execute   2 sec  latency 28.046 ms
+   5     97076   301.50 MB/sec  execute   3 sec  latency 26.699 ms
+   5    109734   311.82 MB/sec  execute   4 sec  latency 14.047 ms
+   5    120619   306.23 MB/sec  execute   5 sec  latency 29.702 ms
+   5    131839   307.45 MB/sec  execute   6 sec  latency 36.930 ms
+   5    145162   313.45 MB/sec  execute   7 sec  latency 20.149 ms
+   5    156202   312.55 MB/sec  execute   8 sec  latency 22.147 ms
+   5    166360   308.15 MB/sec  execute   9 sec  latency 28.647 ms
+   5    177467   307.15 MB/sec  execute  10 sec  latency 22.001 ms
+   5    189669   309.03 MB/sec  execute  11 sec  latency 25.590 ms
+   5    201787   310.59 MB/sec  execute  12 sec  latency 27.219 ms
+   5    214155   312.08 MB/sec  execute  13 sec  latency 19.837 ms
+   5    225232   311.24 MB/sec  execute  14 sec  latency 18.838 ms
+   5    235676   309.27 MB/sec  execute  15 sec  latency 37.803 ms
+   5    244421   304.57 MB/sec  execute  16 sec  latency 26.736 ms
+   5    256074   304.96 MB/sec  execute  17 sec  latency 28.835 ms
+   5    266796   304.51 MB/sec  execute  18 sec  latency 34.667 ms
+   5    278362   304.62 MB/sec  execute  19 sec  latency 33.453 ms
+   5    291191   306.87 MB/sec  execute  20 sec  latency 16.162 ms
+   5    302909   307.23 MB/sec  execute  21 sec  latency 19.619 ms
+   5    314952   307.84 MB/sec  execute  22 sec  latency 16.742 ms
+   5    327327   309.00 MB/sec  execute  23 sec  latency 14.334 ms
+   5    340375   311.01 MB/sec  execute  24 sec  latency 26.539 ms
+   5    350578   309.49 MB/sec  execute  25 sec  latency 51.478 ms
+   5    361851   309.14 MB/sec  execute  26 sec  latency 27.751 ms
+   5    374748   310.64 MB/sec  execute  27 sec  latency 26.611 ms
+   5    387049   311.35 MB/sec  execute  28 sec  latency 22.346 ms
+   5    400590   313.29 MB/sec  execute  29 sec  latency 14.822 ms
+   5  cleanup  30 sec
+   0  cleanup  30 sec
+
+ Operation      Count    AvgLat    MaxLat
+ ----------------------------------------
+ NTCreateX     302478     0.068    51.464
+ Close         222129     0.065    51.189
+ Rename         12823     0.067    10.593
+ Unlink         61133     0.067    26.869
+ Qpathinfo     274308     0.067    27.458
+ Qfileinfo      47829     0.066    21.675
+ Qfsinfo        50309     0.064    15.078
+ Sfileinfo      24675     0.065    12.211
+ Find          106011     0.069    31.897
+ WriteX        149451     0.099    37.794
+ ReadX         474645     0.075    28.827
+ LockX            986     0.062     2.774
+ UnlockX          986     0.059     3.535
+ Flush          21217     0.064    17.064
+
+Throughput 313.295 MB/sec  5 clients  5 procs  max_latency=51.478 ms
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 30 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 6 secs
+0 of 5 processes prepared for launch   0 sec
+5 of 5 processes prepared for launch   0 sec
+releasing clients
+   5      4022   192.75 MB/sec  warmup   1 sec  latency 27.392 ms
+   5      6937   133.87 MB/sec  warmup   2 sec  latency 35.191 ms
+   5     10296   119.72 MB/sec  warmup   3 sec  latency 41.558 ms
+   5     14592   118.99 MB/sec  warmup   4 sec  latency 29.303 ms
+   5     18630   117.75 MB/sec  warmup   5 sec  latency 30.941 ms
+   5     27453   121.21 MB/sec  execute   1 sec  latency 49.189 ms
+   5     32247   127.03 MB/sec  execute   2 sec  latency 16.575 ms
+   5     37322   129.17 MB/sec  execute   3 sec  latency 29.463 ms
+   5     42062   125.88 MB/sec  execute   4 sec  latency 36.421 ms
+   5     46079   122.29 MB/sec  execute   5 sec  latency 44.634 ms
+   5     50510   122.41 MB/sec  execute   6 sec  latency 20.539 ms
+   5     55273   122.62 MB/sec  execute   7 sec  latency 30.962 ms
+   5     59765   122.16 MB/sec  execute   8 sec  latency 16.714 ms
+   5     63804   120.94 MB/sec  execute   9 sec  latency 20.903 ms
+   5     68327   121.56 MB/sec  execute  10 sec  latency 13.421 ms
+   5     72893   121.13 MB/sec  execute  11 sec  latency 15.691 ms
+   5     77758   121.90 MB/sec  execute  12 sec  latency 11.469 ms
+   5     81869   121.23 MB/sec  execute  13 sec  latency 13.187 ms
+   5     86195   120.80 MB/sec  execute  14 sec  latency 13.178 ms
+   5     90580   120.86 MB/sec  execute  15 sec  latency 18.630 ms
+   5     95124   120.66 MB/sec  execute  16 sec  latency 20.843 ms
+   5     99852   121.30 MB/sec  execute  17 sec  latency 15.011 ms
+   5    104741   122.15 MB/sec  execute  18 sec  latency 10.702 ms
+   5    109458   122.27 MB/sec  execute  19 sec  latency 15.630 ms
+   5    114231   122.44 MB/sec  execute  20 sec  latency 10.259 ms
+   5    119242   123.09 MB/sec  execute  21 sec  latency 7.705 ms
+   5    123979   123.27 MB/sec  execute  22 sec  latency 13.574 ms
+   5    129016   123.72 MB/sec  execute  23 sec  latency 11.947 ms
+   5    133729   123.84 MB/sec  execute  24 sec  latency 18.539 ms
+   5    145592   131.47 MB/sec  execute  25 sec  latency 20.265 ms
+   5    158158   139.59 MB/sec  execute  26 sec  latency 26.820 ms
+   5    170927   147.14 MB/sec  execute  27 sec  latency 29.530 ms
+   5    183362   153.78 MB/sec  execute  28 sec  latency 24.406 ms
+   5    196510   160.82 MB/sec  execute  29 sec  latency 16.494 ms
+   5  cleanup  30 sec
+   0  cleanup  30 sec
+
+ Operation      Count    AvgLat    MaxLat
+ ----------------------------------------
+ NTCreateX     160971     0.121    30.889
+ Close         118217     0.120    18.409
+ Rename          6829     0.123    11.071
+ Unlink         32522     0.118    12.988
+ Qpathinfo     146104     0.121    23.416
+ Qfileinfo      25496     0.122    29.522
+ Qfsinfo        26803     0.120    15.655
+ Sfileinfo      13110     0.122    21.422
+ Find           56515     0.125    15.574
+ WriteX         79626     0.151    20.255
+ ReadX         253129     0.129    28.655
+ LockX            528     0.116     2.661
+ UnlockX          528     0.119     3.345
+ Flush          11268     0.122    26.811
+
+Throughput 160.815 MB/sec  5 clients  5 procs  max_latency=49.189 ms

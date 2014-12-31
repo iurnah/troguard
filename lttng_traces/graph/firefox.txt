@@ -1,0 +1,19 @@
+digraph G{
+sys_access->home->rui->mozilla->firefox->Crash Reports->LastCrash", mode = 0 }
+sys_access->home->rui->mozilla->firefox->Crash Reports", mode = 0 }
+sys_access->home->rui->mozilla->firefox", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->addons-sqlite-journal", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->addons-sqlite", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->addons-sqlite-wal", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->blocklist-xml", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->bookmarkbackups", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->1->14", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->8->E1", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->9->38", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->9->42", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->_CACHE_001_", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->_CACHE_002_", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache->_CACHE_003_", mode = 0 }
+sys_access->home->rui->mozilla->firefox->u1qjreel-default->Cache", mode = 0 }
+
+}

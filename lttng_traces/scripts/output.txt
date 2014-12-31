@@ -1,0 +1,1072 @@
+sys_access->home->rui->.mozilla->firefox->Crash Reports->InstallTime20120713224749", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->Crash Reports->LastCrash", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->Crash Reports", mode = 0 }
+sys_access->home->rui->.mozilla->firefox", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->addons.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->addons.sqlite", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->addons.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->blocklist.xml", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->bookmarkbackups", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->1->14", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->E1", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->38", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_001_", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_002_", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_003_", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->Cache", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->chromeappsstore.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->chromeappsstore.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->chrome->userChrome.css", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->chrome->userContent.css", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->content-prefs.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->content-prefs.sqlite", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->content-prefs.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->downloads.rdf", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->default.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->main-window16.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->main-window16.xpm", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->main-window32.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->main-window48.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->main-window.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->main-window.xpm", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->unknownContentType16.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->unknownContentType16.xpm", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->unknownContentType32.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->unknownContentType48.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->unknownContentType.png", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->icons->default->unknownContentType.xpm", mode = 4 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->plugins", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->searchplugins", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.xpi", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions.ini", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged-xpis", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->formhistory.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->formhistory.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", mode = 2 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", mode = 2 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->minidumps", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->plugins", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->preferences", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->search.json", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->searchplugins", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->signons.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->signons.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifierkey3.txt", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier.pset", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->user.js", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->webapps", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite-journal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite-wal", mode = 0 }
+sys_access->home->rui->.mozilla->firefox->u1qjreel.default->webapps->webapps.json", mode = 0 }
+sys_access->usr->bin->firefox", mode = 1 }
+sys_access->usr->lib->firefox->chrome->custom-strings.txt", mode = 0 }
+sys_access->usr->lib->firefox->chrome->icons->default->default16.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->default32.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->default48.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->default.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->downloadManager16.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->downloadManager16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->downloadManager32.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->downloadManager48.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->downloadManager.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->downloadManager.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->main-window16.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->main-window16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->main-window32.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->main-window48.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->main-window.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->main-window.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->unknownContentType16.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->unknownContentType16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->unknownContentType32.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->unknownContentType48.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->unknownContentType.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->unknownContentType.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->xpinstallConfirm16.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->xpinstallConfirm16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->xpinstallConfirm32.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->xpinstallConfirm48.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->xpinstallConfirm.png", mode = 4 }
+sys_access->usr->lib->firefox->chrome->icons->default->xpinstallConfirm.xpm", mode = 4 }
+sys_access->usr->lib->firefox->chrome", mode = 0 }
+sys_access->usr->lib->firefox->crashreporter-override.ini", mode = 0 }
+sys_access->usr->lib->firefox->defaults->preferences", mode = 0 }
+sys_access->usr->lib->firefox->distribution->distribution.ini", mode = 0 }
+sys_access->usr->lib->firefox->distribution->searchplugins->common", mode = 0 }
+sys_access->usr->lib->firefox->distribution->searchplugins->locale->en-US", mode = 0 }
+sys_access->usr->lib->firefox->distribution->searchplugins", mode = 0 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->default.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->downloadManager16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->downloadManager16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->downloadManager32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->downloadManager48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->downloadManager.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->downloadManager.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->main-window16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->main-window16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->main-window32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->main-window48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->main-window.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->main-window.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->unknownContentType16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->unknownContentType16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->unknownContentType32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->unknownContentType48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->unknownContentType.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->unknownContentType.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->xpinstallConfirm16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->xpinstallConfirm16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->xpinstallConfirm32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->xpinstallConfirm48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->xpinstallConfirm.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->icons->default->xpinstallConfirm.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", mode = 0 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->defaults->preferences", mode = 0 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com", mode = 0 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->plugins", mode = 0 }
+sys_access->usr->lib->firefox->extensions->globalmenu@ubuntu.com->searchplugins", mode = 0 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->default.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->downloadManager16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->downloadManager16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->downloadManager32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->downloadManager48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->downloadManager.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->downloadManager.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->main-window16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->main-window16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->main-window32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->main-window48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->main-window.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->main-window.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->unknownContentType16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->unknownContentType16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->unknownContentType32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->unknownContentType48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->unknownContentType.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->unknownContentType.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", mode = 0 }
+sys_access->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi->searchplugins", mode = 0 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->default.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->downloadManager16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->downloadManager16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->downloadManager32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->downloadManager48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->downloadManager.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->downloadManager.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->main-window16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->main-window16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->main-window32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->main-window48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->main-window.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->main-window.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->unknownContentType16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->unknownContentType16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->unknownContentType32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->unknownContentType48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->unknownContentType.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->unknownContentType.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm16.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm16.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm32.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm48.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm.png", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->icons->default->xpinstallConfirm.xpm", mode = 4 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", mode = 0 }
+sys_access->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi->searchplugins", mode = 0 }
+sys_access->usr->lib->firefox->extensions", mode = 0 }
+sys_access->usr->lib->firefox->plugins", mode = 0 }
+sys_access->usr->lib->firefox->.purgecaches", mode = 0 }
+sys_access->usr->lib->firefox->searchplugins", mode = 0 }
+sys_access->usr->lib->lightdm->lightdm->firefox", mode = 1 }
+sys_access->usr->local->bin->firefox", mode = 1 }
+sys_access->usr->local->sbin->firefox", mode = 1 }
+sys_access->usr->sbin->firefox", mode = 1 }
+sys_access->var->run->firefox-restart-required", mode = 0 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", mode = 420 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", mode = 420 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", mode = 420 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", mode = 420 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged", mode = 493 }
+sys_chmod->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash", mode = 493 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->bin->firefox", argv = 0x2D5DB10, envp = 0x2D381F0 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", argv = 0x7F64FA51A230, envp = 0x7F64FA5C0AA0 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", argv = 0xEEBB70, envp = 0xEEBC48 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->lib->lightdm->lightdm->firefox", argv = 0x2D5DB10, envp = 0x2D381F0 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->local->bin->firefox", argv = 0x2D5DB10, envp = 0x2D381F0 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->local->sbin->firefox", argv = 0x2D5DB10, envp = 0x2D381F0 }
+sys_execve: { cpu_id = 0 }, { filename = "->usr->sbin->firefox", argv = 0x2D5DB10, envp = 0x2D381F0 }
+sys_faccessat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->bin->firefox", mode = 1 }
+sys_faccessat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->firefox", mode = 1 }
+sys_inotify_add_watch: { cpu_id = 0 }, { fd = 24, pathname = "->usr->share->applications->firefox.desktop", mask = 3270 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default", mode = 493 }
+sys_mkdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache", mode = 511 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7F64E3218AD0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7F913ACFDAD0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7FFF6C484DC0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7FFFC71D8FF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7FFFC71D9E00 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7FFFC71DD8F0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7FFFC71DDC70 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox", statbuf = 0x7FFFC71DDCF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->1->14->5441Fd01", statbuf = 0x7F64DDECFC10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->E1->5FFA7d01", statbuf = 0x7F64DDECFC10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->38->03309d01", statbuf = 0x7F64DDECFC10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42->A1008d01", statbuf = 0x7F64DDECFC10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42->A1008d01", statbuf = 0x7F91347FDC10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7FFF6C488500 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7FFF6C4885E0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7FFF6C487FF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7FFF6C4880B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7FFF6C484370 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F64D5717958 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F64D5717B98 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7FFF6C483F30 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F64D5717C58 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7FFF6C483420 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7FFF6C483F30 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F64D6A3D998 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7F64D5717AD8 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F64D6A3C558 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7FFF6C483420 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F64D5717DD8 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7F64D5717D18 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7FFF6C483F30 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7FFF6C484A40 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7F64D6A3D698 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7FFF6C483F30 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7FFF6C484A40 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F64D5717F58 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", statbuf = 0x7FFF6C484A40 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7FFF6C485550 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7FFF6C4855B0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged", statbuf = 0x7FFF6C485550 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash", statbuf = 0x7FFF6C485550 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7FFF6C487FC0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7FFFC71DD8F0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7FFFC71DDCF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7FFFC71DDF20 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", statbuf = 0x7FFF6C485020 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", statbuf = 0x7FFFC71DAC80 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", statbuf = 0x7FFF6C484DC0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", statbuf = 0x7FFFC71D8FF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", statbuf = 0x7FFFC71D9E00 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", statbuf = 0x7FFFC71DDC70 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak", statbuf = 0x7FFF6C486060 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak", statbuf = 0x7FFFC71DBFC0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F64E3218AD0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F913ACFDAD0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little", statbuf = 0x7FFF6C485FC0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F64E3218AD0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F913ACFDAD0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7FFF6C484DC0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7FFFC71D8FF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7FFFC71D9E00 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7FFFC71DD8F0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7FFFC71DDC70 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7FFFC71DDCF0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7FFF6C488500 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7FFF6C488570 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFF6C486CE0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFF6C486DB0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFF6C488200 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DCC40 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DCD10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DCE90 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DE160 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxpcom.so", statbuf = 0x7FFF6C488260 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxpcom.so", statbuf = 0x7FFFC71DE1C0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->.purgecaches", statbuf = 0x7F64FA542E58 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->.purgecaches", statbuf = 0x7F9153442FD8 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFF6C486CE0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFF6C486DB0 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFF6C488200 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFF6C488260 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFFC71DCC40 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFFC71DCD10 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFFC71DCE90 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFFC71DE160 }
+sys_newlstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7FFFC71DE1C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->profiles.ini", statbuf = 0x7F64FA542C18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->profiles.ini", statbuf = 0x7F9153442C18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->addons.sqlite", statbuf = 0x7FFF6C485640 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->addons.sqlite", statbuf = 0x7FFFC71DB5A0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->blocklist.xml", statbuf = 0x7F64D7484A58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->blocklist.xml", statbuf = 0x7F913ECF0B98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->1->14->5441Fd01", statbuf = 0x7F64D6A3EDD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->E1->5FFA7d01", statbuf = 0x7F64D5716998 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->38->03309d01", statbuf = 0x7F64DA287B58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42->A1008d01", statbuf = 0x7F64D52A9558 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42->A1008d01", statbuf = 0x7F9130184898 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cert8.db", statbuf = 0x7FFF6C484900 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cert8.db", statbuf = 0x7FFFC71DA6D0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->chromeappsstore.sqlite", statbuf = 0x7FFF6C485EC0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->chromeappsstore.sqlite", statbuf = 0x7FFFC71DBE20 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->content-prefs.sqlite", statbuf = 0x7FFF6C484010 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->content-prefs.sqlite", statbuf = 0x7FFFC71D9F70 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-shm", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7F64E1919118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7F91391BF418 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFF6C483760 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFF6C4837E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFF6C483C40 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFF6C483CC0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFF6C484230 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFFC71D96C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFFC71D9740 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFFC71D9BA0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFFC71D9C20 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", statbuf = 0x7FFFC71DA190 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-wal", statbuf = 0x7FFF6C483C20 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-wal", statbuf = 0x7FFFC71D9B80 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFF6C486700 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFF6C486BF0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFFC71DA9E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFFC71DAB50 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFFC71DCB50 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFFC71DD920 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", statbuf = 0x7FFFC71DDC50 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F913962CC58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F913CEAE898 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F913E79A158 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F913962CB98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F913CEAE7D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F913E79A098 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7F913CEAE718 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7F913E724D58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7F913E799FD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F913962CB98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F913CEAEAD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F913E79A398 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7F913CEAEA18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7F913E725418 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7F913E79A2D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7F913CEAE958 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7F913E79A218 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F913CEAF0D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F913E79A8D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7F913CEAEF58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7F913E79A818 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F913962CB98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F913CEAEDD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F913E79A698 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7F913CEAEC58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7F913E725898 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7F913E79A518 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F91384ED958 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F913CEAEE98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F913E79A758 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7F913CEAED18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7F913E79A5D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7F913CEAEB98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7F913E79A458 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7F913CEAE658 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7F913E799F18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7F913CEAF318 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7F913E79AB18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7F913CEAF258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7F913E79AA58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7F913E7A1618 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7F913CEAF198 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7F913E79A998 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F913CEAF3D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F913E79ABD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7F913CEAE4D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7F913E724698 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7F913E799D98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7F913E7A1A98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite", statbuf = 0x7FFF6C4849A0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite", statbuf = 0x7FFF6C4857D0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite", statbuf = 0x7FFFC71DA810 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F64D5717958 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F913E723618 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", statbuf = 0x7F913E724ED8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F64D5717B98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F913E723558 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", statbuf = 0x7F913E724E18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7F913E723498 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", statbuf = 0x7F913E724B18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F64D5717C58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F913E723858 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", statbuf = 0x7F913E7254D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7F913E723798 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", statbuf = 0x7F913E725358 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7F913E7236D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", statbuf = 0x7F913E724BD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F64D6A3D998 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F913E723D98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F913E724158 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F913E7242D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", statbuf = 0x7F913E724818 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7F64D5717AD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7F913E723CD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", statbuf = 0x7F913E725B98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F64D6A3C558 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F913E723B58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", statbuf = 0x7F913E725A18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7F913E7239D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", statbuf = 0x7F913E7257D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F64D5717DD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F913E723C18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", statbuf = 0x7F913E725AD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7F64D5717D18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7F913E723A98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", statbuf = 0x7F913E725958 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7F913E723918 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", statbuf = 0x7F913E724C98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7F913E7233D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", statbuf = 0x7F913E724758 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7F64D6A3D698 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7F913E723FD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", statbuf = 0x7F913E7A16D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7F913E723F18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", statbuf = 0x7F913E7A1558 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7F913E723E58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", statbuf = 0x7F913E7248D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F64D5717F58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F913E724098 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F913E724998 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", statbuf = 0x7F913ECF07D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", statbuf = 0x7F913E7A1C18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", statbuf = 0x7F913ECF04D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", statbuf = 0x7F913ECF0718 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", statbuf = 0x7F913ECF0598 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged", statbuf = 0x7F913ECF0418 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions", statbuf = 0x7F64E5DF3058 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions", statbuf = 0x7F913ECF01D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash", statbuf = 0x7F913E724458 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->formhistory.sqlite", statbuf = 0x7FFFC71DC340 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->key3.db", statbuf = 0x7FFF6C484920 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->key3.db", statbuf = 0x7FFFC71DA6F0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7F64D52A9258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7F64D5717418 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7F64E5989E18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7F64E598A118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7F913A3C9198 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", statbuf = 0x7F913A3C9498 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", statbuf = 0x7F64D6A3D158 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", statbuf = 0x7F64D6A3D398 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", statbuf = 0x7F913962C598 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", statbuf = 0x7F913962C7D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->.parentlock", statbuf = 0x7FFF6C488AB0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->.parentlock", statbuf = 0x7FFFC71DE9E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite", statbuf = 0x7FFF6C487590 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite", statbuf = 0x7FFF6C487B40 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite", statbuf = 0x7FFFC71DD4F0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite", statbuf = 0x7FFFC71DDAA0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-shm", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7F64E1919298 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7F91391BF298 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFF6C47FF20 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFF6C480400 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFF6C4806C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFF6C487300 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFF6C4877E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFFC71D5E80 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFFC71D6360 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFFC71D6620 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFFC71DB630 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFFC71DBB10 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", statbuf = 0x7FFFC71DCCC0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-wal", statbuf = 0x7FFF6C4877C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-wal", statbuf = 0x7FFFC71DBAF0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->pluginreg.dat", statbuf = 0x7F64D5715F18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->pluginreg.dat", statbuf = 0x7F64D6A3C858 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->pluginreg.dat", statbuf = 0x7F91301835D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->pluginreg.dat", statbuf = 0x7F9132D2D118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", statbuf = 0x7F64FA544C58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", statbuf = 0x7F9153444DD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->secmod.db", statbuf = 0x7FFF6C4844C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->secmod.db", statbuf = 0x7FFFC71DA290 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak", statbuf = 0x7F64E1918B18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak", statbuf = 0x7F91391BF1D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F64D52A9198 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F64D52A9258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F64D6A3C798 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F64DFBD39D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F64E19182D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F9130255258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F9136664CD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", statbuf = 0x7F91391BF118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->signons.sqlite", statbuf = 0x7FFF6C484480 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->signons.sqlite", statbuf = 0x7FFFC71DA3E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little", statbuf = 0x7F64D52A9258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little", statbuf = 0x7F91534432D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F64E1918BD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F64FA542CD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F91391BF298 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F913CEAF798 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", statbuf = 0x7F9153442E58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F64DC3A6ED0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F64DC3A7230 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F64DC3A7270 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F64DC3A77A0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F64DC3A77E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F64DFBD3258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F91321FCED0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F91321FD230 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F91321FD270 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F91321FD7A0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F91321FD7E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", statbuf = 0x7F9132AFB798 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite", statbuf = 0x7FFF6C485EC0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite", statbuf = 0x7FFF6C487B10 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite", statbuf = 0x7FFFC71D9BE0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite", statbuf = 0x7FFFC71DBE20 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->bin->firefox", statbuf = 0x7FFF6C4845E0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->bin->firefox", statbuf = 0x7FFFC71DA540 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->bin->firefox", statbuf = 0x7FFFF23429A0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox-addons->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->libbrowsercomps.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->libdbusservice.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->libmozgnome.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->distribution->searchplugins->locale->en-US", statbuf = 0x7FFF6C483BB0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->distribution->searchplugins->locale->en-US", statbuf = 0x7FFFC71D9B10 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->icon.png", statbuf = 0x7F64E5DA3058 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->icon.png", statbuf = 0x7F913CEAE1D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->icon.png", statbuf = 0x7F913E799A98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->icon.png", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->icon.png", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->install.rdf", statbuf = 0x7F64E5DA31D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->install.rdf", statbuf = 0x7F913CEAE358 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->install.rdf", statbuf = 0x7F913E799C18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->install.rdf", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->install.rdf", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->preview.png", statbuf = 0x7F64E5DA3118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->preview.png", statbuf = 0x7F913CEAE298 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->preview.png", statbuf = 0x7F913E799B58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->preview.png", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->preview.png", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7F64E5DA2458 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7F64E5DF2D58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7F913CEAD5D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7F913E7A3DD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7F913ECEFED8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7F64E5DA2A58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7F913962C118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7F913CEADBD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7F913E799498 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7F64E5DA2818 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7F913962C118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7F913CEAD998 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7F913E799258 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content", statbuf = 0x7F64E5DA2758 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content", statbuf = 0x7F913CEAD8D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content", statbuf = 0x7F913E799198 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdMenu.js", statbuf = 0x7F64E5DA2998 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdMenu.js", statbuf = 0x7F913CEADB18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdMenu.js", statbuf = 0x7F913E7993D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdMenu.js", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdMenu.js", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdOverlay.xul", statbuf = 0x7F64E5DA28D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdOverlay.xul", statbuf = 0x7F913CEADA58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdOverlay.xul", statbuf = 0x7F913E799318 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdOverlay.xul", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->thunderbirdOverlay.xul", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu", statbuf = 0x7F64E5DA2698 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu", statbuf = 0x7F913CEAD818 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu", statbuf = 0x7F913E7990D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome.manifest", statbuf = 0x7F64E5DA2B18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome.manifest", statbuf = 0x7F913CEADC98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome.manifest", statbuf = 0x7F913E799558 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome.manifest", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome.manifest", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", statbuf = 0x7F64E5DA25D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", statbuf = 0x7F913CEAD758 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", statbuf = 0x7F913E7A3F58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->components.manifest", statbuf = 0x7F64E5DA2E18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->components.manifest", statbuf = 0x7F913CEADF98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->components.manifest", statbuf = 0x7F913E799858 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->components.manifest", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->components.manifest", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->globalmenu.xpt", statbuf = 0x7F64E5DA2ED8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->globalmenu.xpt", statbuf = 0x7F913CEAE058 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->globalmenu.xpt", statbuf = 0x7F913E799918 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->globalmenu.xpt", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->globalmenu.xpt", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->interfaces.manifest", statbuf = 0x7F64E5DA2C98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->interfaces.manifest", statbuf = 0x7F913CEADE18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->interfaces.manifest", statbuf = 0x7F913E7996D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->interfaces.manifest", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->interfaces.manifest", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", statbuf = 0x7F64E5DA2D58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", statbuf = 0x7F913CEADED8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", statbuf = 0x7F913E799798 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components", statbuf = 0x7F64E5DA2BD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components", statbuf = 0x7F913CEADD58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components", statbuf = 0x7F913E799618 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->install.rdf", statbuf = 0x7F64E5DA2F98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->install.rdf", statbuf = 0x7F913CEAE118 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->install.rdf", statbuf = 0x7F913E7999D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->install.rdf", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->install.rdf", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7F64E5DA22D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7F64E5DF2BD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7F913CEAD458 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7F913E7A3C58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7F913ECEFD58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7F64E5DA2518 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7F64E5DF2E18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7F913CEAD698 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7F913E7A3E98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7F913ECEFF98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7F64E5DA2398 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7F64E5DF2C98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7F913CEAD518 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7F913E7A3D18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7F913ECEFE18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7FFF6C484860 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", statbuf = 0x7FFFC71DA7C0 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions", statbuf = 0x7F64E5DF2B18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions", statbuf = 0x7F913ECEFC98 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFF6C486DB8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFF6C486E88 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFF6C4882D8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DCD18 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DCDE8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DCF68 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->firefox", statbuf = 0x7FFFC71DE238 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libfreebl3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozalloc.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozsqlite3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnspr4.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnss3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssckbi.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssdbm3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssutil3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplc4.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplds4.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsmime3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsoftokn3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libssl3.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxpcom.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxul.so", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->omni.ja", statbuf = 0x7F64FA543218 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->omni.ja", statbuf = 0x7F64FA543398 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->omni.ja", statbuf = 0x7F9153443398 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->omni.ja", statbuf = 0x7F9153443518 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->omni.ja", statbuf = 0x7FFF7E86F310 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->.purgecaches", statbuf = 0x7F64FA542E58 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox->.purgecaches", statbuf = 0x7F9153442FD8 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7F64FA542318 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->lib->firefox", statbuf = 0x7F9153442318 }
+sys_newstat: { cpu_id = 0 }, { filename = "->usr->share->applications->firefox.desktop", statbuf = 0x7FFFDA042B20 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->bookmarkbackups", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->home->rui->.mozilla->firefox->u1qjreel.default", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->defaults->preferences", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->defaults->pref", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->distribution->bundles", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->distribution->searchplugins->common", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->distribution->searchplugins->locale->en-US", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->plugins", flags = 591872, mode = 0 }
+sys_openat: { cpu_id = 0 }, { dfd = -100, filename = "->usr->lib->firefox->searchplugins", flags = 591872, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "firefox-lsof1.txt", flags = 577, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->Crash Reports->InstallTime20120713224749", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->profiles.ini", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->addons.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->blocklist.xml", flags = 0, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->1->14->5441Fd01", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->1->70->7DAC9d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->3->06->D7750d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->3->3D->61033d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->5->C8->7F0FDd01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->5->CD->97954d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->7->7C->44D3Ed01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->13->62961d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->E1->5FFA7d01", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->E3->FC0C3d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->38->03309d01", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42->A1008d01", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->A->2F->04CEAd01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->A->64->556DFd01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->B->01->FD798d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->B->90->2C2EFd01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->B->E3->A9314d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->C->05->6EBAEd01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_001_", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_002_", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_003_", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->_CACHE_MAP_", flags = 66, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->D->81->5BD64d01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->D->9C->11EDAd01", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cert8.db", flags = 2, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->chromeappsstore.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->compatibility.ini", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->compatibility.ini", flags = 1026, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->content-prefs.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-shm", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-wal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite-journal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.ini", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.ini.tmp", flags = 577, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.sqlite-journal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", flags = 65, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", flags = 65, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", flags = 65, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", flags = 65, mode = 493 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json", flags = 577, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default", flags = 0, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->formhistory.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->key3.db", flags = 2, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore-1.rdf", flags = 65, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore-1.rdf", flags = 705, mode = 436 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf", flags = 705, mode = 436 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->mimeTypes.rdf", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->.parentlock", flags = 577, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite-journal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", flags = 0, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-shm", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-wal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->pluginreg.dat", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs-1.js", flags = 577, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs-1.js", flags = 705, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js", flags = 705, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->search.json", flags = 0, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->secmod.db", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore-1.js", flags = 577, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore-1.js", flags = 705, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak", flags = 577, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", flags = 0, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js", flags = 705, mode = 384 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->signons.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little", flags = 66, mode = 436 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite-journal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifierkey3.txt", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifierkey3.txt", flags = 577, mode = 436 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier.pset", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier.pset", flags = 578, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite-journal", flags = 66, mode = 420 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->bin->firefox", flags = 0, mode = 47 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->chrome->icons->default->default16.png", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->chrome->icons->default->default32.png", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->chrome->icons->default->default48.png", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->chrome.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->binary.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->libbrowsercomps.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->libdbusservice.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->components->libmozgnome.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->defaults->pref->channel-prefs.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->defaults->preferences->syspref.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->defaults->preferences->vendor.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->dependentlibs.list", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->distribution->distribution.ini", flags = 0, mode = 438 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->{972ce4c6-7e08-4474-a285-3208198ce6fd}->chrome.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxMenu.js", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome->globalmenu->content->firefoxOverlay.xul", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->chrome.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->components.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->globalmenu.xpt", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->interfaces.manifest", flags = 0, mode = 292 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->globalmenu@ubuntu.com->components->libglobalmenu.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-GB@firefox.mozilla.org.xpi", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->extensions->langpack-en-ZA@firefox.mozilla.org.xpi", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libfreebl3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozalloc.so", flags = 0, mode = 1816687367 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozalloc.so", flags = 0, mode = -954346905 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozalloc.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozsqlite3.so", flags = 0, mode = 1816687369 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozsqlite3.so", flags = 0, mode = -954346903 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libmozsqlite3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnspr4.so", flags = 0, mode = 1816687364 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnspr4.so", flags = 0, mode = -954346908 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnspr4.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnss3.so", flags = 0, mode = 1816687363 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnss3.so", flags = 0, mode = -954346909 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnss3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssckbi.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssdbm3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssutil3.so", flags = 0, mode = 1816687367 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssutil3.so", flags = 0, mode = -954346905 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libnssutil3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplc4.so", flags = 0, mode = 1816687363 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplc4.so", flags = 0, mode = -954346909 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplc4.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplds4.so", flags = 0, mode = 1816687364 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplds4.so", flags = 0, mode = -954346908 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libplds4.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsmime3.so", flags = 0, mode = 1816687365 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsmime3.so", flags = 0, mode = -954346907 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsmime3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsoftokn3.so", flags = 0, mode = 1816687367 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsoftokn3.so", flags = 0, mode = -954346905 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libsoftokn3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libssl3.so", flags = 0, mode = 1816687363 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libssl3.so", flags = 0, mode = -954346909 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libssl3.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxpcom.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxul.so", flags = 0, mode = 1816687362 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxul.so", flags = 0, mode = -954346910 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->libxul.so", flags = 524288, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->lib->firefox->omni.ja", flags = 0, mode = 0 }
+sys_open: { cpu_id = 0 }, { filename = "->usr->share->applications->firefox.desktop", flags = 0, mode = 0 }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.ini.tmp", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions.ini" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore-1.rdf", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->localstore.rdf" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs-1.js", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->prefs.js" }
+sys_rename: { cpu_id = 0 }, { oldname = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore-1.js", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.js" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences" }
+sys_rmdir: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->trash" }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", buf = 0x7FFF6C4842C0 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite", buf = 0x7FFFC71DA220 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", buf = 0x7FFF6C480750 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", buf = 0x7FFFC71D66B0 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite", buf = 0x7FFFC71DCD50 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", buf = 0x7F64DC3A7830 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", buf = 0x7F64DC3A7870 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", buf = 0x7F91321FD830 }
+sys_statfs: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite", buf = 0x7F91321FD870 }
+sys_symlink: { cpu_id = 0 }, { oldname = "127.0.1.1:+3128", newname = "->home->rui->.mozilla->firefox->u1qjreel.default->lock" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->1->14->5441Fd01" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->8->E1->5FFA7d01" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->38->03309d01" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->Cache->9->42->A1008d01" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-shm" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->cookies.sqlite-wal" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->downloads.sqlite-journal" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}.json" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->lock" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->permissions.sqlite-journal" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-shm" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->places.sqlite-wal" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->sessionstore.bak" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->startupCache->startupCache.8.little" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->urlclassifier3.sqlite-journal" }
+sys_unlink: { cpu_id = 0 }, { pathname = "->home->rui->.mozilla->firefox->u1qjreel.default->webappsstore.sqlite-journal" }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->{d4e0dc9c-c356-438e-afbe-dca439f4399d}", times = 0x7FFF6C4852C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.js", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->content->facebooksharebutton.xul", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->locale->en-US->facebooksharebutton.dtd", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome.manifest", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->addonicon.png", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->facebooksharebutton.css", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->statusbaricon.png", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->chrome->skin->classic->toolbaricon.png", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->defaults->preferences->defaults.js", times = 0x7FFFC71D74C0 }
+sys_utime: { cpu_id = 0 }, { filename = "->home->rui->.mozilla->firefox->u1qjreel.default->extensions->staged->{d4e0dc9c-c356-438e-afbe-dca439f4399d}->install.rdf", times = 0x7FFFC71D74C0 }

@@ -1,0 +1,37 @@
+Context:
+  -t, --type TYPE          Context type. You can repeat that option on
+                           the command line to specify multiple contexts at once.
+                           (--kernel preempts --userspace)
+                           TYPE can be one of the strings below:
+                               pid, procname, prio, nice, vpid, tid, pthread_id,
+                               vtid, ppid, vppid, hostname, perf:cpu-cycles,
+                               perf:cycles, perf:stalled-cycles-frontend,
+                               perf:idle-cycles-frontend,
+                               perf:stalled-cycles-backend,
+                               perf:idle-cycles-backend, perf:instructions,
+                               perf:cache-references, perf:cache-misses,
+                               perf:branch-instructions, perf:branches,
+                               perf:branch-misses, perf:bus-cycles,
+                               perf:L1-dcache-loads, perf:L1-dcache-load-misses,
+                               perf:L1-dcache-stores,
+                               perf:L1-dcache-store-misses,
+                               perf:L1-dcache-prefetches,
+                               perf:L1-dcache-prefetch-misses,
+                               perf:L1-icache-loads, perf:L1-icache-load-misses,
+                               perf:L1-icache-stores,
+                               perf:L1-icache-store-misses,
+                               perf:L1-icache-prefetches,
+                               perf:L1-icache-prefetch-misses, perf:LLC-loads,
+                               perf:LLC-load-misses, perf:LLC-stores,
+                               perf:LLC-store-misses, perf:LLC-prefetches,
+                               perf:LLC-prefetch-misses, perf:dTLB-loads,
+                               perf:dTLB-load-misses, perf:dTLB-stores,
+                               perf:dTLB-store-misses, perf:dTLB-prefetches,
+                               perf:dTLB-prefetch-misses, perf:iTLB-loads,
+                               perf:iTLB-load-misses, perf:branch-loads,
+                               perf:branch-load-misses, perf:cpu-clock,
+                               perf:task-clock, perf:page-fault, perf:faults,
+                               perf:major-faults, perf:minor-faults,
+                               perf:context-switches, perf:cs,
+                               perf:cpu-migrations, perf:migrations,
+                               perf:alignment-faults, perf:emulation-faults

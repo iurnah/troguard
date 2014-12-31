@@ -1,0 +1,100 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     coreutils
+Instances:    20
+Attributes:   18
+              class
+              File_access_class_count
+              Memory_class_count
+              Network_class_count
+              Process_control_class_count
+              R(-/..)
+              R(./..)
+              R(etc/..)
+              R(lib/..)
+              R(proc/..)
+              R(usr/..)
+              R(var/..)
+              Total_read
+              Total_recieve
+              Total_sent
+              Total_write
+              UNIX
+              W(/..)
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                Class
+Variable                                      dirlist                filetype                userinfo
+=====================================================================================================
+File_access_class_count                       -0.0138                  0.0289                 -0.0053
+Memory_class_count                             0.0135                 -0.2698                   0.015
+Network_class_count                              0.54                 -0.1837                 -1.7593
+Process_control_class_count                    3.2945                    -5.4                 -1.6496
+R(-/..)                                     -346.9953               -136.2505                -10.2129
+R(./..)                                     -346.9953               -136.2505                -10.2129
+R(etc/..)                                    562.2041                122.7654                  28.495
+R(lib/..)                                   1308.8659                400.1303                479.5819
+R(proc/..)                                 -1048.4281               -701.7756               -586.8377
+R(usr/..)                                   -606.5903               -696.6138               -917.7686
+R(var/..)                                    133.4464                327.7112               -609.0713
+Total_read                                    -0.0002                  0.0002                  0.0001
+UNIX                                             1.08                 -0.3674                 -3.5185
+W(/..)                                      -138.6806                 75.6606              -1007.2957
+Intercept                                         752                 447.432               1715.2698
+
+
+Odds Ratios...
+                                                Class
+Variable                                      dirlist                filetype                userinfo
+=====================================================================================================
+File_access_class_count                        0.9863                  1.0294                  0.9947
+Memory_class_count                             1.0136                  0.7636                  1.0151
+Network_class_count                             1.716                  0.8322                  0.1722
+Process_control_class_count                   26.9631                  0.0045                  0.1921
+R(-/..)                                             0                       0                       0
+R(./..)                                             0                       0                       0
+R(etc/..)                      1.4525182004999567E244   2.0716978642720718E53   2.3726253782927993E12
+R(lib/..)                                    Infinity   5.948012032211861E173  1.9045001841091266E208
+R(proc/..)                                          0                       0                       0
+R(usr/..)                                           0                       0                       0
+R(var/..)                        9.016222676252135E57  2.1045170017871036E142                       0
+Total_read                                     0.9998                  1.0002                  1.0001
+UNIX                                           2.9447                  0.6925                  0.0296
+W(/..)                                              0    7.227227071026527E32                       0
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          10               50      %
+Incorrectly Classified Instances        10               50      %
+Kappa statistic                          0.3197
+Mean absolute error                      0.25  
+Root mean squared error                  0.4999
+Relative absolute error                 66.2568 %
+Root relative squared error            113.6229 %
+Total Number of Instances               20     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.667     0.118      0.5       0.667     0.571      0.706    dirlist
+                 0.6       0.133      0.6       0.6       0.6        0.88     filetype
+                 0.4       0.133      0.5       0.4       0.444      0.653    userinfo
+                 0.429     0.308      0.429     0.429     0.429      0.593    systeminfo
+Weighted Avg.    0.5       0.192      0.5       0.5       0.497      0.697
+
+=== Confusion Matrix ===
+
+ a b c d   <-- classified as
+ 2 0 0 1 | a = dirlist
+ 0 3 0 2 | b = filetype
+ 1 1 2 1 | c = userinfo
+ 1 1 2 3 | d = systeminfo

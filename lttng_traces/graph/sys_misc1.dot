@@ -1,0 +1,18 @@
+digraph G{
+
+sys_execve->usr->lib->firefox->firefox
+sys_execve->usr->lib->lightdm->lightdm->firefox
+sys_execve->usr->local->bin->firefox
+sys_execve->usr->local->sbin->firefox
+sys_execve->usr->sbin->firefox
+sys_faccessat->usr->bin->firefox
+sys_faccessat->usr->lib->firefox->firefox
+sys_inotify_add_watch->usr->share->applications->firefoxdesktop
+sys_utime->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->content->facebooksharebuttonjs
+sys_utime->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->locale->enUS->facebooksharebuttondtd
+sys_utime->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chromemanifest
+sys_utime->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->chrome->skin->classic->facebooksharebuttoncss
+sys_utime->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->defaults->preferences->defaultsjs
+sys_utime->home->rui->mozilla->firefox->u1qjreeldefault->extensions->staged->{d4e0dc9cc356438eafbedca439f4399d}->installrdf
+
+}

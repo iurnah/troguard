@@ -1,0 +1,578 @@
+  #!FIREFOX PROCESS CREATED by PROCESS: runlttng-1m.sh
+  #!FIREFOX PROCESS CREATED (name): firefox
+  #!FIREFOX PROCESS CREATED (From Path): /usr/bin/firefox
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.preload
+@LIBRARY NAME: ld.so.preload
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libc.so.6
+@LIBRARY NAME: libc.so.6
+<<FILE ACCESSED BY firefox: /usr/bin/firefox
+<<FILE NAME: firefox
+ %PROCESS CREATED by PARENT PROCESS: firefox
+ %PROCESS CREATED BY FIREFOX (name): which
+ %PROCESS CREATED BY FIREFOX (From Path): /usr/bin/which
+ %PROCESS CREATED by PARENT PROCESS: firefox
+ %PROCESS CREATED BY FIREFOX (name): firefox
+ %PROCESS CREATED BY FIREFOX (From Path): /usr/lib/firefox/firefox
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.preload
+@LIBRARY NAME: ld.so.preload
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libdl.so.2
+@LIBRARY NAME: libdl.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+@LIBRARY NAME: libstdc++.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libm.so.6
+@LIBRARY NAME: libm.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libpthread.so.0
+@LIBRARY NAME: libpthread.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libc.so.6
+@LIBRARY NAME: libc.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libgcc_s.so.1
+@LIBRARY NAME: libgcc_s.so.1
+<<FILE ACCESSED BY firefox: /usr/lib/firefox/dependentlibs.list
+<<FILE NAME: dependentlibs.list
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libnspr4.so
+@LIBRARY NAME: libnspr4.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libnspr4.so
+@LIBRARY NAME: libnspr4.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libplc4.so
+@LIBRARY NAME: libplc4.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libplc4.so
+@LIBRARY NAME: libplc4.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libplds4.so
+@LIBRARY NAME: libplds4.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libplds4.so
+@LIBRARY NAME: libplds4.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libmozalloc.so
+@LIBRARY NAME: libmozalloc.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libmozalloc.so
+@LIBRARY NAME: libmozalloc.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libmozsqlite3.so
+@LIBRARY NAME: libmozsqlite3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libmozsqlite3.so
+@LIBRARY NAME: libmozsqlite3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libnssutil3.so
+@LIBRARY NAME: libnssutil3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libnssutil3.so
+@LIBRARY NAME: libnssutil3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libsoftokn3.so
+@LIBRARY NAME: libsoftokn3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libsoftokn3.so
+@LIBRARY NAME: libsoftokn3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libnss3.so
+@LIBRARY NAME: libnss3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libnss3.so
+@LIBRARY NAME: libnss3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libssl3.so
+@LIBRARY NAME: libssl3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libssl3.so
+@LIBRARY NAME: libssl3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libsmime3.so
+@LIBRARY NAME: libsmime3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libsmime3.so
+@LIBRARY NAME: libsmime3.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libxul.so
+@LIBRARY NAME: libxul.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libxul.so
+@LIBRARY NAME: libxul.so
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXrender.so.1
+@LIBRARY NAME: libXrender.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+@LIBRARY NAME: libfreetype.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libfontconfig.so.1
+@LIBRARY NAME: libfontconfig.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libasound.so.2
+@LIBRARY NAME: libasound.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libdbus-glib-1.so.2
+@LIBRARY NAME: libdbus-glib-1.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libdbus-1.so.3
+@LIBRARY NAME: libdbus-1.so.3
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/librt.so.1
+@LIBRARY NAME: librt.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+@LIBRARY NAME: libgobject-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libglib-2.0.so.0
+@LIBRARY NAME: libglib-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libX11.so.6
+@LIBRARY NAME: libX11.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXext.so.6
+@LIBRARY NAME: libXext.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0
+@LIBRARY NAME: libpangoft2-1.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+@LIBRARY NAME: libpangocairo-1.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+@LIBRARY NAME: libpango-1.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libcairo.so.2
+@LIBRARY NAME: libcairo.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+@LIBRARY NAME: libgtk-x11-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0
+@LIBRARY NAME: libatk-1.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+@LIBRARY NAME: libgio-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+@LIBRARY NAME: libgdk-x11-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+@LIBRARY NAME: libgdk_pixbuf-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXt.so.6
+@LIBRARY NAME: libXt.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0
+@LIBRARY NAME: libgthread-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libstartup-notification-1.so.0
+@LIBRARY NAME: libstartup-notification-1.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libz.so.1
+@LIBRARY NAME: libz.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libexpat.so.1
+@LIBRARY NAME: libexpat.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libffi.so.6
+@LIBRARY NAME: libffi.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libpcre.so.3
+@LIBRARY NAME: libpcre.so.3
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libxcb.so.1
+@LIBRARY NAME: libxcb.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0
+@LIBRARY NAME: libgmodule-2.0.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+@LIBRARY NAME: libpixman-1.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libpng12.so.0
+@LIBRARY NAME: libpng12.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0
+@LIBRARY NAME: libxcb-shm.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libxcb-render.so.0
+@LIBRARY NAME: libxcb-render.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXfixes.so.3
+@LIBRARY NAME: libXfixes.so.3
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libselinux.so.1
+@LIBRARY NAME: libselinux.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libresolv.so.2
+@LIBRARY NAME: libresolv.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXinerama.so.1
+@LIBRARY NAME: libXinerama.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXi.so.6
+@LIBRARY NAME: libXi.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXrandr.so.2
+@LIBRARY NAME: libXrandr.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXcursor.so.1
+@LIBRARY NAME: libXcursor.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXcomposite.so.1
+@LIBRARY NAME: libXcomposite.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXdamage.so.1
+@LIBRARY NAME: libXdamage.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libSM.so.6
+@LIBRARY NAME: libSM.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libICE.so.6
+@LIBRARY NAME: libICE.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libxcb-util.so.0
+@LIBRARY NAME: libxcb-util.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libX11-xcb.so.1
+@LIBRARY NAME: libX11-xcb.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXau.so.6
+@LIBRARY NAME: libXau.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+@LIBRARY NAME: libXdmcp.so.6
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libuuid.so.1
+@LIBRARY NAME: libuuid.so.1
+<<FILE ACCESSED BY firefox: /proc/filesystems
+<<FILE NAME: filesystems
+@LIBRARY ACCESSED BY firefox: /usr/lib/firefox/libxpcom.so
+@LIBRARY NAME: libxpcom.so
+<<FILE ACCESSED BY firefox: /dev/null
+<<FILE NAME: null
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1
+@LIBRARY NAME: libGL.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libglapi.so.0
+@LIBRARY NAME: libglapi.so.0
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libxcb-glx.so.0
+@LIBRARY NAME: libxcb-glx.so.0
+@LIBRARY ACCESSED BY firefox: /root/.mozilla/firefox
+@LIBRARY NAME: firefox
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libXxf86vm.so.1
+@LIBRARY NAME: libXxf86vm.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/libdrm.so.2
+@LIBRARY NAME: libdrm.so.2
+@LIBRARY ACCESSED BY firefox: /root/.mozilla/firefox/Crash Reports
+@LIBRARY NAME: Crash Reports
+@LIBRARY ACCESSED BY firefox: /root/.mozilla/firefox/Crash Reports/InstallTime20120713224749
+@LIBRARY NAME: InstallTime20120713224749
+@LIBRARY ACCESSED BY firefox: /root/.mozilla/firefox/Crash Reports/InstallTime20120713224749
+@LIBRARY NAME: InstallTime20120713224749
+@LIBRARY ACCESSED BY firefox: /root/.mozilla/firefox/Crash Reports/LastCrash
+@LIBRARY NAME: LastCrash
+<<FILE ACCESSED BY firefox: /usr/lib/firefox/crashreporter-override.ini
+<<FILE NAME: crashreporter-override.ini
+<<FILE ACCESSED BY firefox: /usr/lib/locale/locale-archive
+<<FILE NAME: locale-archive
+<<FILE ACCESSED BY firefox: /usr/share/locale/locale.alias
+<<FILE NAME: locale.alias
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.UTF-8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.utf8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.UTF-8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.utf8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.utf8/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en/LC_MESSAGES/messages.mo
+@LIBRARY NAME: messages.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.UTF-8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.UTF-8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.utf8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.utf8/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en/LC_MESSAGES/gtk20.mo
+@LIBRARY NAME: gtk20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.utf8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en/LC_MESSAGES/libc.mo
+@LIBRARY NAME: libc.mo
+<<FILE ACCESSED BY firefox: /usr/share/X11/locale/locale.alias
+<<FILE NAME: locale.alias
+<<FILE ACCESSED BY firefox: /usr/share/X11/locale/locale.alias
+<<FILE NAME: locale.alias
+<<FILE ACCESSED BY firefox: /usr/share/X11/locale/locale.dir
+<<FILE NAME: locale.dir
+<<FILE ACCESSED BY firefox: /usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
+<<FILE NAME: XLC_LOCALE
+<<FILE ACCESSED BY firefox: /usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
+<<FILE NAME: XLC_LOCALE
+<<FILE ACCESSED BY firefox: /etc/gtk-2.0/gtkrc.64
+<<FILE NAME: gtkrc.64
+<<FILE ACCESSED BY firefox: /etc/nsswitch.conf
+<<FILE NAME: nsswitch.conf
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+<<FILE ACCESSED BY firefox: /home/rui/.Xauthority
+<<FILE NAME: .Xauthority
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+<<FILE ACCESSED BY firefox: /home/rui/.Xauthority
+<<FILE NAME: .Xauthority
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libnss_compat.so.2
+@LIBRARY NAME: libnss_compat.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libnsl.so.1
+@LIBRARY NAME: libnsl.so.1
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libnss_nis.so.2
+@LIBRARY NAME: libnss_nis.so.2
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/libnss_files.so.2
+@LIBRARY NAME: libnss_files.so.2
+<<FILE ACCESSED BY firefox: /etc/passwd
+<<FILE NAME: passwd
+<<FILE ACCESSED BY firefox: /root/.gtkrc-2.0.64
+<<FILE NAME: .gtkrc-2.0.64
+@LIBRARY ACCESSED BY firefox: /usr/lib/liboverlay-scrollbar-0.2.so.0
+@LIBRARY NAME: liboverlay-scrollbar-0.2.so.0
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo
+@LIBRARY NAME: glib20.mo
+<<FILE ACCESSED BY firefox: /usr/share/glib-2.0/schemas/gschemas.compiled
+<<FILE NAME: gschemas.compiled
+<<FILE ACCESSED BY firefox: /usr/local/share/glib-2.0/schemas/gschemas.compiled
+<<FILE NAME: gschemas.compiled
+<<FILE ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/charset.alias
+<<FILE NAME: charset.alias
+<<FILE ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache
+<<FILE NAME: giomodule.cache
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+@LIBRARY NAME: libdconfsettings.so
+<<FILE ACCESSED BY firefox: /etc/dconf/profile/user
+<<FILE NAME: user
+<<FILE ACCESSED BY firefox: /root
+<<FILE NAME: root
+<<FILE ACCESSED BY firefox: /root/.cache
+<<FILE NAME: .cache
+<<FILE ACCESSED BY firefox: /root/.cache/dconf
+<<FILE NAME: dconf
+<<FILE ACCESSED BY firefox: /root/.cache/dconf/user
+<<FILE NAME: user
+<<FILE ACCESSED BY firefox: /root/.config/dconf/user
+<<FILE NAME: user
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.UTF-8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en_US/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.UTF-8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en.utf8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale/en/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en_US/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en.utf8/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+@LIBRARY ACCESSED BY firefox: /usr/share/locale-langpack/en/LC_MESSAGES/gtk20-properties.mo
+@LIBRARY NAME: gtk20-properties.mo
+<<FILE ACCESSED BY firefox: /home/rui/.Xauthority
+<<FILE NAME: .Xauthority
+<<FILE ACCESSED BY firefox: /home/rui/.Xauthority
+<<FILE NAME: .Xauthority
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/dri/tls/vboxvideo_dri.so
+@LIBRARY NAME: vboxvideo_dri.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/dri/vboxvideo_dri.so
+@LIBRARY NAME: vboxvideo_dri.so
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.cache
+@LIBRARY NAME: ld.so.cache
+@LIBRARY ACCESSED BY firefox: /etc/ld.so.nohwcap
+@LIBRARY NAME: ld.so.nohwcap
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/tls/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/tls/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/x86_64-linux-gnu/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/tls/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/tls/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64-linux-gnu/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/tls/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/tls/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /lib/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/tls/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/tls/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/x86_64/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+@LIBRARY ACCESSED BY firefox: /usr/lib/VBoxOGLcrutil.so
+@LIBRARY NAME: VBoxOGLcrutil.so
+ %PROCESS CREATED by PARENT PROCESS: firefox
+ %PROCESS CREATED BY FIREFOX (name): sh
+ %PROCESS CREATED BY FIREFOX (From Path): /bin/sh
+
+#:: parsing the file (while loop) is Done: 
+	8 msecs 
+	
+
+Saman:: The total node in the graph 118  counter:117
