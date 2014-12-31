@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 // Called when a message is passed.  We assume that the content script
 // wants to show the page action.
-function searchDOM(){
+
 chrome.extension.onConnect.addListener(function(port) {
   console.assert(port.name == "conversations");
 	port.onMessage.addListener(function(msg){
@@ -16,7 +16,7 @@ chrome.extension.onConnect.addListener(function(port) {
 			}
 		});
 });
-}
+
 /*===========================original file================================*/
 // Called when a message is passed.  We assume that the content script
 // wants to show the page action.
