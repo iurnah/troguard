@@ -1,7 +1,7 @@
 {
 	"name": "Drive-By Download Detector-unstable",
-	"version": "0.4",
-	"description": "A implementation of the Drive-by download detector for system security research (development stage)",
+	"version": "0.5",
+	"description": "website analysis components for the project (10 types of applications)",
 	"background": {
 		"page": "background.html"
 	},

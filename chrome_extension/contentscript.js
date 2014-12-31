@@ -6,7 +6,10 @@
 //href element.
 
 //Global virable for the application keywords, the list can be expanded based on our exmperiment.
-var appTypes = new Array("game","antivirus","email","reader","browser") ;
+//var appTypes = new Array("Browser","Game","Editor","Graph","Chat","Player","Video","Develop","Audio","Calculator");
+var appTypes = new Array("Browser","Game","Editor","Graphic","Message","Multimedia","Download","Email","Reader","Compression");
+//var appTypes = new Array("Browser","Game","Editor","Graph","Chat","Player","Video","Develop","Audio", "Email", "PDF Reader", "pdf", "Reader",
+//"Database", "Antivirus","anti","virus", "Ebook","driver", "p2p", "themes", "Network","education", "science", "math", "chemestry", "physic");
 
 //sort function for the keywords frequency
 function sortObject(obj) {

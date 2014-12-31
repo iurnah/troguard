@@ -10,7 +10,13 @@ var keyword2;
 var keyword3;
 var keyword4;
 var keyword5;
+var keyword6;
+var keyword7;
+var keyword8;
+var keyword9;
+var keyword10;
 
+var start = new Date().getMilliseconds();
 chrome.extension.onMessage.addListener(function(request, sender, sendResponse){
 
 	rankedKeywords = request.results;
@@ -19,7 +25,12 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse){
 	keyword3 = rankedKeywords[2].key;
 	keyword4 = rankedKeywords[3].key;
 	keyword5 = rankedKeywords[4].key;
-
+	keyword6 = rankedKeywords[5].key;
+	keyword7 = rankedKeywords[6].key;
+	keyword8 = rankedKeywords[7].key;
+	keyword9 = rankedKeywords[8].key;
+	keyword10 = rankedKeywords[9].key;
+	
 	sendResponse({});
 });
 
@@ -45,6 +56,12 @@ chrome.extension.onMessage.addListener(function(request) {
 			
         });
     }
+var stop = new Date().getMilliseconds();
+var executionTime = stop - start;
+//alert("execution time:" + executionTime + " milliseconds");
 });
+
+
+
 
 

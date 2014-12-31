@@ -1,6 +1,6 @@
-2013-01-27  rui  <rui@BlackBear>
+2013-02-16  rui  <rui@BlackBear>
 
- * This folder including a semi-completed chrome extension that can detect the download click on a website, and prompt user to select an application he/she will download. 
+ * This folder including a improved chrome extension (adding five more types in the dropdown menu) that can detect the download click on a website, and prompt user to select an application he/she will download. 
  * The major files are shown bellow, please see the comment for each of the file.
  background.html   dialog.html                     incrementally    
  background.js     dialog.js                       jquery-1.8.1.js  
