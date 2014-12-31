@@ -34,24 +34,6 @@ for (var i = 0; i < links.length;) {
   }
 }
 
-//long lived connection:
-chrome.extension.onConnect.addListener(function(port) {
-  console.assert(port.name == "recursiveSearch");
-  port.onMessage.addListener(function(msg) {    
-    // I got the checkedLink at here, what I need to do is use it to traverse DOM
-    var totalLinksElement = document.getElementByTagName('a');
-    //var totalLinksNums = totalLinks.length;
-    for(var i = 0; i < totalLinksElement.length; ++i){
-			if(msg.checkedHref.test(totalLinksElement[i])){
-				var appDescription = totalLinksElelment[i].innerHTML;
-				port.postMessage({Description: appDescription});
-				}else 
-				console.log('Did not find the app description for the ext-link');
-			}
-  });
-});
-
-
 chrome.extension.sendRequest(links);
 
 

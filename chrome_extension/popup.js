@@ -46,15 +46,23 @@ function downloadCheckedLinks() {
 	for (var i = 0; i < visibleLinks.length; ++i) {
 		if (document.getElementById('check' + i).checked) {	
 				
-				var apptype = searchDOMforAppType(document.getElementById('check' + i).innerHTML); //This is important!!!!
+				//var apptype = searchDOMforAppType(document.getElementById('check' + i).innerText); //This is important!!!!
+				
+				// call a background function to return the apptype.
+				
+				//var apptype = bgPage.searchDOM(document.getElementById('check' + i).innerText);
 				
 				chrome.downloads.download({url: visibleLinks[i]},function(id){
-				var notification = window.webkitNotifications.createNotification('', apptype, 'Hello within for, succeed!');
+				var notification = window.webkitNotifications.createNotification('', 'OMG!', 'Hello within for, succeed!');
 				notification.show();
 				// this is to get the background page and run the startFirefox() 
 				//function that is defined as a plugin API called by the browser.
 				var bgPage = chrome.extension.getBackgroundPage();
 				bgPage.plugin.startFirefox();
+				
+				
+				var bgPage = chrome.extension.getBackgroundPage();
+				bgPage.searchDOM();
 			});
 		
 		alert("function execurted!");
@@ -62,22 +70,8 @@ function downloadCheckedLinks() {
 	}
 	window.close();
 }
-// Function that search the advertised application type:
-function searchDOMforAppType(checkedLink){
-		//This is not going to work because you can only listen for one message passing.
-		//chrome.extension.sendRequest(checkedlinks);//send query
-		//chrome.extension.onRequest.addListener()		//return the results
-		console.log("searchDOMforAppType is executed!");
-		var port = chrome.extension.connect({name: "recursiveSearch"});
-		port.postMessage({checkedHerf: checkedLink});
-		port.onMessage.addListener(function(msg) {
-			if (msg.Description != NULL){
-				console.log('msg.Description');
-				return msg.Description; 
-				
-			}
-	});		 
-}
+
+
 
 // Re-filter allLinks into visibleLinks and reshow visibleLinks.
 function filterLinks() {
@@ -123,8 +117,7 @@ chrome.extension.onRequest.addListener(function(links) {
   showLinks();
 });
 
-// Set up event handlers and inject send_links.js into all frames in the active
-// tab.
+// Set up event handlers
 window.onload = function() {
   document.getElementById('filter').onkeyup = filterLinks;
   document.getElementById('regex').onchange = filterLinks;
@@ -139,4 +132,6 @@ window.onload = function() {
         activeTabs[0].id, {file: 'send_links.js', allFrames: true});
     });
   });
+
 };
+
