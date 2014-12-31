@@ -30,14 +30,17 @@ function downloadCheckedLinks() {
 	window.close();
 }
 */
-function downloadCheckedLinks() {
+
+function downloadCheckedLinks(hrefNodes) {
 	alert('click link detected!!!');
+	//alert(hrefNodes[0]);
 }
 
 var hrefNodes = document.getElementsByTagName('a');
 for(var x =0; x < hrefNodes.length; ++x){
 	if(hrefNodes[x].hasAttribute("href")){
-	hrefNodes[x].onclick = downloadCheckedLinks;
+	hrefNodes[x].onclick = downloadCheckedLinks(hrefNodes);
+	
 	//alert('has the href attribute!!');
 	}
 }
@@ -50,7 +53,7 @@ var port = chrome.extension.connect({name: "conversations"});
 			alert("communicated!!!")
 		});
 
-/*==========================original file===================================*/
+/*==========================original file===================================
 var regex = /download/;
 
 // Test the text of the body element against our regular expression.
@@ -61,5 +64,5 @@ if (regex.test(document.body.innerText)) {
   // No match was found.
   //alert("No Download Item found.");
 }
-
+*/
 

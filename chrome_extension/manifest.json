@@ -1,7 +1,7 @@
 {
-	"name": "Drive-By Download Detector",
-	"version": "0.0",
-	"description": "A implementation of the Drive-by download detector for system security research",
+	"name": "Drive-By Download Detector-unstable",
+	"version": "0.3",
+	"description": "A implementation of the Drive-by download detector for system security research (development stage)",
 	"background": {
 		"page": "background.html"
 	},
@@ -20,7 +20,7 @@
 	],
 	"page_action": {
 		"default_icon": "icon.png",
-		"default_title": "Drive-by Download blocker"
+		"default_title": "Drive-by Download blocker-unstable"
 	},
 	"manifest_version": 2,
 	"plugins": [{"path": "drive-by-download-plugin-64.so", "public": true}]

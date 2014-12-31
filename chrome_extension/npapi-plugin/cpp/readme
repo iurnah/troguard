@@ -1,5 +1,5 @@
 Try to modify the npapi-file-io application to a simple only one function plugin
-which is to open fire fox.
+which is to open firefox.
 
 created new file for the extensions:
 
