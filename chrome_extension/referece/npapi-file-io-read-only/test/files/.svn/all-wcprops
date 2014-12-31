@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/30/trunk/test/files
+END
+exists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/test/files/exists.txt
+END
+a.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/test/files/a.txt
+END
+to-delete.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/16/trunk/test/files/to-delete.txt
+END
+containsnull.txt.bak
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/test/files/containsnull.txt.bak
+END
+containsnull.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/test/files/containsnull.txt
+END
+another-exists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/16/trunk/test/files/another-exists.txt
+END

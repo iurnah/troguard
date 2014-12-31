@@ -1,0 +1,32 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+	<script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+	goog.require('goog.testing.jsunit');
+	</script>
+</head>
+<body>
+  <script type="text/javascript">
+  function testDetectsPlatformAsLinux() {
+    assertEquals("linux", plugin.getPlatform());
+  }
+	
+  function testGetPathReturnsFileInPath() {
+    var filename = "file";
+    assertEquals("/home/daw63/wcs/npapi-file-io/test/files/" + filename, getPath(filename));
+  }
+  
+  function testGetTmpPathGetsTmpPath() {
+    assertEquals("/tmp/", plugin.getTempPath());
+  }
+  
+  function testTmpPathEqualsTempPath() {
+    assertEquals(plugin.getTmpPath(), plugin.getTempPath());
+  }
+  </script>
+</body>
+</html>

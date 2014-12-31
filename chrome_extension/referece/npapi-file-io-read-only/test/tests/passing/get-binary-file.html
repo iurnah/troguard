@@ -1,0 +1,47 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+	<script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+	goog.require('goog.testing.jsunit');
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+	function testGetsBasicFileContents() {
+    var a = getPath("a.txt");
+    assertArrayEquals([97], plugin.getBinaryFile(a));
+  }
+  
+  function testGettingBinaryFileForFileContainingNullGetsFileContents() {
+    var fileWithNull = getPath("containsnull.txt");
+    assertArrayEquals([97, 00, 99], plugin.getBinaryFile(fileWithNull));
+  }
+  
+  function testGetBinaryFileForTextFileReturnsCrLfAsCrLf() {
+    var exists = getPath("exists.txt");
+    assertArrayEquals([73, 32, 99, 111, 110, 116, 97, 105, 110, 13, 10, 115, 111, 109, 101, 32, 116, 101, 120, 116, 13, 10, 32, 32, 111, 110, 32, 109, 117, 108, 116, 105, 112, 108, 101, 32, 108, 105, 110, 101, 115], plugin.getBinaryFile(exists));
+  }
+  
+  function testGetBinaryFileForBinaryFileContainingNullReturnsFileContents() {
+    var a = getPath("containsnull.txt");
+    assertArrayEquals([97, 0, 99], plugin.getBinaryFile(a));
+  }
+  
+  function testGetBinaryFileWithNoArgumentsThrows() {
+    assertThrows(plugin.getBinaryFile);
+  }
+  
+  function testGetBinaryFileWithNonStringThrows() {
+    callWithNonStringThrows(plugin.getBinaryFile);
+  }
+  
+  function testGetBinaryFileWithTwoArgumentsThrows() {
+    callWithTwoArgumentsThrows(plugin.getBinaryFile);
+  }
+	</script>
+</body>
+</html>

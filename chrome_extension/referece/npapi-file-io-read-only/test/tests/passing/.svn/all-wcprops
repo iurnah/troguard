@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/64/trunk/test/tests/passing
+END
+remove-file.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/64/trunk/test/tests/passing/remove-file.html
+END
+list-files.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/63/trunk/test/tests/passing/list-files.html
+END
+file-exists.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/22/trunk/test/tests/passing/file-exists.html
+END
+save-text-file.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/35/trunk/test/tests/passing/save-text-file.html
+END
+save-binary-file.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/38/trunk/test/tests/passing/save-binary-file.html
+END
+is-directory.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/22/trunk/test/tests/passing/is-directory.html
+END
+get-text-file.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/60/trunk/test/tests/passing/get-text-file.html
+END
+get-binary-file.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/test/tests/passing/get-binary-file.html
+END
+create-directory.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/62/trunk/test/tests/passing/create-directory.html
+END

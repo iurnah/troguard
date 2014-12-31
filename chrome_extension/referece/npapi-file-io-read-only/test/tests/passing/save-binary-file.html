@@ -1,0 +1,55 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+	<script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+	goog.require('goog.testing.jsunit');
+	</script>
+</head>
+<body>
+  <h1 style="color: red">Assumes getBinaryFile works</h1>
+	<script type="text/javascript">
+	function testSavesBytes() {
+    var toMake = getPath("bytes" + getRandom() + ".txt");
+    plugin.saveBinaryFile(toMake, [97, 98, 99]);
+    assertArrayEquals([97, 98, 99], plugin.getBinaryFile(toMake));
+  }
+  
+  function testSavesNullBytes() {
+    var toMake = getPath("bytes" + getRandom() + ".txt");
+    plugin.saveBinaryFile(toMake, [97, 00, 99]);
+    assertArrayEquals([97, 00, 99], plugin.getBinaryFile(toMake));
+  }
+  
+  function testSavesLfAsLf() {
+    var toMake = getPath("bytes" + getRandom() + ".txt");
+    plugin.saveBinaryFile(toMake, [97, 10, 99]);
+    assertArrayEquals([97, 10, 99], plugin.getBinaryFile(toMake));
+  }
+  
+  function testSavesCrAsCr() {
+    var toMake = getPath("bytes" + getRandom() + ".txt");
+    plugin.saveBinaryFile(toMake, [97, 13, 99]);
+    assertArrayEquals([97, 13, 99], plugin.getBinaryFile(toMake));
+  }
+  
+  function testSavesCrLfAsCrLf() {
+    var toMake = getPath("bytes" + getRandom() + ".txt");
+    plugin.saveBinaryFile(toMake, [97, 13, 10, 99]);
+    assertArrayEquals([97, 13, 10, 99], plugin.getBinaryFile(toMake));
+  }
+  
+  function testThrowsIfFileExists() {
+    var toMake = getPath("a.txt");
+    assertThrows(function() { plugin.saveBinaryFile(toMake, [133]) });
+    assertArrayEquals([97], plugin.getBinaryFile(toMake));
+  }
+  
+  //TODO: Test dodgy objects with length set to wrong values
+  //TODO: Test dodgy objects with non-number elements
+	</script>
+</body>
+</html>

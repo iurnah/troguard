@@ -1,0 +1,61 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+	<script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+	goog.require('goog.testing.jsunit');
+	</script>
+</head>
+<body>
+  <h1 style="color: red">Assumes getBinaryFile, getTextFile work</h1>
+	<script type="text/javascript">
+	function testSavesBasicText() {
+    var toMake = getPath("a" + getRandom() + ".txt");
+    plugin.saveTextFile(toMake, "a");
+    assertEquals("a", plugin.getTextFile(toMake));
+  }
+  
+  function testSavesNullInText() {
+    var toMake = getPath("null" + getRandom() + ".txt");
+    plugin.saveTextFile(toMake, "a" + "\000" + "c");
+    assertEquals("a" + "\000" + "c", plugin.getTextFile(toMake));
+  }
+  
+  function testSavesSeveralNullsInText() {
+    var toMake = getPath("null" + getRandom() + ".txt");
+    plugin.saveTextFile(toMake, "a" + "\000" + "c" + "\000" + "e" + "\000" + "g");
+    assertEquals("a" + "\000" + "c" + "\000" + "e" + "\000" + "g", plugin.getTextFile(toMake));
+  }
+  
+  function testSavesDoubleNullInText() {
+    var toMake = getPath("null" + getRandom() + ".txt");
+    plugin.saveTextFile(toMake, "a" + "\000\000" + "c");
+    assertEquals("a" + "\000\000" + "c", plugin.getTextFile(toMake));
+  }
+  
+  function testSavesEndsWithDoubleNull() {
+    var toMake = getPath("null" + getRandom() + ".txt");
+    plugin.saveTextFile(toMake, "a" + "\000\000");
+    assertEquals("a" + "\000\000", plugin.getTextFile(toMake));
+  }
+  
+  function testSaveTextSavesNewLinesWithCarriageReturnsOnWindowsAndWithoutOnLinux() {
+    var toMake = getPath("new" + getRandom() + ".txt");
+    plugin.saveTextFile(toMake, "I contain\nsome text\n  on multiple lines")
+    var expected = (getPlatform() == "windows") ?
+      [73, 32, 99, 111, 110, 116, 97, 105, 110, 13, 10, 115, 111, 109, 101, 32, 116, 101, 120, 116, 13, 10, 32, 32, 111, 110, 32, 109, 117, 108, 116, 105, 112, 108, 101, 32, 108, 105, 110, 101, 115] : 
+      [73, 32, 99, 111, 110, 116, 97, 105, 110, 10, 115, 111, 109, 101, 32, 116, 101, 120, 116, 10, 32, 32, 111, 110, 32, 109, 117, 108, 116, 105, 112, 108, 101, 32, 108, 105, 110, 101, 115];
+    assertArrayEquals(expected, plugin.getBinaryFile(toMake));
+  }
+  
+  function testThrowsIfFileExists() {
+    var toMake = getPath("a.txt");
+    assertThrows(function() { plugin.saveTextFile(toMake, "q") });
+    assertEquals("a", plugin.getTextFile(toMake));
+  }
+	</script>
+</body>
+</html>

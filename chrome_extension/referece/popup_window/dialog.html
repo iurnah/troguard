@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><title>Dialog test</title></head><body>
+<form>
+    <input id="pass" type="password">
+    <input type="submit" value="OK">
+</form>
+<script>
+document.forms[0].onsubmit = function(e) {
+    e.preventDefault(); // Prevent submission
+    var password = document.getElementById('pass').value;
+    chrome.extension.getBackgroundPage().setPassword(password);
+    window.close();     // Close dialog
+};
+</script></body></html>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\third_party">
+      <UniqueIdentifier>{4366bd33-34de-47d0-b1d2-aff828243d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\third_party\base">
+      <UniqueIdentifier>{7c6c12bd-248c-483b-9a2c-5e0edade586f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\third_party\build">
+      <UniqueIdentifier>{79fcdf67-7309-4d3c-9e8a-3e646de7632c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\third_party\npapi">
+      <UniqueIdentifier>{586969b7-e961-4d14-bc2d-f66b7749fb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\third_party\npapi\bindings">
+      <UniqueIdentifier>{9ea27aca-6abf-45fb-a93f-07f94f252573}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\base\basictypes.h">
+      <Filter>Header Files\third_party\base</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\base\port.h">
+      <Filter>Header Files\third_party\base</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\build\build_config.h">
+      <Filter>Header Files\third_party\build</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\npapi\bindings\npapi.h">
+      <Filter>Header Files\third_party\npapi\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\npapi\bindings\nphostapi.h">
+      <Filter>Header Files\third_party\npapi\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\npapi\bindings\npruntime.h">
+      <Filter>Header Files\third_party\npapi\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="npapi-file-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stubs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="npapi-file-io.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="npapi-file-io.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="npapi-file-io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file-io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

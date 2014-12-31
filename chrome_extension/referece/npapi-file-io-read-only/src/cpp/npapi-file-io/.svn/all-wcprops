@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/70/trunk/src/cpp/npapi-file-io
+END
+file-io.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/44/trunk/src/cpp/npapi-file-io/file-io.h
+END
+npapi-file-io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/67/trunk/src/cpp/npapi-file-io/npapi-file-io.cpp
+END
+npapi-file-io.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/trunk/src/cpp/npapi-file-io/npapi-file-io.vcxproj.filters
+END
+npapi-file-io.rc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/npapi-file-io.rc
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/resource.h
+END
+npapi-file-io.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/45/trunk/src/cpp/npapi-file-io/npapi-file-io.h
+END
+npapi-file-io.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/npapi-file-io.vcxproj.user
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/69/trunk/src/cpp/npapi-file-io/compile.sh
+END
+npapi-file-io.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/70/trunk/src/cpp/npapi-file-io/npapi-file-io.vcxproj
+END
+npapi-file-io.sln
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/npapi-file-io.sln
+END
+file-io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/64/trunk/src/cpp/npapi-file-io/file-io.cpp
+END
+npapi-file-io.def
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/npapi-file-io.def
+END
+stubs.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/src/cpp/npapi-file-io/stubs.h
+END
+npapi-file-io.opensdf
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/src/cpp/npapi-file-io/npapi-file-io.opensdf
+END

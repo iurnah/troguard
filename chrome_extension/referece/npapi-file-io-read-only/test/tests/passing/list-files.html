@@ -1,0 +1,59 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+	<script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+	goog.require('goog.testing.jsunit');
+	</script>
+</head>
+<body>
+  <h1 style="color: red">Assumes createDirectory, saveTextFile work</h1>
+	<script type="text/javascript">
+  function assertSameElements(arr1, arr2) {
+    assertEquals(arr1.length, arr2.length);
+
+    for (var i = 0; i < arr1.length; ++i) {
+      var toFind = arr1[i];
+      for (var j = 0; j < arr2.length; ++j) {
+        var considering = arr2[j];
+        if (considering.name === toFind.name && considering.type === toFind.type) {
+          arr2.splice(j, 1);
+          break;
+        }
+      }
+    }
+    assertEquals(0, arr2.length);
+  }
+  
+  function testEmptyDirReturnsEmptyList() {
+    var path = getPath("empty" + getRandom());
+    plugin.createDirectory(path);
+    assertArrayEquals([], plugin.listFiles(path));
+  }
+  
+	function testNonEmptyDirReturnsFiles() {
+    var path = getPath("nonempty" + getRandom());
+    plugin.createDirectory(path);
+    plugin.saveTextFile(path + getPlatformSlash() + "1.txt", "");
+    plugin.saveTextFile(path + getPlatformSlash() + "2.txt", "");
+    console.log(JSON.stringify([{name: "1.txt", type: "file"}, {name: "2.txt", type: "file"}]));
+    console.log(JSON.stringify(plugin.listFiles(getPath("nonempty-dir"))));
+    assertSameElements([{name: "1.txt", type: "file"}, {name: "2.txt", type: "file"}], plugin.listFiles(path));
+  }
+  
+  function testGetsFilesAndFolders() {
+    assertSameElements([{name: "1.txt", type: "file"}, {name: "subdir", type: "directory"}, {name: ".svn", type: "directory"}], plugin.listFiles(getPath("dir-contains-dir")));
+  }
+  
+  function testThrowsIfFileIsNotDirectory() {
+    assertThrows(function() { plugin.listFiles(getPath("a.txt")); });
+  }
+  
+  //TODO: Test filenames with "s in them
+  //TODO: Test symlinks, all other dirent.d_type types
+	</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+	<script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+	goog.require('goog.testing.jsunit');
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+  function testGetsBasicTextFile() {
+    var a = getPath("a.txt");
+    assertEquals("a", plugin.getTextFile(a));
+  }
+
+  function testGetsCrLfAsBackslashNOnWindowsButAsSlashRSlashNOnLinux() {
+    var exists = getPath("exists.txt");
+    var text = plugin.getTextFile(exists);
+    assertEquals(getPlatform() == "windows" ? "I contain\nsome text\n  on multiple lines" : "I contain\r\nsome text\r\n  on multiple lines", text);
+  }
+  
+  function testGetsTextContainingNull() {
+    var fileWithNull = getPath("containsnull.txt");
+    assertEquals("a" + "\000" + "c", plugin.getTextFile(fileWithNull));
+  }
+  
+  function testGetTextFileWithNoArgumentsThrows() {
+    assertThrows(plugin.getTextFile);
+  }
+  
+  function testGetTextFileWithNonStringThrows() {
+    callWithNonStringThrows(plugin.getTextFile);
+  }
+  
+  function testGetTextFileWithTwoArgumentsThrows() {
+    callWithTwoArgumentsThrows(plugin.getTextFile);
+  }
+	</script>
+</body>
+</html>

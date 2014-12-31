@@ -1,0 +1,34 @@
+10
+
+dir
+70
+http://npapi-file-io.googlecode.com/svn/trunk
+http://npapi-file-io.googlecode.com/svn
+
+
+
+2011-07-30T23:47:54.666553Z
+70
+dawagner
+has-props
+
+
+svn:externals
+
+
+
+
+
+
+
+
+
+
+b94323b0-7eef-fcb5-5db8-2ccef1d9dae9
+
+test
+dir
+
+src
+dir
+

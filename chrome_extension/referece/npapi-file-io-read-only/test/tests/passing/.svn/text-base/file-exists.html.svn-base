@@ -1,0 +1,57 @@
+<!DOCTYPE XHTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>NPAPI File IO test</title>
+  <script type="text/javascript" src="../../../closure/base.js"></script>
+  <script type="text/javascript" src="../common.js"></script>
+  <script type="text/javascript">
+  goog.require('goog.testing.jsunit');
+  </script>
+</head>
+<body>
+  <script type="text/javascript">
+  function testDetectsFileWhichExists() {
+    var exists = getPath("exists.txt");
+    assertTrue(plugin.fileExists(exists));
+  }
+  
+  function testDetectsFileWhichDoesNotExist() {
+    var exists = getPath("notexists.txt");
+    assertFalse(plugin.fileExists(exists));
+  }
+  
+  function testDetectsFolderWhichExists() {
+    var exists = getPath("subdir-exists");
+    assertTrue(plugin.fileExists(exists));
+  }
+  
+  function testDetectsFolderWhichExistsWithTrailingSlash() {
+    var exists = getPath("subdir-exists" + getPlatformSlash());
+    assertTrue(plugin.fileExists(exists));
+  }
+  
+  function testDetectsFolderWhichExistsWithTrailingSlashes() {
+    var exists = getPath("subdir-exists" + getPlatformSlash() + getPlatformSlash());
+    assertTrue(plugin.fileExists(exists));
+  }
+  
+  function testDetectsFolderWhichDoesNotExist() {
+    var exists = getPath("subdir-does-not-exist");
+    assertFalse(plugin.fileExists(exists));
+  }
+  
+  function testFileExistsWithNoArgumentsThrows() {
+    assertThrows(plugin.fileExists);
+  }
+  
+  function testFileExistsWithNonStringThrows() {
+    callWithNonStringThrows(plugin.fileExists);
+  }
+  
+  function testFileExistsWithTwoArgumentsThrows() {
+    callWithTwoArgumentsThrows(plugin.fileExists);
+  }
+  </script>
+</body>
+</html>

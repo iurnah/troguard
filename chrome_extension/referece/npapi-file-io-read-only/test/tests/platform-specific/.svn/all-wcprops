@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/55/trunk/test/tests/platform-specific
+END
+linux.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/55/trunk/test/tests/platform-specific/linux.html
+END
+windows.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54/trunk/test/tests/platform-specific/windows.html
+END
