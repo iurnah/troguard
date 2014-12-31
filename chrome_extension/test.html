@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php echo "My first PHP script!"; ?>  
+
+</body>
+</html>
+
+<?php
+require_once '~/DrivebyDownload/chrome_extension/DrivebyDownload_v0.4/tesseract-ocr-for-php/tesseract_ocr/tesseract_orc.php';
+$text = TesseractOCR::recognize('~/DrivebyDownload/chrome_extension/DrivebyDownload_v0.4/tesseract-ocr-for-php/test/images/617.jpg');
+?>

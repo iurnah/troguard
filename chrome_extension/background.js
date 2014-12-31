@@ -1,35 +1,50 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-// Called when a message is passed.  We assume that the content script
-// wants to show the page action.
-/*
-chrome.extension.onConnect.addListener(function(port) {
-  console.assert(port.name == "conversations");
-	port.onMessage.addListener(function(msg){
-		if(msg.sentence == "hello"){
-			//chrome.pageAction.shown(msg.sentence);
-			port.postMessage({sent: "pageAction is activeted"});
-			alert("message transfered!!!");
-		}else{
-			//
-			}
-		});
+// two functions: 1. lister the message shared from contentscripts.
+//				  2. Create the popup when user authorize this.	 	
+//
+// Reference: http://stackoverflow.com/questions/10340481/popup-window-in-chrome-extension
+//
+
+var rankedKeywords;
+var keyword1;
+var keyword2;
+var keyword3;
+var keyword4;
+var keyword5;
+
+chrome.extension.onMessage.addListener(function(request, sender, sendResponse){
+
+	rankedKeywords = request.results;
+	keyword1 = rankedKeywords[0].key;
+	keyword2 = rankedKeywords[1].key;
+	keyword3 = rankedKeywords[2].key;
+	keyword4 = rankedKeywords[3].key;
+	keyword5 = rankedKeywords[4].key;
+
+	sendResponse({});
 });
-*/
-/*===========================original file================================*/
-// Called when a message is passed.  We assume that the content script
-// wants to show the page action.
-function onRequest(request, sender, sendResponse) {
-  // Show the page action for the tab that the sender (content script)
-  // was on.
-  chrome.pageAction.show(sender.tab.id);
-  //popup.html
 
-  // Return nothing to let the connection be cleaned up.
-  sendResponse({msg:"got your messages"});
-};
+//create the popup window when receive request from
+chrome.extension.onMessage.addListener(function(request) {
+    if (request.type === 'createpopup') {
+        chrome.tabs.create({
+            url: chrome.extension.getURL('dialog.html'),
+            active: false
+        }, function(tab) {
+            // After the tab has been created, open a window to inject the tab
+            chrome.windows.create({
+                tabId: tab.id,
+                type: 'popup',
+                //type: 'normal',
+                focused: true,
+                top: 350,	
+                left: 700,
+                width: 500,
+                height: 500
+                
+            });
+			
+        });
+    }
+});
 
-// Listen for the content script to send a message to the background page.
-chrome.extension.onRequest.addListener(onRequest);
 

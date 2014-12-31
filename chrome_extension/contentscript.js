@@ -1,68 +1,62 @@
 // This content scripts will do the following for the extension
-// 1. get the current page and do the regex search for pageaction.
-// 2. get the current page and find out the link in it (key term search)
-// 3. Send the page action and the links to background page.
-// 4. Receive the checked link in the popup page and search the DOMs
-// 5. Send back the searched results.
+// 1. get the current page and do the regex search for the keywords pre-defined (var appTypes)
+// 2. search keywords using regex and send back to the background page.
+
 //This is to modified to remove the popup page. just inject onclick to 
 //href element.
 
-// Download all visible checked links.
-/*
-function downloadCheckedLinks() {
-	for (var i = 0; i < visibleLinks.length; ++i) {
-		if (document.getElementById('check' + i).checked) {			
-				chrome.downloads.download({url: visibleLinks[i]},function(id){
-				var notification = window.webkitNotifications.createNotification('', 'OMG!', 'Hello within for, succeed!');
-				notification.show();
-				// this is to get the background page and run the startFirefox() 
-				//function that is defined as a plugin API called by the browser.
-				var bgPage = chrome.extension.getBackgroundPage();
-				bgPage.plugin.startFirefox();
-				
-				var bgPage = chrome.extension.getBackgroundPage();
-				bgPage.searchDOM();
-			});
-		
-		alert("function execurted!");
+//Global virable for the application keywords, the list can be expanded based on our exmperiment.
+var appTypes = new Array("game","antivirus","email","reader","browser") ;
+
+//sort function for the keywords frequency
+function sortObject(obj) {
+    var arr = [];
+    var prop;
+    for (prop in obj) {
+        if (obj.hasOwnProperty(prop)) {
+            arr.push({
+                'key': prop,
+                'value': obj[prop]
+            });
+        }
+    }
+    
+    arr.sort(function(a, b) {
+        return b.value - a.value;
+    });
+    return arr; // returns array
+}
+
+//extract and sort the keywords
+function keywordsFreqSorting(){
+	var keywordsObj={};
+	for(var i=0; i< appTypes.length; i++){
+		var regx = new RegExp(appTypes[i],'gi'); // /appTypes[i]/gi;
+		matches = document.body.innerText.match(regx);
+		if(matches){
+			keywordsObj[appTypes[i]] = matches.length;	
+		}else{
+			keywordsObj[appTypes[i]] = 0; //those keywords not appeared 
 		}
 	}
-	window.close();
-}
-*/
 
-function downloadCheckedLinks(hrefNodes) {
-	alert('click link detected!!!');
-	//alert(hrefNodes[0]);
+	var sortedKeywords = sortObject(keywordsObj);
+	return sortedKeywords;
+}
+
+//send the keywords object to the background page.
+var results = keywordsFreqSorting();
+chrome.extension.sendMessage({results: results}, function(response) {});
+
+//send the createpopup command
+function downloadCheckedLinks() {
+	if (confirm('Download this file?'))
+		chrome.extension.sendMessage({type:'createpopup'});	
 }
 
 var hrefNodes = document.getElementsByTagName('a');
 for(var x =0; x < hrefNodes.length; ++x){
 	if(hrefNodes[x].hasAttribute("href")){
-	hrefNodes[x].onclick = downloadCheckedLinks(hrefNodes);
-	
-	//alert('has the href attribute!!');
+		hrefNodes[x].onclick = downloadCheckedLinks;
 	}
 }
-
-// This is the long-lived communication part.
-var port = chrome.extension.connect({name: "conversations"});
-	port.postMessage({sentence: "hello"});
-	port.onMessage.addListener(function(msg){
-		if(msg.sent == "pageAction is activeted")
-			alert("communicated!!!")
-		});
-
-/*==========================original file===================================
-var regex = /download/;
-
-// Test the text of the body element against our regular expression.
-if (regex.test(document.body.innerText)) {
-  // The regular expression produced a match, so notify the background page.
-  chrome.extension.sendRequest({}, function(response) {});
-} else {
-  // No match was found.
-  //alert("No Download Item found.");
-}
-*/
-

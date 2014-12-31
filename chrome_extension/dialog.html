@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Please Select Your Application Type</title>
+	</head>
+<body>
+
+
+
+<h2>Select the Download Application Type Below to Run Social Engineering Attacks Detection
+</h2>
+<form action="../">
+<select name="mySelectbox" id="dropdown">
+    <option value="titil">Choose an Application Type you Read from the Web page...</option>
+    <option value="keyword1">keyword1</option>
+    <option value="keyword2">keyword2</option>
+    <option value="keyword3">keyword3</option>
+    <option value="keyword4">keyword4</option>
+    <option value="keyword5">keyword5</option>
+</select>
+<input type="button" onclick="window.open(this.form.mySelectbox.options[this.form.mySelectbox.selectedIndex].value,'_top')" value="Comfirm">
+</form>
+
+NOTE: The options in the dropdown menu are obtained by keywords matching of the text inside the body tag of the current html page. The "recommendation level" is ranked based on the word frequency. 
+<script type="text/javascript" src="./dialog.js"></script>
+
+</body>
+</html>
